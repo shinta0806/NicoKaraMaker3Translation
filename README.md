@@ -31,15 +31,14 @@ If you're editing on your PC, [download (clone) the forked repository](https://d
 
 ### New language
 
-If a folder for your language does not already exist, create a new one.
+If a folder for your language does not already exist in "Strings" folder, create a new one.
 
 Please use folder names according to BCP47 language-region (e.g. de-DE).
 
-Copy "en-US/Resources.resw" to the folder you created.
+Copy "Strings/en-US/Resources.resw" to the folder you created.
 
 > \[!NOTE]
-> If you are having trouble creating folders or copying files during online editing, please request creation on "Discussions
-" page.
+> If you are having trouble creating folders or copying files during online editing, please request creation on "Discussions" page.
 > When doing so, please specify your desired BCP47 language-region.
 
 ### Edit
