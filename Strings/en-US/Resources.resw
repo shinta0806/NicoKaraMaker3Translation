@@ -1,0 +1,2438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutPage_ButtonCheckUpdate.Content" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="AboutPage_ButtonHistory.Content" xml:space="preserve">
+    <value>Update history</value>
+  </data>
+  <data name="AboutPage_TextBlockAppDistrib.Text" xml:space="preserve">
+    <value>Distribution:</value>
+  </data>
+  <data name="AboutPage_TextBlockAppInfo.Text" xml:space="preserve">
+    <value>App Information</value>
+  </data>
+  <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
+    <value>Support:</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
+    <value>Creator Support:</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorEMail.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorFanbox.Text" xml:space="preserve">
+    <value>Fansite:</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorInfo.Text" xml:space="preserve">
+    <value>Author Information</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorTwitter.Text" xml:space="preserve">
+    <value>X (Twitter):</value>
+  </data>
+  <data name="AboutPage_TextBlockAuthorWeb.Text" xml:space="preserve">
+    <value>Web:</value>
+  </data>
+  <data name="AboutWindow_Title" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="App_Fatal_UnhandledException" xml:space="preserve">
+    <value>Unknown error occurred. Terminate the application.</value>
+  </data>
+  <data name="AppInfo_AppName" xml:space="preserve">
+    <value>Nicokara Karaoke Video Maker 3</value>
+  </data>
+  <data name="AppInfo_AssociationName" xml:space="preserve">
+    <value>Nicokara Karaoke Video Maker 3 project file</value>
+  </data>
+  <data name="AppInfo_Description" xml:space="preserve">
+    <value>A tool for karaoke subtitles.</value>
+  </data>
+  <data name="AppInfo_Distribution_Store" xml:space="preserve">
+    <value>Store edition</value>
+  </data>
+  <data name="AppInfo_Distribution_Zip" xml:space="preserve">
+    <value>Zip edition</value>
+  </data>
+  <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
+    <value>There is a problem with the audio playback environment.</value>
+  </data>
+  <data name="BrushInfoModel_Description_Bitmap" xml:space="preserve">
+    <value>Paste the specified image.</value>
+  </data>
+  <data name="BrushInfoModel_Description_Gradient" xml:space="preserve">
+    <value>Fill with a gradient (multiple colors that change smoothly).</value>
+  </data>
+  <data name="BrushInfoModel_Description_MilleFeuille" xml:space="preserve">
+    <value>Fill with a mille-feuille (multiple colors that change distinctly).</value>
+  </data>
+  <data name="BrushInfoModel_Description_Solid" xml:space="preserve">
+    <value>Fill with the specified color.</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathEmpty" xml:space="preserve">
+    <value>Please specify the image file.</value>
+  </data>
+  <data name="BrushInfoModel_Error_BitmapPathNotExist" xml:space="preserve">
+    <value>{0} does not exist.</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapPath" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="BrushInfoModel_Undo_BitmapScale" xml:space="preserve">
+    <value>Image magnification</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SelectedBrushTypeIndex" xml:space="preserve">
+    <value>Fill</value>
+  </data>
+  <data name="BrushInfoModel_Undo_SolidColor" xml:space="preserve">
+    <value>Change color</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonBackup.Content" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>Check for information now</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
+    <value>Check for {0} information automatically</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
+    <value>Backup of settings (save to file)</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>If you disable check for updates, you will not see updates, etc. when a new version of {0} is released.
+Are you sure you want to disable it?</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
+    <value>Trying to restore a different version of settings.
+May not be able to restore successfully, do you want to restore?</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
+    <value>Settings backuped.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonRestoreClicked" xml:space="preserve">
+    <value>Settings restored.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonBackupClicked" xml:space="preserve">
+    <value>Backup error:</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
+    <value>Check information error:</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
+    <value>Restore error:</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad" xml:space="preserve">
+    <value>Cannot read the settings file.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_LoadSettingsArchiveAsync_CannotLoad2" xml:space="preserve">
+    <value>Cannot read the settings in the settings file.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
+    <value>* GenerateAnchorFiles tags take precedence.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
+    <value>Overwrite existing anchor file</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
+    <value>GenerateAnchorFiles Sets which anchor files will be created for a given heading when a tag is specified.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
+    <value>Anchor file creation target</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
+    <value>Sets which heading to create a table of contents for when a Toc tag is specified.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
+    <value>TOC target</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
+    <value>* Toc tags take precedence.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
+    <value>Please select one or more anchor file targets.
+If you do not want to create anchor files, you do not use the GenerateAnchorFiles tag.</value>
+  </data>
+  <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
+    <value>Please select one or more table of contents targets.
+If you do not want to insert a table of contents, do not use the Toc tag.</value>
+  </data>
+  <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
+    <value>Reset all settings to default.
+Are you sure?</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
+    <value>Cancel button error:</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
+    <value>Default button error:</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
+    <value>OK button error:</value>
+  </data>
+  <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
+    <value>Navigation selection error:</value>
+  </data>
+  <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="CharFadeInFadeOut_Description" xml:space="preserve">
+    <value>The fade-in and fade-out timings are staggered for each character.</value>
+  </data>
+  <data name="CharFadeInFadeOut_Name" xml:space="preserve">
+    <value>Character-by-character fade</value>
+  </data>
+  <data name="ColorBindModel_Undo_Color" xml:space="preserve">
+    <value>Change color</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockMediaColor.Text" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="ColorPickerPage_TextBlockRecentColors.Text" xml:space="preserve">
+    <value>Recently used colors:</value>
+  </data>
+  <data name="ColorPickerWindow.Title" xml:space="preserve">
+    <value>Edit color</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="DirectXCommon_DefaultFontName_Serif" xml:space="preserve">
+    <value>Cambria</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHead.Content" xml:space="preserve">
+    <value>Specify by time from the beginning of the song</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndInterval.Content" xml:space="preserve">
+    <value>Specify by time from the beginning of the song and the displayed time</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsHeadAndTail.Content" xml:space="preserve">
+    <value>Specify by time from the beginning and end of the song</value>
+  </data>
+  <data name="EditShowTimePage_RadioButtonIsTail.Content" xml:space="preserve">
+    <value>Specify by time from the end of the song (D)</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockChangingShowTime.Text" xml:space="preserve">
+    <value>Title display time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockDuration.Text" xml:space="preserve">
+    <value>Song length:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalHeadOffset.Text" xml:space="preserve">
+    <value>Display start time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndIntervalInterval.Text" xml:space="preserve">
+    <value>Display time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailHeadOffset.Text" xml:space="preserve">
+    <value>Display start time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadAndTailTailOffset.Text" xml:space="preserve">
+    <value>End of hidden time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadEnd.Text" xml:space="preserve">
+    <value>Display end time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsHeadHeadOffset.Text" xml:space="preserve">
+    <value>Display start time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailInterval.Text" xml:space="preserve">
+    <value>Display time:</value>
+  </data>
+  <data name="EditShowTimePage_TextBlockIsTailTailOffset.Text" xml:space="preserve">
+    <value>End of hidden time:</value>
+  </data>
+  <data name="EditShowTimePageViewModel_Information_BadSource" xml:space="preserve">
+    <value>(The background material is not specified correctly.)</value>
+  </data>
+  <data name="EditShowTimeWindow.Title" xml:space="preserve">
+    <value>Edit title display time</value>
+  </data>
+  <data name="EditSoundListPage_ButtonAdd.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnBrowse.ToolTip" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnName.Header" xml:space="preserve">
+    <value>Track name (optional)</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnPath.Header" xml:space="preserve">
+    <value>Audio file</value>
+  </data>
+  <data name="EditSoundListPage_TableViewColumnRemove.ToolTip" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="EditSoundListPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>You can specify multiple audio files. You can rearrange their order by dragging and dropping the left side of each row.</value>
+  </data>
+  <data name="EditSoundListPageViewModel_Error_PathEmpty" xml:space="preserve">
+    <value>The audio file "{0}" has not been specified.</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_PageDescription" xml:space="preserve">
+    <value>Configure the details of the subtitle action.</value>
+  </data>
+  <data name="EditSubtitleActionPageViewModel_Title" xml:space="preserve">
+    <value>Edit subtitle actions</value>
+  </data>
+  <data name="EditTitlePage_TextBlockAddPositionIndex.Text" xml:space="preserve">
+    <value>Where to add row:</value>
+  </data>
+  <data name="EditTitlePage_TextBlockNote.Text" xml:space="preserve">
+    <value>(Note)
+- Multiple lines of text can be entered.
+- Entering @ tags such as @Title will reflect the content of the @ tags in the lyrics file.</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_0" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_1" xml:space="preserve">
+    <value>Immediately before the selected row</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_2" xml:space="preserve">
+    <value>Immediately after the selected row</value>
+  </data>
+  <data name="EditTitlePageViewModel_AddTitlePositionName_3" xml:space="preserve">
+    <value>Tail</value>
+  </data>
+  <data name="EditTitleWindow_TitleAdd" xml:space="preserve">
+    <value>Add new title row</value>
+  </data>
+  <data name="EditTitleWindow_TitleEdit" xml:space="preserve">
+    <value>Edit title row</value>
+  </data>
+  <data name="EmptyLineBreaker_Description" xml:space="preserve">
+    <value>Page breaks will be set at blank lines in the lyrics file.
+Paragraph breaks will be set regardless of blank lines where there are differences in wipe timing.</value>
+  </data>
+  <data name="EmptyLineBreaker_Name" xml:space="preserve">
+    <value>Set a page break at the blank line position</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FadeSubtitleActionSelector_Description" xml:space="preserve">
+    <value>The text fades in at the beginning of each paragraph and fades out at the end.</value>
+  </data>
+  <data name="Fatal" xml:space="preserve">
+    <value>Fatal</value>
+  </data>
+  <data name="File_HelpWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_en-us</value>
+  </data>
+  <data name="File_HistoryWithoutExtension" xml:space="preserve">
+    <value>CFileMerge2_History_ja-jp</value>
+  </data>
+  <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>Automatically sets the font for all rows.</value>
+  </data>
+  <data name="FontSelectorPageViewModel_Title" xml:space="preserve">
+    <value>Automatically set font</value>
+  </data>
+  <data name="GeneralView_ButtonCancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GeneralView_ButtonClose.Content" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="GeneralView_ButtonOk.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GeneralView_Error_CannotShowHelp" xml:space="preserve">
+    <value>Could not display help.</value>
+  </data>
+  <data name="GeneralView_Error_NoAnchor" xml:space="preserve">
+    <value>Could not display context-sensitive help:</value>
+  </data>
+  <data name="GeneralView_FileTypeSta" xml:space="preserve">
+    <value>Settings file</value>
+  </data>
+  <data name="GeneralView_Information_ShowNormalHelp" xml:space="preserve">
+    <value>Displays regular help.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonCheckRss.Content" xml:space="preserve">
+    <value>Check latest information now</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonClose.Content" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="LatestInfoHistoryPage_ButtonDetail.Content" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="LatestInfoHistoryPageViewModel_Error_OpenDetailNotSelect" xml:space="preserve">
+    <value>Please select the latest information you would like to view in more detail.</value>
+  </data>
+  <data name="LatestInfoManager_Ask_AskDisplayLatestAsync" xml:space="preserve">
+    <value>Found {0} newest information.
+Would you like to see them?</value>
+  </data>
+  <data name="LatestInfoManager_Cancel_AskDisplayLatestAsync" xml:space="preserve">
+    <value>Canceled.</value>
+  </data>
+  <data name="LatestInfoManager_Error_CheckAsync" xml:space="preserve">
+    <value>Error when checking latest information:</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Not" xml:space="preserve">
+    <value>Could not display the latest information.</value>
+  </data>
+  <data name="LatestInfoManager_Error_DisplayLatest_Part" xml:space="preserve">
+    <value>Some of the latest information could not be displayed.</value>
+  </data>
+  <data name="LatestInfoManager_NoInfo_CheckAsync" xml:space="preserve">
+    <value>There was no update.</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>Automatically sets the layout for all rows.</value>
+  </data>
+  <data name="LayoutSelectorPageViewModel_Title" xml:space="preserve">
+    <value>Automatically set layout</value>
+  </data>
+  <data name="LineBreakerPageViewModel_PageDescription" xml:space="preserve">
+    <value>Automatically sets all breaks (page breaks and paragraph breaks).</value>
+  </data>
+  <data name="LineBreakerPageViewModel_Title" xml:space="preserve">
+    <value>Automatically set line breaks</value>
+  </data>
+  <data name="LineFadeIn_Description" xml:space="preserve">
+    <value>fade in the entire line</value>
+  </data>
+  <data name="LineFadeIn_Name" xml:space="preserve">
+    <value>Fade in</value>
+  </data>
+  <data name="LineFadeInFadeOut_Description" xml:space="preserve">
+    <value>Fade in and fade out the entire line</value>
+  </data>
+  <data name="LineFadeInFadeOut_Name" xml:space="preserve">
+    <value>Fade in/out</value>
+  </data>
+  <data name="LineFadeOut_Description" xml:space="preserve">
+    <value>fade out the entire line</value>
+  </data>
+  <data name="LineFadeOut_Name" xml:space="preserve">
+    <value>Fade out</value>
+  </data>
+  <data name="LinesLayoutSelector_Description" xml:space="preserve">
+    <value>This applies a layout with the same number of lines as the number of lines on the page.
+Example: Page with 3 lines → Layout with 3 lines</value>
+  </data>
+  <data name="LinesLayoutSelector_Name" xml:space="preserve">
+    <value>Set the layout according to the number of rows</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonAddPosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Add marker</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonBrowseBitmapPath.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="LyricsFontBrushControl_ButtonRemovePosition.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remove marker</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapPath.Text" xml:space="preserve">
+    <value>Image file:</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockBitmapScale.Text" xml:space="preserve">
+    <value>Magnification:</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockMarkerInfo.Text" xml:space="preserve">
+    <value>Clicking the desired location will add a marker.
+You can also add markers 
+by dragging the top or bottom edge.</value>
+  </data>
+  <data name="LyricsFontBrushControl_TextBlockSelectedMultiPosition.Text" xml:space="preserve">
+    <value>Marker position:</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonBitmap.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonGradient.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonMilleFeuille.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Mille-feuille</value>
+  </data>
+  <data name="LyricsFontBrushControl_ToggleButtonSolid.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Solid color fill</value>
+  </data>
+  <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Swap the color scheme before and after the wipe</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
+    <value>After Before</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBlurLevel.Text" xml:space="preserve">
+    <value>Blur intensity:</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockBrushInfo.Text" xml:space="preserve">
+    <value>Color scheme</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorKind.Text" xml:space="preserve">
+    <value>Text decoration type:</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockDecorSizeSize.Text" xml:space="preserve">
+    <value>Text decoration size:</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontFaceInfo.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockFontInfo.Text" xml:space="preserve">
+    <value>Lyrics   Ruby</value>
+  </data>
+  <data name="LyricsFontControl_TextBlockSample.Text" xml:space="preserve">
+    <value>Sample:</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.Content" xml:space="preserve">
+    <value>Decor</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Decorative color (after wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.Content" xml:space="preserve">
+    <value>Decor</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonDecorBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Decorative color (before wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.Content" xml:space="preserve">
+    <value>Alnum</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Alnum (lyrics)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.Content" xml:space="preserve">
+    <value>Kana</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kana (lyrics)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.Content" xml:space="preserve">
+    <value>Kanji</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonLyricKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kanji (lyrics)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.Content" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Text color (after wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.Content" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainCharBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Text color (before wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.Content" xml:space="preserve">
+    <value>Edge 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2After.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edge 2 color (after wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.Content" xml:space="preserve">
+    <value>Edge 2</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdge2Before.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edge 2 color (before wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.Content" xml:space="preserve">
+    <value>Edge</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edge color (after wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.Content" xml:space="preserve">
+    <value>Edge</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edge color (before wipe)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.Content" xml:space="preserve">
+    <value>Alnum</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyAlnum.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Alnum (ruby)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.Content" xml:space="preserve">
+    <value>Kana</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKana.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kana (ruby)</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.Content" xml:space="preserve">
+    <value>Kanji</value>
+  </data>
+  <data name="LyricsFontControl_ToggleButtonRubyKanji.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kanji (ruby)</value>
+  </data>
+  <data name="LyricsFontModel_Undo_BlurLevel" xml:space="preserve">
+    <value>Blur intensity</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorKind" xml:space="preserve">
+    <value>Text decoration type</value>
+  </data>
+  <data name="LyricsFontModel_Undo_DecorSize" xml:space="preserve">
+    <value>Text decoration size</value>
+  </data>
+  <data name="LyricsInfoControl_ButtonBrowseSourceLyricsPath.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyrics.Header" xml:space="preserve">
+    <value>Lyrics</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsBeginTime.Header" xml:space="preserve">
+    <value>Singing start</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLyricsEndTime.Header" xml:space="preserve">
+    <value>Singing end</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowBeginTime.Header" xml:space="preserve">
+    <value>Display start</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnShowEndTime.Header" xml:space="preserve">
+    <value>Display end</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="LyricsInfoControl_TextBlockSourceLyricsPath.Text" xml:space="preserve">
+    <value>Lyrics file:</value>
+  </data>
+  <data name="LyricsLayoutControl_AllowBiting.Content" xml:space="preserve">
+    <value>Allows some characters to overlap</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonAddHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Add left/right layout</value>
+  </data>
+  <data name="LyricsLayoutControl_ButtonRemoveHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Remove left/right layout</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalAlignment.Text" xml:space="preserve">
+    <value>Left/right layout for each row</value>
+  </data>
+  <data name="LyricsLayoutControl_HorizontalMarginSize.Text" xml:space="preserve">
+    <value>Left/right margins</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLineSpaceSize.Text" xml:space="preserve">
+    <value>Line spacing</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsAndRubyIntervalSize.Text" xml:space="preserve">
+    <value>Spacing between lyrics and ruby:</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockLyricsIntervalSize.Text" xml:space="preserve">
+    <value>Lyrics spacing:</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyAlignment.Text" xml:space="preserve">
+    <value>Ruby placement:</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockRubyIntervalSize.Text" xml:space="preserve">
+    <value>Ruby spacing:</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockSmartHorizon.Text" xml:space="preserve">
+    <value>Smart horizontal arrangement</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalAlignment.Text" xml:space="preserve">
+    <value>Vertical alignment</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginBottomSize.Text" xml:space="preserve">
+    <value>Bottom margin:</value>
+  </data>
+  <data name="LyricsLayoutControl_TextBlockVerticalMarginTopSize.Text" xml:space="preserve">
+    <value>Top margin:</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonCenter.Content" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="LyricsLayoutControl_ToggleButtonTop.Content" xml:space="preserve">
+    <value>Top</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_AllowBiting" xml:space="preserve">
+    <value>Allows some characters to overlap</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_HorizontalMargin" xml:space="preserve">
+    <value>Left/right margins</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LineSpace" xml:space="preserve">
+    <value>Line spacing</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsAndRubyInterval" xml:space="preserve">
+    <value>Spacing between lyrics and ruby</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_LyricsInterval" xml:space="preserve">
+    <value>Lyrics spacing</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyAlignment" xml:space="preserve">
+    <value>Ruby placement</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_RubyInterval" xml:space="preserve">
+    <value>Ruby spacing</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SelectedVerticalAlignmentIndex" xml:space="preserve">
+    <value>Vertical alignment</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_SmartHorizon" xml:space="preserve">
+    <value>Smart horizontal arrangement</value>
+  </data>
+  <data name="LyricsLayoutModel_Undo_VerticalMargin" xml:space="preserve">
+    <value>Top/bottom margin</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_NoTimeTags" xml:space="preserve">
+    <value>The lyrics file does not contain time tags:
+{0}</value>
+  </data>
+  <data name="LyricsLoader_LoadAll_Error_PathEmpty" xml:space="preserve">
+    <value>The lyrics file has not been specified.</value>
+  </data>
+  <data name="LyricsLoader_LoadLines_Error_Encoding" xml:space="preserve">
+    <value>The character encoding of the lyrics file could not be determined:
+{0}</value>
+  </data>
+  <data name="MainPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Down panel</value>
+  </data>
+  <data name="MainPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Up panel</value>
+  </data>
+  <data name="MainPage_MenuBarItemEdit.Title" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="MainPage_MenuBarItemHelp.Title" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MainPage_MenuBarItemProject.Title" xml:space="preserve">
+    <value>Project</value>
+  </data>
+  <data name="MainPage_MenuBarItemTools.Title" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemAbout.Text" xml:space="preserve">
+    <value>About...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemChat.Text" xml:space="preserve">
+    <value>Contact chat (Japanese)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCheckUpdate.Text" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemCommercialUse.Text" xml:space="preserve">
+    <value>Regarding commercial use</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemFaq.Text" xml:space="preserve">
+    <value>FAQ (Japanese)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemHistory.Text" xml:space="preserve">
+    <value>Update history (Japanese)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNew.Text" xml:space="preserve">
+    <value>New...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemNicoKaraList.Text" xml:space="preserve">
+    <value>Create a karaoke video list...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemOpen.Text" xml:space="preserve">
+    <value>Open...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemQuit.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSampleFolder.Text" xml:space="preserve">
+    <value>Sample folder</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveAs.Text" xml:space="preserve">
+    <value>Save as...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>Register as template...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSettings.Text" xml:space="preserve">
+    <value>Settings...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemSupport.Text" xml:space="preserve">
+    <value>Request for support and donations (Japanese)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
+    <value>Notification history...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
+    <value>Tutorial (Japanese video)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemTutorialText.Text" xml:space="preserve">
+    <value>Tutorial (Text)</value>
+  </data>
+  <data name="MainPage_MenuFlyoutItemWarnings.Text" xml:space="preserve">
+    <value>List of warnings and information...</value>
+  </data>
+  <data name="MainPage_MenuFlyoutSubItemRecent.Text" xml:space="preserve">
+    <value>Recent projects</value>
+  </data>
+  <data name="MainPage_ToggleButtonFont.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Font settings</value>
+  </data>
+  <data name="MainPage_ToggleButtonLayout.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Layout settings</value>
+  </data>
+  <data name="MainPage_ToggleButtonLyrics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lyrics settings</value>
+  </data>
+  <data name="MainPage_ToggleButtonOutput.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video output</value>
+  </data>
+  <data name="MainPage_ToggleButtonPreview.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="MainPage_ToggleButtonSource.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Background material</value>
+  </data>
+  <data name="MainPage_ToggleButtonTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Title settings</value>
+  </data>
+  <data name="MainPage_ToggleButtonWelcome.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOff_Confirm" xml:space="preserve">
+    <value>Turning off synchronization will prevent changes in other projects from being reflected.
+Also, conflicts may occur when you try to turn it back on.
+
+Are you sure you want to turn it off?</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_AlreadySynchronized" xml:space="preserve">
+    <value>It is already registered in the template and synchronized.
+There is no need to re-register.</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_CannotLoadRegisteredTemplate" xml:space="preserve">
+    <value>Unable to load registered templates.</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Error_TemplateNotSupported" xml:space="preserve">
+    <value>The template is not supported.</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Registered" xml:space="preserve">
+    <value>"{0}" has been registered as a template.</value>
+  </data>
+  <data name="MainPageControlViewModel_SynchronizeOn_Information_Renamed" xml:space="preserve">
+    <value>Since a template with the same name was already registered, I changed the name of the setting to "{0}" and registered it.</value>
+  </data>
+  <data name="MainPageFontControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Font settings search</value>
+  </data>
+  <data name="MainPageFontControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemAddLyricsFont.Text" xml:space="preserve">
+    <value>Add font settings</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>Use template...</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemRemoveLyricsFont.Text" xml:space="preserve">
+    <value>Remove font settings</value>
+  </data>
+  <data name="MainPageFontControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>Register as template</value>
+  </data>
+  <data name="MainPageFontControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>Template synchronization:</value>
+  </data>
+  <data name="MainPageFontControl_TextBoxSearch.PlaceholderText" xml:space="preserve">
+    <value>Font settings search</value>
+  </data>
+  <data name="MainPageFontControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>Synchronization</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Caption" xml:space="preserve">
+    <value>The font settings panel allows you to configure the detailed settings for the font specified in the lyrics settings panel.
+You can create subtitles by setting only "Font Setting 1," but you can also set multiple fonts as needed.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_AddLyricsFont" xml:space="preserve">
+    <value>Copy "{0}" and add it to the font settings.
+Are you sure?</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Confirm_RemoveLyricsFont" xml:space="preserve">
+    <value>Remove "{0}".
+Are you sure?</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_FindLyricsFont" xml:space="preserve">
+    <value>Please enter your search keywords.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>The template "{0}" is already in use.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>(The name has been changed to "{0}")</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>The template could not be loaded.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_NoSearch" xml:space="preserve">
+    <value>There are no font settings that include "{0}" in the name.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemoveLyricsFont" xml:space="preserve">
+    <value>It is not possible to remove the last font settings.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionFirst" xml:space="preserve">
+    <value>The top marker cannot be removed.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Error_RemovePositionLast" xml:space="preserve">
+    <value>The bottom marker cannot be removed.</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers0P" xml:space="preserve">
+    <value>Multiple markers at the 0% position exist in the font settings: {0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Information_CheckMarkers100P" xml:space="preserve">
+    <value>Multiple markers at the 100% position exist in the font settings: {0} - {1}</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_AddLyricsFont" xml:space="preserve">
+    <value>Add font settings</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>Use font template</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_RemoveLyricsFont" xml:space="preserve">
+    <value>Remove font setting "{0}"</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_SwapWipe" xml:space="preserve">
+    <value>Swap the color schemes before and after the wipe</value>
+  </data>
+  <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
+    <value>Frame rate:</value>
+  </data>
+  <data name="MainPageLayoutControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemAddLyricsLayout.Text" xml:space="preserve">
+    <value>Add layout settings</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemLoadTemplate.Text" xml:space="preserve">
+    <value>Use template...</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemRemoveLyricsLayout.Text" xml:space="preserve">
+    <value>Remove layout settings</value>
+  </data>
+  <data name="MainPageLayoutControl_MenuFlyoutItemSaveTemplate.Text" xml:space="preserve">
+    <value>Register as template</value>
+  </data>
+  <data name="MainPageLayoutControl_TextBlockSynchronize.Text" xml:space="preserve">
+    <value>Template synchronization:</value>
+  </data>
+  <data name="MainPageLayoutControl_ToggleButtonSynchronize.Content" xml:space="preserve">
+    <value>Synchronization</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Caption" xml:space="preserve">
+    <value>The Layout Settings panel allows you to configure the detailed layout settings specified in the Lyrics settings panel.
+While setting only "Layout Setting 1" will allow you to place subtitles, you can also set multiple layouts as needed.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_AddLyricsLayout" xml:space="preserve">
+    <value>Copy "{0}" and add it to the layout settings.
+Are you sure?</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Confirm_RemoveLyricsLayout" xml:space="preserve">
+    <value>Remove "{0}".
+Are you sure?</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
+    <value>The template "{0}" is already in use.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
+    <value>(The name has been changed to "{0}")</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
+    <value>The template could not be loaded.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutLast" xml:space="preserve">
+    <value>The last setting cannot be removed.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutSelect" xml:space="preserve">
+    <value>Please select the setting you wish to remove.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Error_RemoveLyricsLayout" xml:space="preserve">
+    <value>It is not possible to remove the last layout settings.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddHorizontalLayout" xml:space="preserve">
+    <value>Add left/right layout for each row</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_AddLyricsLayout" xml:space="preserve">
+    <value>Add layout settings</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_LoadTemplate" xml:space="preserve">
+    <value>Use layout template</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveHorizontalLayout" xml:space="preserve">
+    <value>Remove left/right layout for each row</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_Undo_RemoveLyricsLayout" xml:space="preserve">
+    <value>Remove layout setting "{0}"</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonFontSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Automatically set font...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLayoutSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Automatically set layout...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonLineBreaker.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Automatically set line breaks...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonShowTimeAdjuster.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Automatically set display start and end times...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonSubtitleActionSelector.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Automatically set actions...</value>
+  </data>
+  <data name="MainPageLyricsControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>Add lyrics settings</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>Edit subtitle actions...</value>
+  </data>
+  <data name="MainPageLyricsControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>Remove lyrics settings</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Caption" xml:space="preserve">
+    <value>The lyrics settings panel allows you to specify the font, layout, and other settings for the lyrics.
+You can create subtitles by configuring only "Lyrics Setting 1," but you can also set multiple lyrics as needed.</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_Reloaded" xml:space="preserve">
+    <value>The lyrics file "{0}" has been updated, so its contents have been reflected.</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_ReloadedAfterLoad" xml:space="preserve">
+    <value>The lyrics file "{0}" has been updated since the last project save, so its contents have been reflected.</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc" xml:space="preserve">
+    <value>Automatically{0}was set.</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_FontSelector" xml:space="preserve">
+    <value>,font </value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LayoutSelector" xml:space="preserve">
+    <value>,layout </value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_LineBreaker" xml:space="preserve">
+    <value>,line breaks </value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_ShowTimeAdjuster" xml:space="preserve">
+    <value>,display time </value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Information_RunMisc_SubtitleActionSelector" xml:space="preserve">
+    <value>,actions </value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunFontSelector" xml:space="preserve">
+    <value>Automatically set font</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLayoutSelector" xml:space="preserve">
+    <value>Automatically set layout</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunLineBreaker" xml:space="preserve">
+    <value>Automatically set line breaks</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunShowTimeAdjuster" xml:space="preserve">
+    <value>Automatically set display start and end times</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Undo_RunSubtitleActionSelector" xml:space="preserve">
+    <value>Automatically set actions</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowBeginTimeGtLyricsActualBeginTime" xml:space="preserve">
+    <value>The displayed start time is later than the singing start time.</value>
+  </data>
+  <data name="MainPageLyricsControlViewModel_Warning_ShowEndTimeLtLyricsActualEndTime" xml:space="preserve">
+    <value>The displayed end time is earlier than the singing end time.</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_AddMultiTextInfo" xml:space="preserve">
+    <value>Adding {0} setting.
+Are you sure?</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Confirm_RemoveMultiTextInfo" xml:space="preserve">
+    <value>Deleting "{0}".
+Are you sure?</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionSelect" xml:space="preserve">
+    <value>Please select the line(s) you wish to edit the subtitle action for.
+(Multiple lines can be selected.)</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_EditActionValid" xml:space="preserve">
+    <value>Please select a valid {0} row.</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_NoLine" xml:space="preserve">
+    <value>There are no {0} rows.</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Error_RemoveMultiTextInfo" xml:space="preserve">
+    <value>The last {0} setting cannot be removed.</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_AddMultiTextInfo" xml:space="preserve">
+    <value>Add {0} setting</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_EditAction" xml:space="preserve">
+    <value>Edit subtitle actions</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_FontIndexChanged" xml:space="preserve">
+    <value>Change font</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_LayoutIndexChanged" xml:space="preserve">
+    <value>Change layout</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_RemoveMultiTextInfo" xml:space="preserve">
+    <value>Remove {0} setting "{1}"</value>
+  </data>
+  <data name="MainPageMultiTextViewModel_Undo_SubtitleActionChanged" xml:space="preserve">
+    <value>Change actions</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonBrowseDestPath.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonMp4Settings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 encoding settings...</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Open output folder</value>
+  </data>
+  <data name="MainPageOutputControl_ButtonOutput.Content" xml:space="preserve">
+    <value>Video output</value>
+  </data>
+  <data name="MainPageOutputControl_CheckBoxDoubleFrame.Content" xml:space="preserve">
+    <value>Makes subtitle wipes twice as smooth (doubles frame rate)</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonContentsTree2C.Content" xml:space="preserve">
+    <value>NicoKara Maker Simple Instruction Video</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonCreatorSupport1C.Content" xml:space="preserve">
+    <value>Creator support</value>
+  </data>
+  <data name="MainPageOutputControl_HyperlinkButtonFantia1C2.Content" xml:space="preserve">
+    <value>fansite</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree1.Text" xml:space="preserve">
+    <value>When uploading a created video to Niconico Douga, you need the original video (the video specified in the background material panel) and,</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2L.Text" xml:space="preserve">
+    <value>"</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree2R.Text" xml:space="preserve">
+    <value>" (sm28311188) as the parent of the content tree.</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockContentsTree3.Text" xml:space="preserve">
+    <value>If you upload this video to a video site like YouTube instead of Niconico Douga, please include a link to sm28311188.</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1L.Text" xml:space="preserve">
+    <value>Niconico Douga's "</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport1R.Text" xml:space="preserve">
+    <value>",</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockCreatorSupport2.Text" xml:space="preserve">
+    <value>I look forward to your registration on it.</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestFormat.Text" xml:space="preserve">
+    <value>Output format:</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockDestPath.Text" xml:space="preserve">
+    <value>Output file name:</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1C1.Text" xml:space="preserve">
+    <value>'s "</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia1R.Text" xml:space="preserve">
+    <value>" is opened.</value>
+  </data>
+  <data name="MainPageOutputControl_TextBlockFantia2.Text" xml:space="preserve">
+    <value>We look forward to you joining us.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFile" xml:space="preserve">
+    <value>_NicokaraOutput</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_AddDestFolder" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Caption" xml:space="preserve">
+    <value>The video output panel will output a video with karaoke subtitles based on the previous content. Please be mindful of the available space on your SSD/HDD.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_BadFfmpeg" xml:space="preserve">
+    <value>FFmpeg is not configured correctly, so output in MP4 format is not possible.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_DestPathNotSet" xml:space="preserve">
+    <value>The output file name has not been specified.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Error_SourceNotSet" xml:space="preserve">
+    <value>No background material has been specified.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_Avi" xml:space="preserve">
+    <value>If the uncompressed AVI video you output does not play correctly, please refer to the video output page in the help section.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_AviOverFhd" xml:space="preserve">
+    <value>Outputting a video with a resolution higher than Full HD in uncompressed AVI format is expected to take a considerable amount of time.</value>
+  </data>
+  <data name="MainPageOutputControlViewModel_Information_BadFfmpeg" xml:space="preserve">
+    <value>FFmpeg is not configured correctly.</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastForward.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Fast forward</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonFastRewind.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Fast rewind</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonPlay.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Play/pause</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStep.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Frame-by-frame playback</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonStop.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="MainPagePreviewControl_ButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>List of warnings and information</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockQuality.Text" xml:space="preserve">
+    <value>Rendering quality</value>
+  </data>
+  <data name="MainPagePreviewControl_TextBlockTimeStamp.Text" xml:space="preserve">
+    <value>Time drawing</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipMute" xml:space="preserve">
+    <value>Muted</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipOutput" xml:space="preserve">
+    <value>Audio output available</value>
+  </data>
+  <data name="MainPagePreviewControlViewModel_Caption" xml:space="preserve">
+    <value>The preview panel allows you to check the result before outputting the video.
+If there are many subtitles or if your computer has low performance, the subtitles may flicker or be out of sync, but rest assured that they will be displayed correctly during video output.</value>
+  </data>
+  <data name="MainPageSoundControl_ButtonBrowseSoundPath.Content" xml:space="preserve">
+    <value>Edit...</value>
+  </data>
+  <data name="MainPageSoundControl_TextBlockSoundPath.Text" xml:space="preserve">
+    <value>Audio:</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath1.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseImagePath2.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="MainPageSourceControl_ButtonBrowseMoviePath.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="MainPageSourceControl_CheckBoxMoviePlusSound.Content" xml:space="preserve">
+    <value>Use audio from separate file</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundColor.Text" xml:space="preserve">
+    <value>Background color:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockBackgroundSize.Text" xml:space="preserve">
+    <value>Resolution:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath1.Text" xml:space="preserve">
+    <value>Image:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
+    <value>First image in the sequence:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsBackground.Text" xml:space="preserve">
+    <value>The background will be filled with the specified color.</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsImage.Text" xml:space="preserve">
+    <value>Use one image as the background.</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsMovie.Text" xml:space="preserve">
+    <value>We will use a video as the background.</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockIsSequenceImage.Text" xml:space="preserve">
+    <value>A sequence of numbered images will be used as the background.</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
+    <value>Source video used as background:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceFrameRate.Text" xml:space="preserve">
+    <value>Frame rate:</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceInfo.Text" xml:space="preserve">
+    <value>Source information</value>
+  </data>
+  <data name="MainPageSourceControl_TextBlockSourceResolution.Text" xml:space="preserve">
+    <value>Resolution:</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsBackground.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>One image</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsMovie.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="MainPageSourceControl_ToggleButtonIsSequenceImage.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sequence image</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Caption" xml:space="preserve">
+    <value>In the background source panel, you can specify the video, image, or audio to be used as the background.</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_FileNotFound" xml:space="preserve">
+    <value>{0} does not exist.</value>
+  </data>
+  <data name="MainPageSourceControlViewModel_Error_UnableGetMovieInfo" xml:space="preserve">
+    <value>Unable to retrieve video information.</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonAddTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Add title row...</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonEditTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edit title row...</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonRemoveTitle.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Delete title row</value>
+  </data>
+  <data name="MainPageTitleControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
+    <value>Add title setting</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
+    <value>Edit subtitle actions...</value>
+  </data>
+  <data name="MainPageTitleControl_MenuFlyoutItemRemoveMultiTextInfo.Text" xml:space="preserve">
+    <value>Delete title setting</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Caption" xml:space="preserve">
+    <value>The title settings panel allows you to specify the title, its font, layout, and other settings.
+If you don't need a title, you don't need to configure it.</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveEmpty" xml:space="preserve">
+    <value>Delete the blank lines. Are you sure?</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveMulti" xml:space="preserve">
+    <value>Delete the selected {0} rows.
+Are you sure?</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Confirm_RemoveTitle" xml:space="preserve">
+    <value>Delete the following title row. Are you sure?
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle" xml:space="preserve">
+    <value>The following line was invalid and therefore not added:
+{0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_AddOrReplaceTitle_Part" xml:space="preserve">
+    <value>Row {0}</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Error_SelectRemoveTitle" xml:space="preserve">
+    <value>Please select the row you wish to delete.</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_AddTitle" xml:space="preserve">
+    <value>Add title row</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_EditTitle" xml:space="preserve">
+    <value>Edit title row</value>
+  </data>
+  <data name="MainPageTitleControlViewModel_Undo_RemoveTitle" xml:space="preserve">
+    <value>Delete title row</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_LoadAutoSave" xml:space="preserve">
+    <value>A previously autosaved project remains.
+
+Project: {0}
+Autosaved date and time: {1}
+
+Do you want to recover it?
+
+(Note)
+Selecting "No" will delete the autosaved project.
+If you want to continue editing from where you left off, please select "Yes".</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Modify" xml:space="preserve">
+    <value>"{0}" has been modified.
+Do you want to save?</value>
+  </data>
+  <data name="MainPageViewModel_Confirm_Nkm2Project" xml:space="preserve">
+    <value>When importing a project from the old Nicokara Karaoke Video Maker 2, some settings (such as subtitle actions) may not be loaded.
+Also, loading may take some time.</value>
+  </data>
+  <data name="MainPageViewModel_Error_EmptyContent" xml:space="preserve">
+    <value>The content is empty.</value>
+  </data>
+  <data name="MainPageViewModel_Error_LackInformation" xml:space="preserve">
+    <value>Information is insufficient.</value>
+  </data>
+  <data name="MainPageViewModel_Error_NoProjectPath" xml:space="preserve">
+    <value>The project file name has not been specified.</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableLoadTemplate" xml:space="preserve">
+    <value>Unable to load template.</value>
+  </data>
+  <data name="MainPageViewModel_Error_UnableRestoreProject" xml:space="preserve">
+    <value>The project cannot be restored.</value>
+  </data>
+  <data name="MainPageViewModel_Information_Modify" xml:space="preserve">
+    <value>(Modified)</value>
+  </data>
+  <data name="MainPageViewModel_Information_None" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="MainPageViewModel_Information_ProjectSaved" xml:space="preserve">
+    <value>Project "{0}" has been saved.</value>
+  </data>
+  <data name="MainPageViewModel_Information_UpdateLaunch" xml:space="preserve">
+    <value>[Update Activated]
+
+{0} has been updated.
+For details on the update, please refer to the [Help → Update history] menu.</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemContentsTreeText" xml:space="preserve">
+    <value>List of videos created with {0}</value>
+  </data>
+  <data name="MainPageViewModel_MenuFlyoutItemLatestInfoHistoryText" xml:space="preserve">
+    <value>Latest information on {0}...</value>
+  </data>
+  <data name="MainPageViewModel_SwitchToDefaultFontIfNeeded_Warning" xml:space="preserve">
+    <value>The font used in the project is not installed, so an alternative font will be used.
+{0}</value>
+  </data>
+  <data name="MainPageViewModel_Undo_SynchronizeTemplate" xml:space="preserve">
+    <value>Reflecting template changes from other projects</value>
+  </data>
+  <data name="MainPageViewModel_Warning_Beta" xml:space="preserve">
+    <value>This version is a beta version under development.
+Please read the help section carefully before use and use with caution.</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNew.Content" xml:space="preserve">
+    <value>New project (template available)...</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonNextTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Next tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonOpen.Content" xml:space="preserve">
+    <value>Open project...</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonPrevTips.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Previous tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonSampleFolder.Content" xml:space="preserve">
+    <value>Sample folder</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialMovie.Content" xml:space="preserve">
+    <value>Watch tutorial (Japanese video)</value>
+  </data>
+  <data name="MainPageWelcomeControl_ButtonTutorialText.Content" xml:space="preserve">
+    <value>Watch tutorial (Text)</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockStart.Text" xml:space="preserve">
+    <value>Choose whether to create a new project (create a new video with karaoke subtitles) or open an existing project (edit a video with karaoke subtitles that has already been created).</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTipsHeader.Text" xml:space="preserve">
+    <value>One-point tips</value>
+  </data>
+  <data name="MainPageWelcomeControl_TextBlockTutorial.Text" xml:space="preserve">
+    <value>If this is your first time, please check out the tutorial. You can create a video with karaoke subtitles using the sample materials.</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_Caption" xml:space="preserve">
+    <value>Welcome to "{0}" {1}.
+In {0}, you can switch panels using the left-hand navigation and proceed by working through the panels from top to bottom to create a karaoke video with subtitles.
+For detailed instructions on how to use each panel, please see the help.</value>
+  </data>
+  <data name="MainPageWelcomeControlViewModel_TipsDescription" xml:space="preserve">
+    <value>Once you've become familiar with using {0}, try using the tips to aim for a higher level of karaoke subtitled videos.</value>
+  </data>
+  <data name="Meta_Language" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockSettingsName.Text" xml:space="preserve">
+    <value>Name of encoding setting:</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
+    <value>Video additional option:</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoCodec.Text" xml:space="preserve">
+    <value>Video codec:</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockVideoDevice.Text" xml:space="preserve">
+    <value>Video encoding device:</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfHighQuality.Text" xml:space="preserve">
+    <value>High quality</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfLowQuality.Text" xml:space="preserve">
+    <value>Low quality</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX264CrfNotice.Text" xml:space="preserve">
+    <value>A smaller number indicates higher video quality.</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfHighQuality.Text" xml:space="preserve">
+    <value>High quality</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfLowQuality.Text" xml:space="preserve">
+    <value>Low quality</value>
+  </data>
+  <data name="Mp4SettingsControl_TextBlockX265CrfNotice.Text" xml:space="preserve">
+    <value>A smaller number indicates higher video quality.</value>
+  </data>
+  <data name="Mp4SettingsModel_Error_UnableSet" xml:space="preserve">
+    <value>Unable to set video parameters: {0}</value>
+  </data>
+  <data name="Mp4SettingsModel_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Mp4SettingsModel_Quality" xml:space="preserve">
+    <value>Quality[{0}]:</value>
+  </data>
+  <data name="Mp4SettingsModel_SoftwareNotice" xml:space="preserve">
+    <value>Setting it below {0} will not result in any noticeable improvement in video quality and will only waste file size.</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH264" xml:space="preserve">
+    <value>This video can be played in a variety of environments.</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoCodecNoticeH265" xml:space="preserve">
+    <value>The video quality is high, and the file size is small.</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeHardware" xml:space="preserve">
+    <value>Encoding is fast in {0} environment.
+An error will occur in unsupported environments. The video quality will be lower and the file size will be larger.</value>
+  </data>
+  <data name="Mp4SettingsModel_VideoDeviceNoticeSoftware" xml:space="preserve">
+    <value>It can be encoded in various environments.
+The video quality is high, and the file size is small.</value>
+  </data>
+  <data name="NicoKaraListOutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="NicoKaraListOutputPage_TextBlockStatus.Text" xml:space="preserve">
+    <value>Creating karaoke video list...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>Do you want to stop outputting the karaoke video list?</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Aborting" xml:space="preserve">
+    <value>Aborting...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_Information_Done" xml:space="preserve">
+    <value>Karaoke video list output complete.
+
+Elapsed time: {0}</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_0" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_1" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_2" xml:space="preserve">
+    <value>Downloading...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_3" xml:space="preserve">
+    <value>Outputting...</value>
+  </data>
+  <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_4" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="NicoKaraListOutputWindow.Title" xml:space="preserve">
+    <value>Output karaoke video list</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonBrowseDestFolder.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonDownloadUpdate.Content" xml:space="preserve">
+    <value>Download update now</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonList.Content" xml:space="preserve">
+    <value>Create list</value>
+  </data>
+  <data name="NicoKaraListPage_ButtonOpenDestFolder.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Open output folder</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonListRule.Content" xml:space="preserve">
+    <value>Detailed information on listing rules</value>
+  </data>
+  <data name="NicoKaraListPage_HyperlinkButtonUserId.Content" xml:space="preserve">
+    <value>Your user ID is displayed near your username on your My Page</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>This will create a list that displays all the karaoke videos uploaded to Niconico Douga.</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>(Note) This feature is not provided by Niconico Douga officially, but is a unique feature of this app.</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDestFolder.Text" xml:space="preserve">
+    <value>Output folder:</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadAdditionalDataWarning.Text" xml:space="preserve">
+    <value>(This will make creating the list take longer.)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadSettings.Text" xml:space="preserve">
+    <value>Download settings</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_1.Text" xml:space="preserve">
+    <value>Download update data for the specified video.</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_2.Text" xml:space="preserve">
+    <value>(If you edit the title of a video you've uploaded, downloading the updated data will list it with the edited title.)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadUpdate_3.Text" xml:space="preserve">
+    <value>(Edited titles are not reflected in real time; they are updated daily at 5:00 AM. Please wait one day after editing before downloading.)</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockDownloadWarning.Text" xml:space="preserve">
+    <value>Due to changes in Niconico Douga's specifications, downloads may become unavailable.</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockRowPerPage.Text" xml:space="preserve">
+    <value>Number of lines per page:</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUpdateGlobalId.Text" xml:space="preserve">
+    <value>Video ID (M):</value>
+  </data>
+  <data name="NicoKaraListPage_TextBlockUserId.Text" xml:space="preserve">
+    <value>Niconico Douga User ID:</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabel" xml:space="preserve">
+    <value>Download additional data when the "Create List" button is clicked ({0})</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabelDefault" xml:space="preserve">
+    <value>Download additional data when the "Create List" button is clicked</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_MaxUpdateTimeLabel" xml:space="preserve">
+    <value>Previous data: {0}</value>
+  </data>
+  <data name="NicoKaraListPageViewModel_UpdateExpanderDownloadSupplement" xml:space="preserve">
+    <value>({0}, Additional data download: {1})</value>
+  </data>
+  <data name="NicoKaraListWindow.Title" xml:space="preserve">
+    <value>Create karaoke video list</value>
+  </data>
+  <data name="Nkm3Common_AllTypeFilterName" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_0" xml:space="preserve">
+    <value>Uncompressed AVI</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_1" xml:space="preserve">
+    <value>MP4</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_2" xml:space="preserve">
+    <value>Sequential PNG images</value>
+  </data>
+  <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
+    <value>Sequential PNG images (with transparency for subtitles only)</value>
+  </data>
+  <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
+    <value>Exe files</value>
+  </data>
+  <data name="Nkm3Common_ImageFilterName" xml:space="preserve">
+    <value>Image files</value>
+  </data>
+  <data name="Nkm3Common_LyricsFilterName" xml:space="preserve">
+    <value>Lyrics files</value>
+  </data>
+  <data name="Nkm3Common_MovieFilterName" xml:space="preserve">
+    <value>Video files</value>
+  </data>
+  <data name="Nkm3Common_Nkm2ProjectFilterName" xml:space="preserve">
+    <value>Old project files</value>
+  </data>
+  <data name="Nkm3Common_Nkm3ProjectFilterName" xml:space="preserve">
+    <value>Project files</value>
+  </data>
+  <data name="Nkm3Common_SoundAndMovieFilterName" xml:space="preserve">
+    <value>Audio files, Video files</value>
+  </data>
+  <data name="Nkm3Common_SoundFilterName" xml:space="preserve">
+    <value>Audio files</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonDefault.Content" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Down panel</value>
+  </data>
+  <data name="Nkm3SettingsPage_ButtonNavigationUp.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Up panel</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonEncoding.ToolTipService.ToolTip" xml:space="preserve">
+    <value>MP4 encoding</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonGeneral.ToolTipService.ToolTip" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonMaintenance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonPerformance.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonReload.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lyrics update</value>
+  </data>
+  <data name="Nkm3SettingsPage_ToggleButtonToast.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonBrowseFfmpegPath.Content" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Various</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemAddMp4Settings.Text" xml:space="preserve">
+    <value>Add encoding settings</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_MenuFlyoutItemRemoveMp4Settings.Text" xml:space="preserve">
+    <value>Remove encoding settings</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControl_TextBlockFfmpegPath.Text" xml:space="preserve">
+    <value>Location of FFmpeg:</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_AddMp4Settings" xml:space="preserve">
+    <value>Copy "{0}" and add it to the encoding settings.
+Are you sure?</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_RemoveMp4Settings" xml:space="preserve">
+    <value>Remove "{0}".
+Are you sure?</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_CheckProperties_SettingsNameEmpty" xml:space="preserve">
+    <value>Please enter a name for the encoding settings.</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_LastSettings" xml:space="preserve">
+    <value>It is not possible to remove the last encoding settings.</value>
+  </data>
+  <data name="Nkm3SettingsPageEncodingControlViewModel_Error_RemoveMp4Settings_NoTarget" xml:space="preserve">
+    <value>No items to be removed have been specified.</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxAutoSave.Content" xml:space="preserve">
+    <value>Save project for automatic recovery</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxCloseButtonForEachTab.Content" xml:space="preserve">
+    <value>Show close button for each tab</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
+    <value>If the ruby ​​text exceeds the width of the base character, spaces will be added on both sides of the base character.</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
+    <value>Auto save interval:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_2.Text" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockColorSpecifyType.Text" xml:space="preserve">
+    <value>How to set the color:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_1.Text" xml:space="preserve">
+    <value>Fast forward:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastForward_2.Text" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_1.Text" xml:space="preserve">
+    <value>Fast rewind:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastRewind_2.Text" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockFastTime.Text" xml:space="preserve">
+    <value>Fast rewind/forward times during preview (approximate)</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControl_TextBlockSpaceWidth.Text" xml:space="preserve">
+    <value>Width of a half-width space:</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
+    <value>Backup settings...</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonCheckRss.Content" xml:space="preserve">
+    <value>Check latest information now</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_ButtonRestore.Content" xml:space="preserve">
+    <value>Restore settings...</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControl_TextBlockBackup.Text" xml:space="preserve">
+    <value>Backup settings (save to file)</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_CheckBoxCheckRssContent" xml:space="preserve">
+    <value>Automatically check for the latest information on {0}</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Confirm_CheckRss" xml:space="preserve">
+    <value>If you turn off checking for the latest information, updates such as new versions of {0} will not be displayed.
+
+Are you sure you want to turn it off?</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Error_Restore_UnableLoad" xml:space="preserve">
+    <value>The configuration file could not be loaded.</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonBackupClicked" xml:space="preserve">
+    <value>Settings have been backed up.</value>
+  </data>
+  <data name="Nkm3SettingsPageMaintenanceControlViewModel_Information_ButtonRestoreClicked" xml:space="preserve">
+    <value>Settings have been restored.</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseMultiThread.Content" xml:space="preserve">
+    <value>Draw using multithreading</value>
+  </data>
+  <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseUseHardwareAdapter.Content" xml:space="preserve">
+    <value>Draw using hardware adapter</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunFontSelector.Content" xml:space="preserve">
+    <value>Automatically set font</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLayoutSelector.Content" xml:space="preserve">
+    <value>Automatically set layout</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLineBreaker.Content" xml:space="preserve">
+    <value>Automatically set line breaks</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>Automatically set display start and end times</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>Automatically set actions</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>When the lyrics file is updated, the following settings will be executed.</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>Items that are turned ON will be set automatically.</value>
+  </data>
+  <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_3.Text" xml:space="preserve">
+    <value>Items that are turned OFF will retain their previous settings as much as possible.</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxLyrics.Content" xml:space="preserve">
+    <value>Lyrics updated</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxMisc.Content" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxProject.Content" xml:space="preserve">
+    <value>Project and its elements</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_CheckBoxTemplate.Content" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_1.Text" xml:space="preserve">
+    <value>You will receive notifications in the following categories.</value>
+  </data>
+  <data name="Nkm3SettingsPageToastControl_TextBlockDescription_2.Text" xml:space="preserve">
+    <value>*If notifications are turned off in your OS settings, you will not receive notifications.</value>
+  </data>
+  <data name="Nkm3SettingsPageViewModel_Confirm_ButtonDefaultClicked" xml:space="preserve">
+    <value>We will reset all preferences to their default settings.
+Are you sure?</value>
+  </data>
+  <data name="Nkm3SettingsWindow.Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoAction_Description" xml:space="preserve">
+    <value>Do not take action</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OutputPage_ButtonAbort.Content" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="OutputPage_ButtonNext.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="OutputPage_ButtonPrev.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="OutputPage_TextBlockLatestInfo.Text" xml:space="preserve">
+    <value>Latest information</value>
+  </data>
+  <data name="OutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
+    <value>Do you want to stop the video output?</value>
+  </data>
+  <data name="OutputPageViewModel_Error_FreeSpaceString" xml:space="preserve">
+    <value>Unable to retrieve available storage space.</value>
+  </data>
+  <data name="OutputPageViewModel_Error_Prepare" xml:space="preserve">
+    <value>The video output could not be prepared.</value>
+  </data>
+  <data name="OutputPageViewModel_FreeSpaceString" xml:space="preserve">
+    <value>Available storage space: {0} GB</value>
+  </data>
+  <data name="OutputPageViewModel_Information_NoInfo" xml:space="preserve">
+    <value>(Not retrieving the latest information)</value>
+  </data>
+  <data name="OutputPageViewModel_Information_PageLoaded_Done" xml:space="preserve">
+    <value>Video output complete.
+
+Elapsed time: {0}</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_0" xml:space="preserve">
+    <value>Preparing...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_1" xml:space="preserve">
+    <value>Preparing subtitle data...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_2" xml:space="preserve">
+    <value>Outputting...</value>
+  </data>
+  <data name="OutputPageViewModel_OutputStatus_3" xml:space="preserve">
+    <value>Ended</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Hour" xml:space="preserve">
+    <value>Remaining: {0} hour(s) {1} minute(s)</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Minute" xml:space="preserve">
+    <value>Remaining: {0} minute(s)</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Second" xml:space="preserve">
+    <value>Remaining: {0} second(s)</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateEstimate_Soon" xml:space="preserve">
+    <value>It will be completed soon...</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_Delimiter" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DestFormat" xml:space="preserve">
+    <value>Output format: {0}</value>
+  </data>
+  <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
+    <value>(Makes subtitle wipes twice as smooth)</value>
+  </data>
+  <data name="OutputWindow.Title" xml:space="preserve">
+    <value>Video output</value>
+  </data>
+  <data name="PartFontSelector_Chorus" xml:space="preserve">
+    <value>chorus</value>
+  </data>
+  <data name="PartFontSelector_Description" xml:space="preserve">
+    <value>Set different fonts for the main part and other parts (such as the chorus).</value>
+  </data>
+  <data name="PartFontSelector_Name" xml:space="preserve">
+    <value>Set fonts for each part</value>
+  </data>
+  <data name="ProjectDataModel_DestFormat_Undo" xml:space="preserve">
+    <value>Output format</value>
+  </data>
+  <data name="ProjectDataModel_DestPath_Undo" xml:space="preserve">
+    <value>Output file name</value>
+  </data>
+  <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
+    <value>Make subtitle wipes twice as smooth</value>
+  </data>
+  <data name="ProjectDataModel_Mp4SettingsIndex_Undo" xml:space="preserve">
+    <value>MP4 settings</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_New" xml:space="preserve">
+    <value>New project</value>
+  </data>
+  <data name="ProjectDataModel_ProjectName_Old" xml:space="preserve">
+    <value>Old project</value>
+  </data>
+  <data name="ProjectDataModel_SourceInfo_Undo" xml:space="preserve">
+    <value>Material information</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameDuplicate" xml:space="preserve">
+    <value>The same name is already registered in the template.
+Please use a different name.</value>
+  </data>
+  <data name="RenamePageViewModel_ButtonOkClicked_Error_NameEmpty" xml:space="preserve">
+    <value>Please enter a name.</value>
+  </data>
+  <data name="RenameWindow.Title" xml:space="preserve">
+    <value>Name change</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxFont.Content" xml:space="preserve">
+    <value>Font settings</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxLayout.Content" xml:space="preserve">
+    <value>Layout settings</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxOutput.Content" xml:space="preserve">
+    <value>Video output</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSource.Content" xml:space="preserve">
+    <value>Background material</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxSynchronizeAll.Content" xml:space="preserve">
+    <value>Turn on the synchronization of all font and layout settings.</value>
+  </data>
+  <data name="SaveProjectTemplatePage_CheckBoxTitle.Content" xml:space="preserve">
+    <value>Title settings</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>Register the current project as a template.</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockElements.Text" xml:space="preserve">
+    <value>Please select the elements you would like to include in the template.</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockName.Text" xml:space="preserve">
+    <value>Template name:</value>
+  </data>
+  <data name="SaveProjectTemplatePage_TextBlockSynchronizeAll.Text" xml:space="preserve">
+    <value>If you include font and layout settings in the template</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_DuplicateName" xml:space="preserve">
+    <value>A template with the same name is already registered.
+Please change the template name.</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyElement" xml:space="preserve">
+    <value>Please select the elements you would like to include in the template.</value>
+  </data>
+  <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_EmptyName" xml:space="preserve">
+    <value>Please enter the template name.</value>
+  </data>
+  <data name="SaveProjectTemplateWindow.Title" xml:space="preserve">
+    <value>Register project as template</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonDelete.Content" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="SelectTemplatePage_ButtonRename.Content" xml:space="preserve">
+    <value>Name change</value>
+  </data>
+  <data name="SelectTemplatePage_TextBlockDescription.Text" xml:space="preserve">
+    <value>Please select the template you wish to use.</value>
+  </data>
+  <data name="SelectTemplatePageViewModel_UpdateStock_Default" xml:space="preserve">
+    <value>(Default)</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Confirm" xml:space="preserve">
+    <value>Remove "{0}".
+Are you sure?
+
+(Note)
+"{0}" may reappear when you open a project that uses it.</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Error_NoSelect" xml:space="preserve">
+    <value>Please select the template you wish to remove.</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_NoSelect" xml:space="preserve">
+    <value>Please select the template whose name you would like to change.</value>
+  </data>
+  <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_UnableLoad" xml:space="preserve">
+    <value>Unable to load registered templates.</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_0" xml:space="preserve">
+    <value>title</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_1" xml:space="preserve">
+    <value>font settings</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_2" xml:space="preserve">
+    <value>layout settings</value>
+  </data>
+  <data name="SelectTemplateWindow_TemplateKind_3" xml:space="preserve">
+    <value>project</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Misc" xml:space="preserve">
+    <value>Use of {0} template</value>
+  </data>
+  <data name="SelectTemplateWindow_Title_Project" xml:space="preserve">
+    <value>Create a new {0}</value>
+  </data>
+  <data name="SeqLinesBreaker_Description" xml:space="preserve">
+    <value>As a general rule, page breaks will be set after the specified number of lines.
+Where there are differences in wipe timing, paragraph breaks will be set regardless of the number of lines.</value>
+  </data>
+  <data name="SeqLinesBreaker_Name" xml:space="preserve">
+    <value>Set page breaks every certain number of lines</value>
+  </data>
+  <data name="SeqLinesBreakerSettingsModel_SeqDescription" xml:space="preserve">
+    <value>every lines ({0}-{1})</value>
+  </data>
+  <data name="SettingsAddOnPage_ButtonDefault.Content" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunFontSelector.Content" xml:space="preserve">
+    <value>Automatically set font</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunLayoutSelector.Content" xml:space="preserve">
+    <value>Automatically set layout</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunShowTimeAdjuster.Content" xml:space="preserve">
+    <value>Automatically set display start and end times</value>
+  </data>
+  <data name="SettingsAddOnPage_CheckBoxRunSubtitleActionSelector.Content" xml:space="preserve">
+    <value>Automatically set actions</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockAddOnIndex.Text" xml:space="preserve">
+    <value>Setting method:</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
+    <value>After the initial setup, proceed with the following steps.</value>
+  </data>
+  <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>Delay the fade-out of inline graphics</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>When using inline graphics as icons to separate lyric parts, 
+enabling this option will make them easier to see.</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
+    <value>The display fades out based on the end time (similar to a fade-in effect)</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockIntroDelay.Text" xml:space="preserve">
+    <value>Time difference between the beginning and end:</value>
+  </data>
+  <data name="SettingsAddOnPageCharFadeInFadeOutControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>Time until the last character of a line begins to disappear:</value>
+  </data>
+  <data name="SettingsAddOnPageEmptyLineBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>The paragraph break setting will be determined based on the following settings.</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeInTime.Text" xml:space="preserve">
+    <value>Time until fade-in is complete:</value>
+  </data>
+  <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeOutTime.Text" xml:space="preserve">
+    <value>Time until fade-out is complete:</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockBegin.Text" xml:space="preserve">
+    <value>Applicable layout (from):</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>The layout will be selected from the options within the above range.</value>
+  </data>
+  <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockEnd.Text" xml:space="preserve">
+    <value>(to):</value>
+  </data>
+  <data name="SettingsAddOnPageNoSettingsControl_TextBlockNoSettings.Text" xml:space="preserve">
+    <value>(No settings available)</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxAutoChorus.Content" xml:space="preserve">
+    <value>Automatically color-codes the chorus portion of the lyrics</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxContinueLyricsCharToFont.Content" xml:space="preserve">
+    <value>Maintain even when the line changes</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxLyricsCharToFont.Content" xml:space="preserve">
+    <value>Apply the font setting with the same name as the lyrics</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_HyperlinkButtonHelp.Content" xml:space="preserve">
+    <value>Detailed information</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusBeginChars.Text" xml:space="preserve">
+    <value>Chorus start character:</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusEndChars.Text" xml:space="preserve">
+    <value>Chorus end character:</value>
+  </data>
+  <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockChorusFont.Text" xml:space="preserve">
+    <value>Chorus Font:</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockDescription.Text" xml:space="preserve">
+    <value>The paragraph break setting will be determined based on the following settings.</value>
+  </data>
+  <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockSeq.Text" xml:space="preserve">
+    <value>Number of lines to set the page break:</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeIn.Content" xml:space="preserve">
+    <value>Fade in</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeOut.Content" xml:space="preserve">
+    <value>Fade out</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockFadeDetail.Text" xml:space="preserve">
+    <value>Fade advanced settings</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountDescription.Text" xml:space="preserve">
+    <value>(Slide down if positive, up if negative)</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountSize.Text" xml:space="preserve">
+    <value>Vertical slide amount:</value>
+  </data>
+  <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountUnit.Text" xml:space="preserve">
+    <value>px/s</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_CheckBoxManualProtectTime.Content" xml:space="preserve">
+    <value>Manually set the display protection time when the switching time is short *For advanced users</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockIntervalTime2.Text" xml:space="preserve">
+    <value>Lyric display interval:</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockManualProtectTime.Text" xml:space="preserve">
+    <value>Display protection time:</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPostTime2.Text" xml:space="preserve">
+    <value>Display time after wipe:</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPreTime2.Text" xml:space="preserve">
+    <value>Display time before wipe:</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxManualProtectTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Please keep the display time before and after the wipe to less than or equal to the display time before and after the wipe.</value>
+  </data>
+  <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
+    <value>If the action is Utopia, setting the display time after the wipe to 1000 [ms] or more will make the movement of the end of the line look nicer.</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
+    <value>Font to use:</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationLayoutSelectorControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>Layout to use:</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_ButtonEditAction.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edit subtitle actions...</value>
+  </data>
+  <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_TextBlockSubtitleAction.Text" xml:space="preserve">
+    <value>Subtitle action to use:</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
+    <value>Delay the fade-out of inline graphics</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
+    <value>When using inline graphics as icons for dividing lyrics into parts,
+enabling this option will make them easier to see.</value>
+  </data>
+  <data name="SettingsAddOnPageUtopiaControl_TextBlockTailDelay.Text" xml:space="preserve">
+    <value>Time until the last character of a line begins to disappear:</value>
+  </data>
+  <data name="SettingsAddOnPageViewModel_ButtonDefaultClicked_Confirm" xml:space="preserve">
+    <value>We will reset all settings to their default values.
+Are you sure?</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_PageDescription" xml:space="preserve">
+    <value>Automatically sets the display start and end times for all rows.</value>
+  </data>
+  <data name="ShowTimeAdjusterPageViewModel_Title" xml:space="preserve">
+    <value>Automatically set the display start and end time</value>
+  </data>
+  <data name="SlideUpDown_Description" xml:space="preserve">
+    <value>Slide the entire row up or down</value>
+  </data>
+  <data name="SlideUpDown_Name" xml:space="preserve">
+    <value>Up and down slide</value>
+  </data>
+  <data name="SpinFlip_Description" xml:space="preserve">
+    <value>Each letter spins and flips</value>
+  </data>
+  <data name="SpinFlip_Name" xml:space="preserve">
+    <value>Spin flip</value>
+  </data>
+  <data name="SplashPage_TextBlockAppName.Text" xml:space="preserve">
+    <value>Nicokara Karaoke Video Maker 3</value>
+  </data>
+  <data name="SplashPage_TextBlockStarting.Text" xml:space="preserve">
+    <value>Starting up...</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_PageDescription" xml:space="preserve">
+    <value>Automatically sets the action for all rows.</value>
+  </data>
+  <data name="SubtitleActionSelectorPageViewModel_Title" xml:space="preserve">
+    <value>Automatically set actions</value>
+  </data>
+  <data name="TitleInfoControl_ButtonEditShowTime.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edit display time...</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnFont.Header" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnSubtitleAction.Header" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="TitleInfoControl_TableViewColumnTitle.Header" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockLayout.Text" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="TitleInfoControl_TextBlockShowTime.Text" xml:space="preserve">
+    <value>Display time:</value>
+  </data>
+  <data name="ToastHistoryPage_TextBlockDescription.Text" xml:space="preserve">
+    <value>This displays the history, including cases where notifications are turned off in the settings or OS settings.</value>
+  </data>
+  <data name="TopLongAdjuster_Description" xml:space="preserve">
+    <value>To make the connection with the lyrics in the lower section clearer, the lyrics in the upper section are displayed for as long as possible.
+The timing of the middle section will change depending on the vertical arrangement of the layout.
+This is the same standard setting method as the display time in the original Nicokara Karaoke Video Maker.</value>
+  </data>
+  <data name="TopLongAdjuster_Name" xml:space="preserve">
+    <value>Display the lyrics in the upper section in a longer format</value>
+  </data>
+  <data name="TopShortAdjuster_Description" xml:space="preserve">
+    <value>To avoid interfering with the background video, the lyrics at the top will be wiped away and then quickly removed.</value>
+  </data>
+  <data name="TopShortAdjuster_Name" xml:space="preserve">
+    <value>Quickly erase the lyrics in the upper section</value>
+  </data>
+  <data name="UnificationFontSelector_Description" xml:space="preserve">
+    <value>Unify everything to the same font.</value>
+  </data>
+  <data name="UnificationFontSelector_Name" xml:space="preserve">
+    <value>Use the same font for everything</value>
+  </data>
+  <data name="UnificationLayoutSelector_Description" xml:space="preserve">
+    <value>Unify everything to the same layout.</value>
+  </data>
+  <data name="UnificationLayoutSelector_Name" xml:space="preserve">
+    <value>Use the same layout for everything</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Description" xml:space="preserve">
+    <value>Unify everything to the same action.</value>
+  </data>
+  <data name="UnificationSubtitleActionSelector_Name" xml:space="preserve">
+    <value>Unify everything to the same action</value>
+  </data>
+  <data name="Utopia_Description" xml:space="preserve">
+    <value>The text after the wipe fades away, twisting as it goes</value>
+  </data>
+  <data name="Utopia_Name" xml:space="preserve">
+    <value>Utopia</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonInformations.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Show information</value>
+  </data>
+  <data name="WarningsPage_ToggleButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Show warning</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>
