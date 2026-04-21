@@ -38,7 +38,7 @@ Please use folder names according to BCP47 language-region (e.g. de-DE).
 Copy "Strings/en-US/Resources.resw" to the folder you created.
 
 > \[!NOTE]
-> If you are having trouble creating folders or copying files during online editing, please request creation on "Discussions" page.
+> If you are having trouble creating folders or copying files during online editing, please request creation on "Issue" page.
 > When doing so, please specify your desired BCP47 language-region.
 
 ### Edit
