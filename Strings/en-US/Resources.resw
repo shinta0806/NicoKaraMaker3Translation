@@ -192,6 +192,9 @@
   <data name="BrushInfoModel_Error_BitmapPathNotExist" xml:space="preserve">
     <value>{0} does not exist.</value>
   </data>
+  <data name="BrushInfoModel_ModelName" xml:space="preserve">
+    <value>Color scheme</value>
+  </data>
   <data name="BrushInfoModel_Undo_BitmapPath" xml:space="preserve">
     <value>Image file</value>
   </data>
@@ -314,6 +317,19 @@ Are you sure?</value>
   <data name="CharFadeInFadeOut_Name" xml:space="preserve">
     <value>Character-by-character fade</value>
   </data>
+  <data name="ColorBindControl_ButtonEdit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Edit color...</value>
+  </data>
+  <data name="ColorBindControl_ButtonSpuit.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Eyedropper (Gets the color of the mouse cursor at the time of clicking)
+*Can also get the color from windows of other applications.</value>
+  </data>
+  <data name="ColorBindControl_TextBlockSpuitDescription.Text" xml:space="preserve">
+    <value>Left click = eyedropper tool, Right click = cancel</value>
+  </data>
+  <data name="ColorBindControl_TextBlockWeb16.Text" xml:space="preserve">
+    <value>Hex RGB: #</value>
+  </data>
   <data name="ColorBindModel_Undo_Color" xml:space="preserve">
     <value>Change color</value>
   </data>
@@ -404,6 +420,9 @@ Are you sure?</value>
   <data name="EditSoundListPageViewModel_Error_PathEmpty" xml:space="preserve">
     <value>The audio file "{0}" has not been specified.</value>
   </data>
+  <data name="EditSoundListWindow_Title" xml:space="preserve">
+    <value>Edit audio list window</value>
+  </data>
   <data name="EditSubtitleActionPageViewModel_PageDescription" xml:space="preserve">
     <value>Configure the details of the subtitle action.</value>
   </data>
@@ -449,6 +468,9 @@ Paragraph breaks will be set regardless of blank lines where there are differenc
   <data name="FadeSubtitleActionSelector_Description" xml:space="preserve">
     <value>The text fades in at the beginning of each paragraph and fades out at the end.</value>
   </data>
+  <data name="FadeSubtitleActionSelector_Name" xml:space="preserve">
+    <value>Fading at paragraph breaks</value>
+  </data>
   <data name="Fatal" xml:space="preserve">
     <value>Fatal</value>
   </data>
@@ -457,6 +479,30 @@ Paragraph breaks will be set regardless of blank lines where there are differenc
   </data>
   <data name="File_HistoryWithoutExtension" xml:space="preserve">
     <value>CFileMerge2_History_ja-jp</value>
+  </data>
+  <data name="FontFaceInfoModel_CharSize_Undo" xml:space="preserve">
+    <value>Font size</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize_Undo" xml:space="preserve">
+    <value>Edge width</value>
+  </data>
+  <data name="FontFaceInfoModel_EdgeSize2_Undo" xml:space="preserve">
+    <value>Edge 2 width</value>
+  </data>
+  <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
+    <value>Default font</value>
+  </data>
+  <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
+    <value>Font detail</value>
+  </data>
+  <data name="FontFaceInfoModel_FontName_Undo" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="FontFaceInfoModel_ModelName" xml:space="preserve">
+    <value>Character type font</value>
+  </data>
+  <data name="FontFaceInfoModel_UseEdge2_Undo" xml:space="preserve">
+    <value>Edge 2</value>
   </data>
   <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
     <value>Automatically sets the font for all rows.</value>
@@ -499,6 +545,9 @@ Paragraph breaks will be set regardless of blank lines where there are differenc
   </data>
   <data name="LatestInfoHistoryPageViewModel_Error_OpenDetailNotSelect" xml:space="preserve">
     <value>Please select the latest information you would like to view in more detail.</value>
+  </data>
+  <data name="LatestInfoHistoryWindow_Title" xml:space="preserve">
+    <value>Latest information on {0}</value>
   </data>
   <data name="LatestInfoManager_Ask_AskDisplayLatestAsync" xml:space="preserve">
     <value>Found {0} newest information.
@@ -702,6 +751,99 @@ by dragging the top or bottom edge.</value>
   <data name="LyricsFontControl_ToggleButtonRubyKanji.ToolTipService.ToolTip" xml:space="preserve">
     <value>Kanji (ruby)</value>
   </data>
+  <data name="LyricsFontFaceControl_CheckBoxUseEdge2.Content" xml:space="preserve">
+    <value>Add edge 2</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSize.Text" xml:space="preserve">
+    <value>Font size:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_0.Text" xml:space="preserve">
+    <value>(If 0, set to </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockCharSizeSizeNote_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockDetail.Text" xml:space="preserve">
+    <value>Detail:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2Size.Text" xml:space="preserve">
+    <value>Edge 2 width:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_0.Text" xml:space="preserve">
+    <value>(If 0, set to </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSize2SizeNote_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSize.Text" xml:space="preserve">
+    <value>Edge width:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
+    <value>(If 0, set to </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontName.Text" xml:space="preserve">
+    <value>Font:</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_0.Text" xml:space="preserve">
+    <value>(If left blank, set to </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
+    <value>(If -, set to </value>
+  </data>
+  <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
+    <value>)</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
+    <value>After wipe / Text color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_1" xml:space="preserve">
+    <value>Edge color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_2" xml:space="preserve">
+    <value>Edge 2 color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_3" xml:space="preserve">
+    <value>Decor color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_4" xml:space="preserve">
+    <value>Before wipe / Text color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_5" xml:space="preserve">
+    <value>Edge color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_6" xml:space="preserve">
+    <value>Edge 2 color</value>
+  </data>
+  <data name="LyricsFontModel_BrushInfoModel_SettingsName_7" xml:space="preserve">
+    <value>Decor color</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_0" xml:space="preserve">
+    <value>Lyrics / Kanji</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_1" xml:space="preserve">
+    <value>Kana</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_2" xml:space="preserve">
+    <value>Alnum</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_3" xml:space="preserve">
+    <value>Ruby / Kanji</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_4" xml:space="preserve">
+    <value>Kana</value>
+  </data>
+  <data name="LyricsFontModel_FontFaceInfoModel_SettingsName_5" xml:space="preserve">
+    <value>Alnum</value>
+  </data>
+  <data name="LyricsFontModel_ModelName" xml:space="preserve">
+    <value>Font</value>
+  </data>
   <data name="LyricsFontModel_Undo_BlurLevel" xml:space="preserve">
     <value>Blur intensity</value>
   </data>
@@ -716,6 +858,9 @@ by dragging the top or bottom edge.</value>
   </data>
   <data name="LyricsInfoControl_TableViewColumnFont.Header" xml:space="preserve">
     <value>Font</value>
+  </data>
+  <data name="LyricsInfoControl_TableViewColumnLayout.Header" xml:space="preserve">
+    <value>Layout</value>
   </data>
   <data name="LyricsInfoControl_TableViewColumnLyrics.Header" xml:space="preserve">
     <value>Lyrics</value>
@@ -737,6 +882,18 @@ by dragging the top or bottom edge.</value>
   </data>
   <data name="LyricsInfoControl_TextBlockSourceLyricsPath.Text" xml:space="preserve">
     <value>Lyrics file:</value>
+  </data>
+  <data name="LyricsInfoModel_ModelName" xml:space="preserve">
+    <value>Lyrics</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Chorus" xml:space="preserve">
+    <value>Chorus{0}</value>
+  </data>
+  <data name="LyricsInfoModel_SettingsNameDefault_Main" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="LyricsInfoModel_SourceLyricsPath_Undo" xml:space="preserve">
+    <value>Lyrics file name</value>
   </data>
   <data name="LyricsLayoutControl_AllowBiting.Content" xml:space="preserve">
     <value>Allows some characters to overlap</value>
@@ -788,6 +945,9 @@ by dragging the top or bottom edge.</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonTop.Content" xml:space="preserve">
     <value>Top</value>
+  </data>
+  <data name="LyricsLayoutModel_ModelName" xml:space="preserve">
+    <value>Layout</value>
   </data>
   <data name="LyricsLayoutModel_Undo_AllowBiting" xml:space="preserve">
     <value>Allows some characters to overlap</value>
@@ -902,6 +1062,9 @@ by dragging the top or bottom edge.</value>
   <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
     <value>Notification history...</value>
   </data>
+  <data name="MainPage_MenuFlyoutItemTranslationProject.Text" xml:space="preserve">
+    <value>Translation project</value>
+  </data>
   <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
     <value>Tutorial (Japanese video)</value>
   </data>
@@ -999,6 +1162,15 @@ Are you sure?</value>
     <value>Remove "{0}".
 Are you sure?</value>
   </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_0" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_1" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="MainPageFontControlViewModel_DecorKindNames_2" xml:space="preserve">
+    <value>Blur</value>
+  </data>
   <data name="MainPageFontControlViewModel_Error_FindLyricsFont" xml:space="preserve">
     <value>Please enter your search keywords.</value>
   </data>
@@ -1094,6 +1266,24 @@ Are you sure?</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_RemoveLyricsLayout" xml:space="preserve">
     <value>It is not possible to remove the last layout settings.</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_0" xml:space="preserve">
+    <value>Automatic placement</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_1" xml:space="preserve">
+    <value>Centering</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_2" xml:space="preserve">
+    <value>Even distribution</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_0" xml:space="preserve">
+    <value>Do not adjust</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_1" xml:space="preserve">
+    <value>Center alignment</value>
+  </data>
+  <data name="MainPageLayoutControlViewModel_SmartHorizonNames_2" xml:space="preserve">
+    <value>Align left and right margins</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Undo_AddHorizontalLayout" xml:space="preserve">
     <value>Add left/right layout for each row</value>
@@ -1515,7 +1705,7 @@ Also, loading may take some time.</value>
     <value>The project cannot be restored.</value>
   </data>
   <data name="MainPageViewModel_Information_Modify" xml:space="preserve">
-    <value>(Modified)</value>
+    <value> (Modified)</value>
   </data>
   <data name="MainPageViewModel_Information_None" xml:space="preserve">
     <value>(None)</value>
@@ -1590,6 +1780,9 @@ For detailed instructions on how to use each panel, please see the help.</value>
   <data name="Mp4SettingsControl_TextBlockSettingsName.Text" xml:space="preserve">
     <value>Name of encoding setting:</value>
   </data>
+  <data name="Mp4SettingsControl_TextBlockSoundVbr.Text" xml:space="preserve">
+    <value>Audio bitrate:</value>
+  </data>
   <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
     <value>Video additional option:</value>
   </data>
@@ -1619,6 +1812,18 @@ For detailed instructions on how to use each panel, please see the help.</value>
   </data>
   <data name="Mp4SettingsModel_Error_UnableSet" xml:space="preserve">
     <value>Unable to set video parameters: {0}</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_0" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_1" xml:space="preserve">
+    <value>Hardware (Intel/QSV)</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_2" xml:space="preserve">
+    <value>Hardware (AMD/AMF)</value>
+  </data>
+  <data name="Mp4SettingsModel_Mp4VideoDeviceNames_3" xml:space="preserve">
+    <value>Hardware (NVIDIA/NVENC)</value>
   </data>
   <data name="Mp4SettingsModel_New" xml:space="preserve">
     <value>New</value>
@@ -1786,6 +1991,12 @@ Elapsed time: {0}</value>
   <data name="Nkm3Common_SoundFilterName" xml:space="preserve">
     <value>Audio files</value>
   </data>
+  <data name="Nkm3Settings_InitMp4Settings_General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Nkm3Settings_InitMp4Settings_High" xml:space="preserve">
+    <value>High quality</value>
+  </data>
   <data name="Nkm3SettingsPage_ButtonDefault.Content" xml:space="preserve">
     <value>Default</value>
   </data>
@@ -1880,6 +2091,12 @@ Are you sure?</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockSpaceWidth.Text" xml:space="preserve">
     <value>Width of a half-width space:</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
+    <value>RGBA decimal</value>
+  </data>
+  <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_1" xml:space="preserve">
+    <value>Web hex + A decimal</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
     <value>Backup settings...</value>
@@ -2051,6 +2268,51 @@ Elapsed time: {0}</value>
   <data name="PartFontSelector_Name" xml:space="preserve">
     <value>Set fonts for each part</value>
   </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
+    <value>Blue scheme</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_2" xml:space="preserve">
+    <value>Green scheme</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_3" xml:space="preserve">
+    <value>Gradient scheme</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_4" xml:space="preserve">
+    <value>Chorus scheme</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_5" xml:space="preserve">
+    <value>Info S</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_6" xml:space="preserve">
+    <value>Info M</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsFont_SettingsName_7" xml:space="preserve">
+    <value>Info L</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_0" xml:space="preserve">
+    <value>Bottom 2 lines</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_1" xml:space="preserve">
+    <value>Bottom 3 lines</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_2" xml:space="preserve">
+    <value>Top 2 lines</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_3" xml:space="preserve">
+    <value>Chorus</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_4" xml:space="preserve">
+    <value>Top left title</value>
+  </data>
+  <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_5" xml:space="preserve">
+    <value>Center title</value>
+  </data>
+  <data name="ProjectDataModel_CreateTitleInfoModel_Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
   <data name="ProjectDataModel_DestFormat_Undo" xml:space="preserve">
     <value>Output format</value>
   </data>
@@ -2059,6 +2321,9 @@ Elapsed time: {0}</value>
   </data>
   <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
     <value>Make subtitle wipes twice as smooth</value>
+  </data>
+  <data name="ProjectDataModel_ModelName" xml:space="preserve">
+    <value>Project</value>
   </data>
   <data name="ProjectDataModel_Mp4SettingsIndex_Undo" xml:space="preserve">
     <value>MP4 settings</value>
@@ -2334,6 +2599,15 @@ enabling this option will make them easier to see.</value>
     <value>We will reset all settings to their default values.
 Are you sure?</value>
   </data>
+  <data name="SettingsNameModel_AdjustSettingName_New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="SettingsNameModel_SettingsName_Undo" xml:space="preserve">
+    <value>{0} setting {1} name</value>
+  </data>
+  <data name="SettingsNameModel_SettingsNameLabel" xml:space="preserve">
+    <value>{0} setting {1} name:</value>
+  </data>
   <data name="ShowTimeAdjusterPageViewModel_PageDescription" xml:space="preserve">
     <value>Automatically sets the display start and end times for all rows.</value>
   </data>
@@ -2345,6 +2619,33 @@ Are you sure?</value>
   </data>
   <data name="SlideUpDown_Name" xml:space="preserve">
     <value>Up and down slide</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundColor_Undo" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundHeight_Undo" xml:space="preserve">
+    <value>Resolution (vertical)</value>
+  </data>
+  <data name="SourceInfoModel_BackgroundWidth_Undo" xml:space="preserve">
+    <value>Resolution (horizontal)</value>
+  </data>
+  <data name="SourceInfoModel_Fps_Undo" xml:space="preserve">
+    <value>Frame rate</value>
+  </data>
+  <data name="SourceInfoModel_ImagePath_Undo" xml:space="preserve">
+    <value>Image file name</value>
+  </data>
+  <data name="SourceInfoModel_MoviePath_Undo" xml:space="preserve">
+    <value>Original song video file name</value>
+  </data>
+  <data name="SourceInfoModel_MoviePlusSound_Undo" xml:space="preserve">
+    <value>Use audio from a separate file</value>
+  </data>
+  <data name="SourceInfoModel_SoundTrackList_Undo" xml:space="preserve">
+    <value>Audio files</value>
+  </data>
+  <data name="SourceInfoModel_SourceKind_Undo" xml:space="preserve">
+    <value>Types of background materials</value>
   </data>
   <data name="SpinFlip_Description" xml:space="preserve">
     <value>Each letter spins and flips</value>
@@ -2382,8 +2683,14 @@ Are you sure?</value>
   <data name="TitleInfoControl_TextBlockShowTime.Text" xml:space="preserve">
     <value>Display time:</value>
   </data>
+  <data name="TitleInfoModel_ModelName" xml:space="preserve">
+    <value>Title</value>
+  </data>
   <data name="ToastHistoryPage_TextBlockDescription.Text" xml:space="preserve">
     <value>This displays the history, including cases where notifications are turned off in the settings or OS settings.</value>
+  </data>
+  <data name="ToastHistoryWindow_Title" xml:space="preserve">
+    <value>Notification history</value>
   </data>
   <data name="TopLongAdjuster_Description" xml:space="preserve">
     <value>To make the connection with the lyrics in the lower section clearer, the lyrics in the upper section are displayed for as long as possible.
@@ -2398,6 +2705,18 @@ This is the same standard setting method as the display time in the original Nic
   </data>
   <data name="TopShortAdjuster_Name" xml:space="preserve">
     <value>Quickly erase the lyrics in the upper section</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotRedo" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotUndo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Redo" xml:space="preserve">
+    <value>Redo - {0}</value>
+  </data>
+  <data name="UndoManager_UpdateCanUndoAndRedo_Information_Undo" xml:space="preserve">
+    <value>Undo - {0}</value>
   </data>
   <data name="UnificationFontSelector_Description" xml:space="preserve">
     <value>Unify everything to the same font.</value>
@@ -2431,6 +2750,9 @@ This is the same standard setting method as the display time in the original Nic
   </data>
   <data name="WarningsPage_ToggleButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
     <value>Show warning</value>
+  </data>
+  <data name="WarningsWindow_Title" xml:space="preserve">
+    <value>List of warnings and information</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Yes</value>
