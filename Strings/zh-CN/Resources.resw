@@ -124,7 +124,7 @@
     <value>更新历史</value>
   </data>
   <data name="AboutPage_TextBlockAppDistrib.Text" xml:space="preserve">
-    <value>分发：</value>
+    <value>发布页：</value>
   </data>
   <data name="AboutPage_TextBlockAppInfo.Text" xml:space="preserve">
     <value>软件资讯</value>
@@ -169,7 +169,7 @@
     <value>微软商店版</value>
   </data>
   <data name="AppInfo_Distribution_Zip" xml:space="preserve">
-    <value>Zip版</value>
+    <value>压缩包版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
     <value>音频播放环境存在问题。</value>
@@ -226,7 +226,7 @@
     <value>设置备份 (保存到文件)</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>如果禁用自动检查资讯, 将不会看到新版本发布等资讯。
+    <value>如果禁用自动检查, 将不会看到新版本发布等资讯。
 确定要禁用吗？</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
@@ -2152,10 +2152,10 @@ Elapsed time: {0}</value>
     <value>字体样本中请仅使用一个字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
-    <value>RGBA 值</value>
+    <value>RGBA 10进制</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_1" xml:space="preserve">
-    <value>Web hex + A 值</value>
+    <value>Web hex + Alpha 10进制</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
     <value>备份设置...</value>
@@ -2173,7 +2173,7 @@ Elapsed time: {0}</value>
     <value>自动检查 {0} 的最新资讯</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControlViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>如果禁用自动检查资讯, 将不会看到新版本发布等资讯。
+    <value>如果禁用自动检查, 将不会看到新版本发布等资讯。
 
 确定要禁用吗？</value>
   </data>
@@ -2434,7 +2434,7 @@ Elapsed time: {0}</value>
     <value>模板名称：</value>
   </data>
   <data name="SaveProjectTemplatePage_TextBlockSynchronizeAll.Text" xml:space="preserve">
-    <value>如果你在模板中包含字体和版式设置</value>
+    <value>如果您在模板中包含字体和版式设置</value>
   </data>
   <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_DuplicateName" xml:space="preserve">
     <value>已注册了同名的模板。
