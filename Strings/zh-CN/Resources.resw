@@ -2140,16 +2140,16 @@ Elapsed time: {0}</value>
     <value>半角空格宽度：</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Alnum" xml:space="preserve">
-    <value>请在字体样本文本的“英数”字段中输入字母数字字符。</value>
+    <value>请在字体示例文本的“英数”字段中输入字母数字字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Empty" xml:space="preserve">
     <value>请为字体输入示例字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Kana" xml:space="preserve">
-    <value>请在字体样本文本的“假名”字段中输入假名字符。</value>
+    <value>请在字体示例文本的“假名”字段中输入假名字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Length" xml:space="preserve">
-    <value>字体样本中请仅使用一个字符。</value>
+    <value>字体示例中请仅使用一个字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
     <value>RGBA 10进制</value>
@@ -2792,7 +2792,7 @@ Elapsed time: {0}</value>
     <value>将所有内容统一为同一操作。</value>
   </data>
   <data name="UnificationSubtitleActionSelector_Name" xml:space="preserve">
-    <value>将所有内容统一为同一操作</value>
+    <value>所有内容都采用同一操作</value>
   </data>
   <data name="Utopia_Description" xml:space="preserve">
     <value>画面切入后的文字逐渐淡出，同时逐渐飘落</value>
