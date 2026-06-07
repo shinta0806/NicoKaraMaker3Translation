@@ -2146,7 +2146,7 @@ Elapsed time: {0}</value>
     <value>请为字体输入示例字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Kana" xml:space="preserve">
-    <value>请在字体样本文本的“英数”字段中输入字母数字字符。</value>
+    <value>请在字体样本文本的“假名”字段中输入假名字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Length" xml:space="preserve">
     <value>字体样本中请仅使用一个字符。</value>
@@ -2208,13 +2208,13 @@ Elapsed time: {0}</value>
     <value>自动设置动作</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_1.Text" xml:space="preserve">
-    <value>当歌词更新，附加设置会自动运行</value>
+    <value>歌词更新时附加设置会自动运行</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_2.Text" xml:space="preserve">
     <value>已开启的项目将自动设置。</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_3.Text" xml:space="preserve">
-    <value>I已关闭的功能将尽可能保留其之前的设置。</value>
+    <value>已关闭的功能将尽可能保留其之前的设置。</value>
   </data>
   <data name="Nkm3SettingsPageToastControl_CheckBoxLyrics.Content" xml:space="preserve">
     <value>歌词已更新</value>
@@ -2630,7 +2630,7 @@ Elapsed time: {0}</value>
     <value>将走字前后的显示时间保持在走字前后的显示时间之内。</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>如果动作是"逐字纷飞"，将擦除后的显示时间设置为 1000 [毫秒] 或更长，可以使末尾的移动效果更流畅。</value>
+    <value>如果动作是"逐字纷飞"，将走字后的显示时间设置为 1000 [毫秒] 或更长，可以使末尾的移动效果更流畅。</value>
   </data>
   <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
     <value>使用字体:</value>
@@ -2759,7 +2759,7 @@ Elapsed time: {0}</value>
     <value>上行保持同步</value>
   </data>
   <data name="TopShortAdjuster_Description" xml:space="preserve">
-    <value>避免干扰背景视频，上行的歌词将快速消失于下行。</value>
+    <value>避免干扰背景视频，上行的歌词将快速消失于下行之前。</value>
   </data>
   <data name="TopShortAdjuster_Name" xml:space="preserve">
     <value>上行快速消失</value>
