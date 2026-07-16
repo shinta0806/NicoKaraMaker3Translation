@@ -124,31 +124,31 @@
     <value>更新历史</value>
   </data>
   <data name="AboutPage_TextBlockAppDistrib.Text" xml:space="preserve">
-    <value>发布页：</value>
+    <value>发布渠道：</value>
   </data>
   <data name="AboutPage_TextBlockAppInfo.Text" xml:space="preserve">
-    <value>软件资讯</value>
+    <value>应用信息</value>
   </data>
   <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
     <value>支持：</value>
   </data>
   <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
-    <value>创作者支持:</value>
+    <value>创作者支持：</value>
   </data>
   <data name="AboutPage_TextBlockAuthorEMail.Text" xml:space="preserve">
-    <value>Email:</value>
+    <value>电子邮件：</value>
   </data>
   <data name="AboutPage_TextBlockAuthorFanbox.Text" xml:space="preserve">
-    <value>Fansite:</value>
+    <value>粉丝站点：</value>
   </data>
   <data name="AboutPage_TextBlockAuthorInfo.Text" xml:space="preserve">
     <value>作者信息</value>
   </data>
   <data name="AboutPage_TextBlockAuthorTwitter.Text" xml:space="preserve">
-    <value>X (Twitter):</value>
+    <value>X（Twitter）：</value>
   </data>
   <data name="AboutPage_TextBlockAuthorWeb.Text" xml:space="preserve">
-    <value>Web:</value>
+    <value>网站：</value>
   </data>
   <data name="AboutWindow_Title" xml:space="preserve">
     <value>关于 {0}</value>
@@ -163,13 +163,13 @@
     <value>Nicokara Karaoke Video Maker 3 项目文件</value>
   </data>
   <data name="AppInfo_Description" xml:space="preserve">
-    <value>一个用于制作卡拉OK视频的工具</value>
+    <value>用于制作卡拉 OK 字幕的工具。</value>
   </data>
   <data name="AppInfo_Distribution_Store" xml:space="preserve">
-    <value>微软商店版</value>
+    <value>Microsoft Store 版</value>
   </data>
   <data name="AppInfo_Distribution_Zip" xml:space="preserve">
-    <value>压缩包版</value>
+    <value>ZIP 版</value>
   </data>
   <data name="AudioPlayer_AudioPlayer_Error_BadAudio" xml:space="preserve">
     <value>音频播放环境存在问题。</value>
@@ -178,10 +178,10 @@
     <value>粘贴指定的图像。</value>
   </data>
   <data name="BrushInfoModel_Description_Gradient" xml:space="preserve">
-    <value>使用渐变填充 (多色平滑渐变)。</value>
+    <value>使用渐变填充（多种颜色平滑过渡）。</value>
   </data>
   <data name="BrushInfoModel_Description_MilleFeuille" xml:space="preserve">
-    <value>使用分层填充 (多色不渐变)。</value>
+    <value>使用分层填充（多种颜色清晰分隔）。</value>
   </data>
   <data name="BrushInfoModel_Description_Solid" xml:space="preserve">
     <value>使用指定颜色填充。</value>
@@ -199,10 +199,10 @@
     <value>图像文件</value>
   </data>
   <data name="BrushInfoModel_Undo_BitmapScale" xml:space="preserve">
-    <value>图像放大</value>
+    <value>图像缩放倍率</value>
   </data>
   <data name="BrushInfoModel_Undo_SelectedBrushTypeIndex" xml:space="preserve">
-    <value>填充类型</value>
+    <value>填充方式</value>
   </data>
   <data name="BrushInfoModel_Undo_SolidColor" xml:space="preserve">
     <value>更改颜色</value>
@@ -214,24 +214,24 @@
     <value>备份</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePage_ButtonCheckRss.Content" xml:space="preserve">
-    <value>立即检查资讯</value>
+    <value>立即检查信息</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePage_ButtonRestore.Content" xml:space="preserve">
     <value>恢复</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePage_CheckBoxCheckRss_Content" xml:space="preserve">
-    <value>已自动检查 {0} 条资讯</value>
+    <value>自动检查 {0} 信息</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePage_TextBlockBackup.Text" xml:space="preserve">
-    <value>设置备份 (保存到文件)</value>
+    <value>备份设置（保存到文件）</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>如果禁用自动检查, 将不会看到新版本发布等资讯。
-确定要禁用吗？</value>
+    <value>如果关闭自动检查，{0} 发布新版本等信息时将不会显示通知。
+确定要关闭吗？</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Confirm_LoadSettingsArchiveAsync" xml:space="preserve">
-    <value>正在尝试恢复不同版本的设置。
-恢复可能不会成功，确定要恢复吗？</value>
+    <value>正在尝试恢复其他版本的设置。
+可能无法成功恢复，仍要继续吗？</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Done_ButtonBackupClicked" xml:space="preserve">
     <value>设置已备份。</value>
@@ -243,7 +243,7 @@
     <value>备份错误：</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonCheckRssClicked" xml:space="preserve">
-    <value>检查资讯错误：</value>
+    <value>检查信息时出错：</value>
   </data>
   <data name="Cfm2SettingsNavigationMaintenancePageViewModel_Error_ButtonRestoreClicked" xml:space="preserve">
     <value>恢复错误：</value>
@@ -255,58 +255,58 @@
     <value>无法读取设置文件中的设置。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_AnchorHint.Text" xml:space="preserve">
-    <value>* GenerateAnchorFiles tags take precedence.</value>
+    <value>* GenerateAnchorFiles 标签优先。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_CheckBoxOverwriteAnchorFiles.Content" xml:space="preserve">
-    <value>Overwrite existing anchor file</value>
+    <value>覆盖已有锚点文件</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor_ToolTip.Content" xml:space="preserve">
-    <value>GenerateAnchorFiles Sets which anchor files will be created for a given heading when a tag is specified.</value>
+    <value>指定 GenerateAnchorFiles 标签时，设置要为对应标题创建哪些锚点文件。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_TextBlockAnchor.Text" xml:space="preserve">
-    <value>Anchor file creation target</value>
+    <value>锚点文件创建目标</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc_ToolTip.Content" xml:space="preserve">
-    <value>Sets which heading to create a table of contents for when a Toc tag is specified.</value>
+    <value>指定 Toc 标签时，设置要为哪些标题创建目录。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_TextBlockToc.Text" xml:space="preserve">
-    <value>TOC target</value>
+    <value>目录目标</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPage_TextBlockTocHint.Text" xml:space="preserve">
-    <value>* Toc tags take precedence.</value>
+    <value>* Toc 标签优先。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_AnchorFile" xml:space="preserve">
-    <value>Please select one or more anchor file targets.
-If you do not want to create anchor files, you do not use the GenerateAnchorFiles tag.</value>
+    <value>请选择一个或多个锚点文件目标。
+如果不想创建锚点文件，请不要使用 GenerateAnchorFiles 标签。</value>
   </data>
   <data name="Cfm2SettingsNavigationSettingsPageViewModel_Error_CheckProperties_Toc" xml:space="preserve">
-    <value>Please select one or more table of contents targets.
-If you do not want to insert a table of contents, do not use the Toc tag.</value>
+    <value>请选择一个或多个目录目标。
+如果不想插入目录，请不要使用 Toc 标签。</value>
   </data>
   <data name="Cfm2SettingsPage_ButtonDefault.Content" xml:space="preserve">
-    <value>默认</value>
+    <value>恢复默认</value>
   </data>
   <data name="Cfm2SettingsPage_NavigationViewItemMaintenance.Content" xml:space="preserve">
-    <value>Maintenance</value>
+    <value>维护</value>
   </data>
   <data name="Cfm2SettingsPage_NavigationViewItemSettings.Content" xml:space="preserve">
     <value>设置</value>
   </data>
   <data name="Cfm2SettingsPageViewModel_Confirm_Default" xml:space="preserve">
-    <value>即将重置设置。
+    <value>将所有设置重置为默认值。
 确定吗？</value>
   </data>
   <data name="Cfm2SettingsPageViewModel_Error_ButtonCancelClicked" xml:space="preserve">
-    <value>Cancel button error:</value>
+    <value>取消按钮错误：</value>
   </data>
   <data name="Cfm2SettingsPageViewModel_Error_ButtonDefaultClicked" xml:space="preserve">
-    <value>Default button error:</value>
+    <value>默认按钮错误：</value>
   </data>
   <data name="Cfm2SettingsPageViewModel_Error_ButtonOkClicked" xml:space="preserve">
-    <value>OK button error:</value>
+    <value>确定按钮错误：</value>
   </data>
   <data name="Cfm2SettingsPageViewModel_Error_NavigationViewSelectionChanged" xml:space="preserve">
-    <value>Navigation selection error:</value>
+    <value>导航选择错误：</value>
   </data>
   <data name="Cfm2SettingsWindow_Title" xml:space="preserve">
     <value>设置</value>
@@ -315,7 +315,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>每个字符的淡入淡出时间会错开。</value>
   </data>
   <data name="CharFadeInFadeOut_Name" xml:space="preserve">
-    <value>逐字淡化</value>
+    <value>逐字淡入淡出</value>
   </data>
   <data name="ColorBindControl_ButtonEdit.ToolTipService.ToolTip" xml:space="preserve">
     <value>编辑颜色...</value>
@@ -325,10 +325,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
 *也可获取其他应用程序窗口中的颜色。</value>
   </data>
   <data name="ColorBindControl_TextBlockSpuitDescription.Text" xml:space="preserve">
-    <value>左键单击 = 吸取颜色, 右键单击 = 取消</value>
+    <value>左键单击 = 吸管工具，右键单击 = 取消</value>
   </data>
   <data name="ColorBindControl_TextBlockWeb16.Text" xml:space="preserve">
-    <value>Hex RGB: #</value>
+    <value>十六进制 RGB：#</value>
   </data>
   <data name="ColorBindModel_Undo_Color" xml:space="preserve">
     <value>更改颜色</value>
@@ -343,10 +343,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>编辑颜色</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>确定</value>
+    <value>确认</value>
   </data>
   <data name="Detail" xml:space="preserve">
-    <value>详细</value>
+    <value>详情</value>
   </data>
   <data name="DirectXCommon_DefaultFontName_Serif" xml:space="preserve">
     <value>Cambria</value>
@@ -361,7 +361,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>根据歌曲的起始和结束时间进行指定</value>
   </data>
   <data name="EditShowTimePage_RadioButtonIsTail.Content" xml:space="preserve">
-    <value>按照歌曲结束后的时间指定 (D)</value>
+    <value>按距离歌曲结束的时间指定 (D)</value>
   </data>
   <data name="EditShowTimePage_TextBlockChangingShowTime.Text" xml:space="preserve">
     <value>标题显示时间：</value>
@@ -379,10 +379,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>显示开始时间：</value>
   </data>
   <data name="EditShowTimePage_TextBlockIsHeadAndTailTailOffset.Text" xml:space="preserve">
-    <value>隐藏时长：</value>
+    <value>末尾隐藏时间：</value>
   </data>
   <data name="EditShowTimePage_TextBlockIsHeadHeadEnd.Text" xml:space="preserve">
-    <value>显示结束时间</value>
+    <value>显示结束时间：</value>
   </data>
   <data name="EditShowTimePage_TextBlockIsHeadHeadOffset.Text" xml:space="preserve">
     <value>显示开始时间：</value>
@@ -391,13 +391,13 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>显示时间：</value>
   </data>
   <data name="EditShowTimePage_TextBlockIsTailTailOffset.Text" xml:space="preserve">
-    <value>隐藏结束时间：</value>
+    <value>末尾隐藏时间：</value>
   </data>
   <data name="EditShowTimePageViewModel_Information_BadSource" xml:space="preserve">
-    <value>(背景素材未被指定。)</value>
+    <value>（背景素材未正确指定。）</value>
   </data>
   <data name="EditShowTimeWindow.Title" xml:space="preserve">
-    <value>编辑标题显示时间：</value>
+    <value>编辑标题显示时间</value>
   </data>
   <data name="EditSoundListPage_ButtonAdd.ToolTipService.ToolTip" xml:space="preserve">
     <value>添加</value>
@@ -406,7 +406,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>浏览</value>
   </data>
   <data name="EditSoundListPage_TableViewColumnName.Header" xml:space="preserve">
-    <value>歌曲名称 (可选)</value>
+    <value>轨道名称（可选）</value>
   </data>
   <data name="EditSoundListPage_TableViewColumnPath.Header" xml:space="preserve">
     <value>音频文件</value>
@@ -415,16 +415,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>删除</value>
   </data>
   <data name="EditSoundListPage_TextBlockDescription.Text" xml:space="preserve">
-    <value>您可以指定多个音频文件，并可以通过拖拽左侧来调整它们的顺序。</value>
+    <value>可以指定多个音频文件。拖动每行左侧即可调整顺序。</value>
   </data>
   <data name="EditSoundListPageViewModel_Error_PathEmpty" xml:space="preserve">
-    <value>音频文件 "{0}" 未被指定。</value>
+    <value>尚未指定音频文件“{0}”。</value>
   </data>
   <data name="EditSoundListWindow_Title" xml:space="preserve">
-    <value>编辑音频列表窗口</value>
+    <value>编辑音频列表</value>
   </data>
   <data name="EditSubtitleActionPageViewModel_PageDescription" xml:space="preserve">
-    <value>配置字幕动作的细节。</value>
+    <value>配置字幕动作的详细设置。</value>
   </data>
   <data name="EditSubtitleActionPageViewModel_Title" xml:space="preserve">
     <value>编辑字幕动作</value>
@@ -433,21 +433,21 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>添加行的位置：</value>
   </data>
   <data name="EditTitlePage_TextBlockNote.Text" xml:space="preserve">
-    <value>(提示)
+    <value>（提示）
 - 可以输入多行文本。
-- 输入 @ 标签（例如 @Title）将使歌词文件中显示该 @ 标签的内容。</value>
+- 输入 @Title 等 @ 标签时，会显示歌词文件中对应 @ 标签的内容。</value>
   </data>
   <data name="EditTitlePageViewModel_AddTitlePositionName_0" xml:space="preserve">
-    <value>行首</value>
+    <value>开头</value>
   </data>
   <data name="EditTitlePageViewModel_AddTitlePositionName_1" xml:space="preserve">
-    <value>选中行之前</value>
+    <value>所选行之前</value>
   </data>
   <data name="EditTitlePageViewModel_AddTitlePositionName_2" xml:space="preserve">
-    <value>选中行之后</value>
+    <value>所选行之后</value>
   </data>
   <data name="EditTitlePageViewModel_AddTitlePositionName_3" xml:space="preserve">
-    <value>行末</value>
+    <value>末尾</value>
   </data>
   <data name="EditTitleWindow_TitleAdd" xml:space="preserve">
     <value>新建标题行</value>
@@ -456,23 +456,23 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>编辑标题行</value>
   </data>
   <data name="EmptyLineBreaker_Description" xml:space="preserve">
-    <value>在歌词文件空行处分页。
-走字时间差异较大处即使没有空行也仍会分段。</value>
+    <value>将在歌词文件的空行处分页。
+如果扫色时间存在差异，即使没有空行也会分段。</value>
   </data>
   <data name="EmptyLineBreaker_Name" xml:space="preserve">
-    <value>在空行分页</value>
+    <value>在空行位置分页</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>错误</value>
   </data>
   <data name="FadeSubtitleActionSelector_Description" xml:space="preserve">
-    <value>在歌词段落开始句淡入，结束句淡出。</value>
+    <value>文本会在每个段落开头淡入，并在段落末尾淡出。</value>
   </data>
   <data name="FadeSubtitleActionSelector_Name" xml:space="preserve">
-    <value>段落处淡入淡出</value>
+    <value>在段落分隔处淡入淡出</value>
   </data>
   <data name="Fatal" xml:space="preserve">
-    <value>致命错误</value>
+    <value>严重错误</value>
   </data>
   <data name="File_HelpWithoutExtension" xml:space="preserve">
     <value>CFileMerge2_en-us</value>
@@ -493,7 +493,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>默认字体</value>
   </data>
   <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
-    <value>字体细节</value>
+    <value>字体外观</value>
   </data>
   <data name="FontFaceInfoModel_FontName_Undo" xml:space="preserve">
     <value>字体</value>
@@ -505,13 +505,13 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>描边 2</value>
   </data>
   <data name="FontFaceInfoModel_XScale_Undo" xml:space="preserve">
-    <value>长宽比例</value>
+    <value>X 方向缩放</value>
   </data>
   <data name="FontFaceSettingsWindow_Title" xml:space="preserve">
-    <value>"{0}"字体外观设置</value>
+    <value>“{0}”的字体外观设置</value>
   </data>
   <data name="FontSelectorPageViewModel_PageDescription" xml:space="preserve">
-    <value>自动设置所有行的字体</value>
+    <value>自动为所有行设置字体。</value>
   </data>
   <data name="FontSelectorPageViewModel_Title" xml:space="preserve">
     <value>自动设置字体</value>
@@ -538,53 +538,53 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>显示常规帮助。</value>
   </data>
   <data name="Information" xml:space="preserve">
-    <value>资讯</value>
+    <value>信息</value>
   </data>
   <data name="LatestInfoHistoryPage_ButtonCheckRss.Content" xml:space="preserve">
-    <value>立即检查最新资讯</value>
+    <value>立即检查最新消息</value>
   </data>
   <data name="LatestInfoHistoryPage_ButtonClose.Content" xml:space="preserve">
     <value>关闭</value>
   </data>
   <data name="LatestInfoHistoryPage_ButtonDetail.Content" xml:space="preserve">
-    <value>详细</value>
+    <value>详情</value>
   </data>
   <data name="LatestInfoHistoryPageViewModel_Error_OpenDetailNotSelect" xml:space="preserve">
-    <value>请选择想要查看的最新资讯。</value>
+    <value>请选择想要查看的最新消息。</value>
   </data>
   <data name="LatestInfoHistoryWindow_Title" xml:space="preserve">
-    <value>关于 {0} 的最新资讯</value>
+    <value>{0} 的最新消息</value>
   </data>
   <data name="LatestInfoManager_Ask_AskDisplayLatestAsync" xml:space="preserve">
-    <value>找到 {0} 条最新资讯。
-是否查看？</value>
+    <value>发现 {0} 条最新消息。
+要查看吗？</value>
   </data>
   <data name="LatestInfoManager_Cancel_AskDisplayLatestAsync" xml:space="preserve">
     <value>已取消。</value>
   </data>
   <data name="LatestInfoManager_Error_CheckAsync" xml:space="preserve">
-    <value>检查最新资讯时出错：</value>
+    <value>检查最新消息时出错：</value>
   </data>
   <data name="LatestInfoManager_Error_DisplayLatest_Not" xml:space="preserve">
-    <value>无法显示最新资讯。</value>
+    <value>无法显示最新消息。</value>
   </data>
   <data name="LatestInfoManager_Error_DisplayLatest_Part" xml:space="preserve">
-    <value>部分最新资讯无法显示。</value>
+    <value>部分最新消息无法显示。</value>
   </data>
   <data name="LatestInfoManager_NoInfo_CheckAsync" xml:space="preserve">
-    <value>没有新的资讯。</value>
+    <value>没有更新。</value>
   </data>
   <data name="LayoutSelectorPageViewModel_PageDescription" xml:space="preserve">
-    <value>为所有行设置布局。</value>
+    <value>自动为所有行设置布局。</value>
   </data>
   <data name="LayoutSelectorPageViewModel_Title" xml:space="preserve">
     <value>自动设置布局</value>
   </data>
   <data name="LineBreakerPageViewModel_PageDescription" xml:space="preserve">
-    <value>自动设置所有分页和分段。</value>
+    <value>自动设置所有分隔（分页和分段）。</value>
   </data>
   <data name="LineBreakerPageViewModel_Title" xml:space="preserve">
-    <value>自动设置分页分段</value>
+    <value>自动设置分页和分段</value>
   </data>
   <data name="LineFadeIn_Description" xml:space="preserve">
     <value>淡入整行</value>
@@ -605,17 +605,17 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>淡出</value>
   </data>
   <data name="LinesLayoutSelector_Description" xml:space="preserve">
-    <value>根据分页行数设置对应布局。
-例：3行的分页→3行的布局</value>
+    <value>根据页面行数应用相同行数的布局。
+示例：3 行页面 → 3 行布局</value>
   </data>
   <data name="LinesLayoutSelector_Name" xml:space="preserve">
-    <value>使用分页行数对应布局</value>
+    <value>根据行数设置布局</value>
   </data>
   <data name="LyricsFontBrushControl_ButtonAddPosition.ToolTipService.ToolTip" xml:space="preserve">
     <value>添加标记</value>
   </data>
   <data name="LyricsFontBrushControl_ButtonBrowseBitmapPath.Content" xml:space="preserve">
-    <value>浏览</value>
+    <value>浏览...</value>
   </data>
   <data name="LyricsFontBrushControl_ButtonRemovePosition.ToolTipService.ToolTip" xml:space="preserve">
     <value>删除标记</value>
@@ -624,14 +624,14 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>图像文件：</value>
   </data>
   <data name="LyricsFontBrushControl_TextBlockBitmapScale.Text" xml:space="preserve">
-    <value>放大倍率：</value>
+    <value>缩放倍率：</value>
   </data>
   <data name="LyricsFontBrushControl_TextBlockMarkerInfo.Text" xml:space="preserve">
-    <value>点击所需位置以添加标记。
-也可以通过拖拽顶部或底部边缘来添加标记。</value>
+    <value>单击所需位置即可添加标记。
+也可以拖动顶部或底部边缘来添加标记。</value>
   </data>
   <data name="LyricsFontBrushControl_TextBlockSelectedMultiPosition.Text" xml:space="preserve">
-    <value>标记位置:</value>
+    <value>标记位置：</value>
   </data>
   <data name="LyricsFontBrushControl_ToggleButtonBitmap.ToolTipService.ToolTip" xml:space="preserve">
     <value>图像</value>
@@ -643,34 +643,43 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>分层</value>
   </data>
   <data name="LyricsFontBrushControl_ToggleButtonSolid.ToolTipService.ToolTip" xml:space="preserve">
-    <value>单色</value>
+    <value>纯色填充</value>
   </data>
   <data name="LyricsFontControl_ButtonFontFaceSettings.ToolTipService.ToolTip" xml:space="preserve">
     <value>字体外观设置...</value>
   </data>
   <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
-    <value>交换走字前后配色</value>
+    <value>交换扫色前后配色</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyAfterWipeToBefore.Text" xml:space="preserve">
+    <value>将擦除后的配色方案复制到擦除前的配色方案</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyBeforeWipeToAfter.Text" xml:space="preserve">
+    <value>将擦除前的配色方案复制到擦除后的配色方案</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemSwapWipe.Text" xml:space="preserve">
+    <value>擦拭前后交换配色方案</value>
   </data>
   <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
-    <value>走字后  走字前</value>
+    <value>扫色后  扫色前</value>
   </data>
   <data name="LyricsFontControl_TextBlockBlurLevel.Text" xml:space="preserve">
-    <value>模糊强度:</value>
+    <value>模糊强度：</value>
   </data>
   <data name="LyricsFontControl_TextBlockBrushInfo.Text" xml:space="preserve">
     <value>配色方案</value>
   </data>
   <data name="LyricsFontControl_TextBlockDecorKind.Text" xml:space="preserve">
-    <value>歌词装饰类型：</value>
+    <value>文字装饰类型：</value>
   </data>
   <data name="LyricsFontControl_TextBlockDecorSizeSize.Text" xml:space="preserve">
-    <value>歌词装饰类型：</value>
+    <value>文字装饰尺寸：</value>
   </data>
   <data name="LyricsFontControl_TextBlockFontFaceInfo.Text" xml:space="preserve">
     <value>字体外观：</value>
   </data>
   <data name="LyricsFontControl_TextBlockFontInfo.Text" xml:space="preserve">
-    <value>歌词  注音</value>
+    <value>歌词   注音</value>
   </data>
   <data name="LyricsFontControl_TextBlockSample.Text" xml:space="preserve">
     <value>示例</value>
@@ -679,13 +688,13 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>装饰</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>装饰颜色（走字后）</value>
+    <value>装饰颜色（扫色后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorBefore.Content" xml:space="preserve">
     <value>装饰</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>装饰颜色（走字前）</value>
+    <value>装饰颜色（扫色前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonLyricAlnum.Content" xml:space="preserve">
     <value>英数</value>
@@ -706,40 +715,40 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>汉字（歌词）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharAfter.Content" xml:space="preserve">
-    <value>文本</value>
+    <value>文字</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>文本颜色（走字后）</value>
+    <value>文本颜色（扫色后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharBefore.Content" xml:space="preserve">
-    <value>文本</value>
+    <value>文字</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>文本颜色（走字前）</value>
+    <value>文本颜色（扫色前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2After.Content" xml:space="preserve">
     <value>描边 2 </value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2After.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边 2 颜色（走字后）</value>
+    <value>描边 2 颜色（扫色后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2Before.Content" xml:space="preserve">
     <value>描边 2</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2Before.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边 2 颜色（走字前）</value>
+    <value>描边 2 颜色（扫色前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.Content" xml:space="preserve">
     <value>描边</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边颜色（走字后）</value>
+    <value>描边颜色（扫色后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.Content" xml:space="preserve">
     <value>描边</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边颜色（走字前）</value>
+    <value>描边颜色（扫色前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonRubyAlnum.Content" xml:space="preserve">
     <value>英数</value>
@@ -773,7 +782,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockDetail.Text" xml:space="preserve">
-    <value>详细：</value>
+    <value>详情：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSize2Size.Text" xml:space="preserve">
     <value>描边 2 宽度：</value>
@@ -785,7 +794,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSize.Text" xml:space="preserve">
-    <value>Edge width:</value>
+    <value>描边宽度：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockEdgeSizeSizeNote_0.Text" xml:space="preserve">
     <value>（如果为 0 ，将设置为：</value>
@@ -800,16 +809,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>（如果留空，将设置为：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockFontNameNote_1.Text" xml:space="preserve">
-    <value>)</value>
+    <value>）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_0.Text" xml:space="preserve">
-    <value>（如果为 - ，将设置为</value>
+    <value>（如果为 -，则设置为：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockUseEdge2Note_1.Text" xml:space="preserve">
     <value>）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
-    <value>长宽比例：</value>
+    <value>X 方向缩放：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
     <value>（如果为 0 ，将设置为：</value>
@@ -818,7 +827,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>）</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
-    <value>走字后 / 文本颜色</value>
+    <value>扫色后 / 文字颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_1" xml:space="preserve">
     <value>描边颜色</value>
@@ -830,7 +839,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>装饰颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_4" xml:space="preserve">
-    <value>走字前 / 文本颜色</value>
+    <value>扫色前 / 文字颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_5" xml:space="preserve">
     <value>描边颜色</value>
@@ -866,10 +875,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>模糊强度</value>
   </data>
   <data name="LyricsFontModel_Undo_DecorKind" xml:space="preserve">
-    <value>文本装饰类型</value>
+    <value>文字装饰类型</value>
   </data>
   <data name="LyricsFontModel_Undo_DecorSize" xml:space="preserve">
-    <value>装饰尺寸</value>
+    <value>文字装饰尺寸</value>
   </data>
   <data name="LyricsInfoControl_ButtonBrowseSourceLyricsPath.Content" xml:space="preserve">
     <value>浏览...</value>
@@ -884,10 +893,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>歌词</value>
   </data>
   <data name="LyricsInfoControl_TableViewColumnLyricsBeginTime.Header" xml:space="preserve">
-    <value>走字开始</value>
+    <value>演唱开始</value>
   </data>
   <data name="LyricsInfoControl_TableViewColumnLyricsEndTime.Header" xml:space="preserve">
-    <value>走字结束</value>
+    <value>演唱结束</value>
   </data>
   <data name="LyricsInfoControl_TableViewColumnShowBeginTime.Header" xml:space="preserve">
     <value>显示开始</value>
@@ -914,7 +923,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>歌词文件名称</value>
   </data>
   <data name="LyricsLayoutControl_AllowBiting.Content" xml:space="preserve">
-    <value>允许字符重叠</value>
+    <value>允许部分字符重叠</value>
   </data>
   <data name="LyricsLayoutControl_ButtonAddHorizontalLayout.ToolTipService.ToolTip" xml:space="preserve">
     <value>添加左右布局</value>
@@ -923,7 +932,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>移除左右布局</value>
   </data>
   <data name="LyricsLayoutControl_HorizontalAlignment.Text" xml:space="preserve">
-    <value>每行左右对齐</value>
+    <value>每行的左右布局</value>
   </data>
   <data name="LyricsLayoutControl_HorizontalMarginSize.Text" xml:space="preserve">
     <value>左右边距</value>
@@ -932,16 +941,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>行间距</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockLyricsAndRubyIntervalSize.Text" xml:space="preserve">
-    <value>歌词注音行距</value>
+    <value>歌词与注音间距：</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockLyricsIntervalSize.Text" xml:space="preserve">
-    <value>字间距</value>
+    <value>歌词字间距：</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockRubyAlignment.Text" xml:space="preserve">
     <value>注音位置</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockRubyIntervalSize.Text" xml:space="preserve">
-    <value>注音字间距:</value>
+    <value>注音字间距：</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockSmartHorizon.Text" xml:space="preserve">
     <value>智能水平布局</value>
@@ -956,19 +965,19 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>顶间距：</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
-    <value>置底</value>
+    <value>底部</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonCenter.Content" xml:space="preserve">
     <value>居中</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonTop.Content" xml:space="preserve">
-    <value>置顶</value>
+    <value>顶部</value>
   </data>
   <data name="LyricsLayoutModel_ModelName" xml:space="preserve">
     <value>布局</value>
   </data>
   <data name="LyricsLayoutModel_Undo_AllowBiting" xml:space="preserve">
-    <value>允许字符重叠</value>
+    <value>允许部分字符重叠</value>
   </data>
   <data name="LyricsLayoutModel_Undo_HorizontalMargin" xml:space="preserve">
     <value>左右边距</value>
@@ -977,10 +986,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>行间距</value>
   </data>
   <data name="LyricsLayoutModel_Undo_LyricsAndRubyInterval" xml:space="preserve">
-    <value>歌词注音行距</value>
+    <value>歌词与注音间距</value>
   </data>
   <data name="LyricsLayoutModel_Undo_LyricsInterval" xml:space="preserve">
-    <value>歌词间距</value>
+    <value>歌词字间距</value>
   </data>
   <data name="LyricsLayoutModel_Undo_RubyAlignment" xml:space="preserve">
     <value>注音位置</value>
@@ -1027,10 +1036,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>工具</value>
   </data>
   <data name="MainPage_MenuFlyoutItemAbout.Text" xml:space="preserve">
-    <value>帮助...</value>
+    <value>关于...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemChat.Text" xml:space="preserve">
-    <value>联系作者（日文）</value>
+    <value>联系聊天（日语）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemCheckUpdate.Text" xml:space="preserve">
     <value>检查更新</value>
@@ -1039,19 +1048,19 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>关于商业使用</value>
   </data>
   <data name="MainPage_MenuFlyoutItemFaq.Text" xml:space="preserve">
-    <value>FAQ (日文)</value>
+    <value>FAQ（日语）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemHelp.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
   <data name="MainPage_MenuFlyoutItemHistory.Text" xml:space="preserve">
-    <value>更新历史（日文）</value>
+    <value>更新历史（日语）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemNew.Text" xml:space="preserve">
     <value>新建...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemNicoKaraList.Text" xml:space="preserve">
-    <value>创建卡拉OK视频列表...</value>
+    <value>创建卡拉 OK 视频列表...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemOpen.Text" xml:space="preserve">
     <value>打开...</value>
@@ -1075,22 +1084,22 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>设置...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemSupport.Text" xml:space="preserve">
-    <value>赞助</value>
+    <value>赞助作者</value>
   </data>
   <data name="MainPage_MenuFlyoutItemToastHistory.Text" xml:space="preserve">
-    <value>通知历史...</value>
+    <value>通知历史记录...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemTranslationProject.Text" xml:space="preserve">
-    <value>翻译工程...</value>
+    <value>翻译项目</value>
   </data>
   <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
-    <value>教学（日文视频）</value>
+    <value>教程（日语视频）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemTutorialText.Text" xml:space="preserve">
-    <value>教学（文本）</value>
+    <value>教程（文字）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemWarnings.Text" xml:space="preserve">
-    <value>信息列表...</value>
+    <value>警告和信息列表...</value>
   </data>
   <data name="MainPage_MenuFlyoutSubItemRecent.Text" xml:space="preserve">
     <value>最近打开的项目</value>
@@ -1117,11 +1126,11 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>标题设置</value>
   </data>
   <data name="MainPage_ToggleButtonWelcome.ToolTipService.ToolTip" xml:space="preserve">
-    <value>欢迎页</value>
+    <value>欢迎</value>
   </data>
   <data name="MainPageControlViewModel_SynchronizeOff_Confirm" xml:space="preserve">
-    <value>关闭同步将阻止其他项目中的更改被反映。
-此外，当您尝试重新开启同步时，可能会发生冲突。
+    <value>关闭同步后，其他项目中的更改将不会反映到这里。
+另外，重新开启同步时可能会发生冲突。
 
 确定要关闭吗？</value>
   </data>
@@ -1136,10 +1145,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>模板不受支持。</value>
   </data>
   <data name="MainPageControlViewModel_SynchronizeOn_Information_Registered" xml:space="preserve">
-    <value>"{0}" 已经注册为模板。</value>
+    <value>“{0}” 已经注册为模板。</value>
   </data>
   <data name="MainPageControlViewModel_SynchronizeOn_Information_Renamed" xml:space="preserve">
-    <value>因已有同名模板，已将新模板命名为 "{0}" 并注册。</value>
+    <value>已存在同名模板，因此将设置名称改为“{0}”并注册。</value>
   </data>
   <data name="MainPageFontControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
     <value>搜索字体设置</value>
@@ -1172,15 +1181,15 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>字体外观</value>
   </data>
   <data name="MainPageFontControlViewModel_Caption" xml:space="preserve">
-    <value>字体设置面板允许您配置“歌词设置”面板中指定字体的详细设置。
-您只需设置“字体设置 1”即可创建字幕，但也可以根据需要设置多种字体。</value>
+    <value>字体设置面板可用于配置“歌词设置”面板中指定字体的详细设置。
+只设置“字体设置 1”即可创建字幕，也可以根据需要设置多套字体。</value>
   </data>
   <data name="MainPageFontControlViewModel_Confirm_AddLyricsFont" xml:space="preserve">
-    <value>复制 "{0}" 并将其添加到字体设置中。
+    <value>复制“{0}”并添加到字体设置中。
 确定吗？</value>
   </data>
   <data name="MainPageFontControlViewModel_Confirm_RemoveLyricsFont" xml:space="preserve">
-    <value>移除 "{0}"。
+    <value>移除“{0}”。
 确定吗？</value>
   </data>
   <data name="MainPageFontControlViewModel_DecorKindNames_0" xml:space="preserve">
@@ -1196,19 +1205,19 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>请输入搜索关键词。</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
-    <value>模板 "{0}" 已在使用中。</value>
+    <value>模板“{0}” 已在使用中。</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
-    <value>(名称已更改为 "{0}")</value>
+    <value>(名称已更改为“{0}”)</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
     <value>无法加载模板。</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_NoSearch" xml:space="preserve">
-    <value>没有找到包含 "{0}" 的字体设置。</value>
+    <value>未找到名称中包含“{0}”的字体设置。</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_RemoveLyricsFont" xml:space="preserve">
-    <value>无法移除最后一个字体设置。</value>
+    <value>无法移除最后一项字体设置。</value>
   </data>
   <data name="MainPageFontControlViewModel_Error_RemovePositionFirst" xml:space="preserve">
     <value>顶部标记无法被移除。</value>
@@ -1217,28 +1226,34 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>底部标记无法被移除。</value>
   </data>
   <data name="MainPageFontControlViewModel_Information_CheckMarkers0P" xml:space="preserve">
-    <value>字体设置中存在多个位于0%的标记: {0} - {1}</value>
+    <value>字体设置中存在多个位于 0% 位置的标记：{0} - {1}</value>
   </data>
   <data name="MainPageFontControlViewModel_Information_CheckMarkers100P" xml:space="preserve">
-    <value>字体设置中存在多个位于100%的标记: {0} - {1}</value>
+    <value>字体设置中存在多个位于 100% 位置的标记：{0} - {1}</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_AddLyricsFont" xml:space="preserve">
     <value>添加字体设置</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyAfterWipeToBefore" xml:space="preserve">
+    <value>将擦除后的配色方案复制到擦除前的配色方案</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyBeforeWipeToAfter" xml:space="preserve">
+    <value>将擦除前的配色方案复制到擦除后的配色方案</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
     <value>使用字体模板</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_RemoveLyricsFont" xml:space="preserve">
-    <value>移除字体设置 "{0}"</value>
+    <value>移除字体设置“{0}”</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_SwapWipe" xml:space="preserve">
-    <value>交换走字前后配色</value>
+    <value>交换扫色前后配色</value>
   </data>
   <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
-    <value>帧速率：</value>
+    <value>帧率：</value>
   </data>
   <data name="MainPageLayoutControl_ButtonSearch.ToolTipService.ToolTip" xml:space="preserve">
-    <value>设置搜索布局</value>
+    <value>搜索布局设置</value>
   </data>
   <data name="MainPageLayoutControl_ButtonTool.ToolTipService.ToolTip" xml:space="preserve">
     <value>工具</value>
@@ -1265,11 +1280,11 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>同步</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Caption" xml:space="preserve">
-    <value>布局设置面板允许您配置“歌词设置”面板中指定布局的详细设置。
-您只需设置“布局设置 1”即可放置字幕，但也可以根据需要设置多种布局。</value>
+    <value>布局设置面板可用于配置“歌词设置”面板中指定布局的详细设置。
+只设置“布局设置 1”即可放置字幕，也可以根据需要设置多套布局。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Confirm_AddLyricsLayout" xml:space="preserve">
-    <value>复制“{0}”并将其添加到布局设置中。
+    <value>复制“{0}”并添加到布局设置中。
 确定吗？</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Confirm_RemoveLyricsLayout" xml:space="preserve">
@@ -1280,16 +1295,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>请输入搜索关键词。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDup" xml:space="preserve">
-    <value>模板 "{0}" 已在使用中。</value>
+    <value>模板“{0}” 已在使用中。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_LoadTemplateDupChange" xml:space="preserve">
-    <value>(名称已更改为 "{0}")</value>
+    <value>(名称已更改为“{0}”)</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_LoadTemplateUnable" xml:space="preserve">
     <value>模板无法加载。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_NoSearch" xml:space="preserve">
-    <value>没有找到包含 "{0}" 的布局设置。</value>
+    <value>没有找到包含“{0}” 的布局设置。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Error_RemoveHorizontalLayoutLast" xml:space="preserve">
     <value>无法移除最后一个设置。</value>
@@ -1301,16 +1316,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>无法移除最后一个布局设置。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_0" xml:space="preserve">
-    <value>自动配置</value>
+    <value>自动放置</value>
   </data>
   <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_1" xml:space="preserve">
     <value>居中</value>
   </data>
   <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_2" xml:space="preserve">
-    <value>均匀扩散</value>
+    <value>均匀分布</value>
   </data>
   <data name="MainPageLayoutControlViewModel_SmartHorizonNames_0" xml:space="preserve">
-    <value>不进行调整</value>
+    <value>不调整</value>
   </data>
   <data name="MainPageLayoutControlViewModel_SmartHorizonNames_1" xml:space="preserve">
     <value>居中对齐</value>
@@ -1331,7 +1346,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>移除左右布局</value>
   </data>
   <data name="MainPageLayoutControlViewModel_Undo_RemoveLyricsLayout" xml:space="preserve">
-    <value>移除布局设置 "{0}"</value>
+    <value>移除布局设置“{0}”</value>
   </data>
   <data name="MainPageLyricsControl_ButtonFontSelector.ToolTipService.ToolTip" xml:space="preserve">
     <value>自动设置字体</value>
@@ -1340,7 +1355,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>自动设置布局</value>
   </data>
   <data name="MainPageLyricsControl_ButtonLineBreaker.ToolTipService.ToolTip" xml:space="preserve">
-    <value>自动设置分页分段...</value>
+    <value>自动设置分页和分段...</value>
   </data>
   <data name="MainPageLyricsControl_ButtonShowTimeAdjuster.ToolTipService.ToolTip" xml:space="preserve">
     <value>自动设置显示开始和结束时间...</value>
@@ -1352,7 +1367,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>工具</value>
   </data>
   <data name="MainPageLyricsControl_MenuFlyoutItemAddMultiTextInfo.Text" xml:space="preserve">
-    <value>自动设置歌词</value>
+    <value>添加歌词设置</value>
   </data>
   <data name="MainPageLyricsControl_MenuFlyoutItemEditAction.Text" xml:space="preserve">
     <value>编辑字幕动作...</value>
@@ -1361,32 +1376,32 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>移除歌词设置</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Caption" xml:space="preserve">
-    <value>歌词设置面板允许您指定歌词的字体、布局及其他设置。
-您只需配置“歌词设置 1”即可创建字幕，但也可以根据需要设置多个歌词。</value>
+    <value>歌词设置面板可用于指定歌词的字体、布局和其他设置。
+只配置“歌词设置 1”即可创建字幕，也可以根据需要设置多套歌词。</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_Reloaded" xml:space="preserve">
-    <value>歌词文件“{0}”已更新，其内容已同步更新。</value>
+    <value>歌词文件“{0}”已更新，内容已同步反映。</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_ReloadedAfterLoad" xml:space="preserve">
-    <value>歌词文件“{0}”自上次项目保存以来已更新，其内容已同步更新。</value>
+    <value>歌词文件“{0}”在上次保存项目后已更新，内容已同步反映。</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc" xml:space="preserve">
-    <value>自动操作{0}已运行。</value>
+    <value>已自动设置{0}。</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc_FontSelector" xml:space="preserve">
-    <value>,字体 </value>
+    <value>，字体</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc_LayoutSelector" xml:space="preserve">
-    <value>,布局 </value>
+    <value>，布局</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc_LineBreaker" xml:space="preserve">
-    <value>,分页分段 </value>
+    <value>，分页和分段</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc_ShowTimeAdjuster" xml:space="preserve">
-    <value>,显示时间 </value>
+    <value>，显示时间</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Information_RunMisc_SubtitleActionSelector" xml:space="preserve">
-    <value>,动作 </value>
+    <value>，动作</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Undo_RunFontSelector" xml:space="preserve">
     <value>自动设置字体</value>
@@ -1395,7 +1410,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>自动设置布局</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Undo_RunLineBreaker" xml:space="preserve">
-    <value>自动设置分页分段</value>
+    <value>自动设置分页和分段</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Undo_RunShowTimeAdjuster" xml:space="preserve">
     <value>自动设置显示开始和结束时间</value>
@@ -1404,25 +1419,25 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>自动设置动作</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Warning_ShowBeginTimeGtLyricsActualBeginTime" xml:space="preserve">
-    <value>显示的开始时间晚于走字开始时间。</value>
+    <value>显示开始时间晚于演唱开始时间。</value>
   </data>
   <data name="MainPageLyricsControlViewModel_Warning_ShowEndTimeLtLyricsActualEndTime" xml:space="preserve">
-    <value>显示的结束时间早于走字结束时间。</value>
+    <value>显示结束时间早于演唱结束时间。</value>
   </data>
   <data name="MainPageMultiTextViewModel_Confirm_AddMultiTextInfo" xml:space="preserve">
     <value>添加 {0} 设置。
 确定吗？</value>
   </data>
   <data name="MainPageMultiTextViewModel_Confirm_RemoveMultiTextInfo" xml:space="preserve">
-    <value>删除 "{0}".
+    <value>删除“{0}”。
 确定吗？</value>
   </data>
   <data name="MainPageMultiTextViewModel_Error_EditActionSelect" xml:space="preserve">
-    <value>请选择您希望编辑其字幕动作的行。
-（可选择多行。）</value>
+    <value>请选择要编辑字幕动作的行。
+（可以选择多行。）</value>
   </data>
   <data name="MainPageMultiTextViewModel_Error_EditActionValid" xml:space="preserve">
-    <value>请选择一个有效的 {0} 行.</value>
+    <value>请选择有效的 {0} 行。</value>
   </data>
   <data name="MainPageMultiTextViewModel_Error_NoLine" xml:space="preserve">
     <value>当前没有 {0} 行。</value>
@@ -1443,7 +1458,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>更改布局</value>
   </data>
   <data name="MainPageMultiTextViewModel_Undo_RemoveMultiTextInfo" xml:space="preserve">
-    <value>移除 {0} 设置 "{1}"</value>
+    <value>移除 {0} 设置“{1}”</value>
   </data>
   <data name="MainPageMultiTextViewModel_Undo_SubtitleActionChanged" xml:space="preserve">
     <value>更改动作</value>
@@ -1458,40 +1473,40 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>打开输出文件夹</value>
   </data>
   <data name="MainPageOutputControl_ButtonOutput.Content" xml:space="preserve">
-    <value>视频输出</value>
+    <value>导出视频</value>
   </data>
   <data name="MainPageOutputControl_CheckBoxDoubleFrame.Content" xml:space="preserve">
-    <value>更丝滑的走字（双帧速率）</value>
+    <value>让字幕扫色平滑度加倍（帧率加倍）</value>
   </data>
   <data name="MainPageOutputControl_HyperlinkButtonContentsTree2C.Content" xml:space="preserve">
     <value>NicoKara Maker 简易教学视频</value>
   </data>
   <data name="MainPageOutputControl_HyperlinkButtonCreatorSupport1C.Content" xml:space="preserve">
-    <value>支持创作者</value>
+    <value>创作者支持</value>
   </data>
   <data name="MainPageOutputControl_HyperlinkButtonFantia1C.Content" xml:space="preserve">
-    <value>请我喝奶茶</value>
+    <value>请我喝杯咖啡</value>
   </data>
   <data name="MainPageOutputControl_TextBlockContentsTree1.Text" xml:space="preserve">
-    <value>将制作的视频上传至 Niconico 时，您需要准备原始视频（即“背景素材”面板中指定的视频）以及，</value>
+    <value>将制作的视频上传到 Niconico 时，需要把原始视频（“背景素材”面板中指定的视频）以及</value>
   </data>
   <data name="MainPageOutputControl_TextBlockContentsTree2L.Text" xml:space="preserve">
-    <value>"</value>
+    <value>“</value>
   </data>
   <data name="MainPageOutputControl_TextBlockContentsTree2R.Text" xml:space="preserve">
-    <value>" (sm28311188) 作为内容树的父节点。</value>
+    <value>” (sm28311188) 登记为内容树的父作品。</value>
   </data>
   <data name="MainPageOutputControl_TextBlockContentsTree3.Text" xml:space="preserve">
-    <value>如果您将此视频上传至 YouTube 等视频网站而非 Niconico，请附上 sm28311188 的链接。</value>
+    <value>如果将此视频上传到 YouTube 等 Niconico 以外的视频网站，请附上 sm28311188 的链接。</value>
   </data>
   <data name="MainPageOutputControl_TextBlockCreatorSupport1L.Text" xml:space="preserve">
-    <value>Niconico 的 "</value>
+    <value>Niconico 的“</value>
   </data>
   <data name="MainPageOutputControl_TextBlockCreatorSupport1R.Text" xml:space="preserve">
-    <value>",</value>
+    <value>”，</value>
   </data>
   <data name="MainPageOutputControl_TextBlockCreatorSupport2.Text" xml:space="preserve">
-    <value>期待您在平台上完成注册。</value>
+    <value>欢迎在那里登记支持。</value>
   </data>
   <data name="MainPageOutputControl_TextBlockDestFormat.Text" xml:space="preserve">
     <value>导出格式：</value>
@@ -1500,10 +1515,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>导出文件名：</value>
   </data>
   <data name="MainPageOutputControl_TextBlockFantia1L.Text" xml:space="preserve">
-    <value>如果您喜欢该程序"</value>
+    <value>如果您喜欢这个应用，欢迎“</value>
   </data>
   <data name="MainPageOutputControl_TextBlockFantia1R.Text" xml:space="preserve">
-    <value>"</value>
+    <value>”。</value>
   </data>
   <data name="MainPageOutputControlViewModel_AddDestFile" xml:space="preserve">
     <value>_NicokaraOutput</value>
@@ -1512,22 +1527,22 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>Output</value>
   </data>
   <data name="MainPageOutputControlViewModel_Caption" xml:space="preserve">
-    <value>视频输出面板将会根据先前内容导出卡拉OK视频。请注意您的硬盘可用空间。</value>
+    <value>视频导出面板会根据前面的设置导出带卡拉 OK 字幕的视频。请注意 SSD/HDD 的可用空间。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Error_BadFfmpeg" xml:space="preserve">
-    <value>FFmpeg 未正确配置，无法导出 MP4 视频</value>
+    <value>FFmpeg 未正确配置，无法导出 MP4。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Error_DestPathNotSet" xml:space="preserve">
-    <value>导出文件名未被指定。</value>
+    <value>尚未指定导出文件名。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Error_SourceNotSet" xml:space="preserve">
-    <value>背景素材未被指定。</value>
+    <value>尚未指定背景素材。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Information_Avi" xml:space="preserve">
     <value>如果生成的未压缩 AVI 视频无法正常播放，请参阅帮助部分中的视频输出页面。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Information_AviOverFhd" xml:space="preserve">
-    <value>以未压缩的AVI格式输出分辨率高于 1080P 的视频，可能会耗费较长时间。</value>
+    <value>以未压缩 AVI 格式导出高于 Full HD 分辨率的视频，预计会花费较长时间。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Information_BadFfmpeg" xml:space="preserve">
     <value>FFmpeg 未正确配置。</value>
@@ -1539,38 +1554,38 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>快退</value>
   </data>
   <data name="MainPagePreviewControl_ButtonPlay.ToolTipService.ToolTip" xml:space="preserve">
-    <value>播放暂停</value>
+    <value>播放/暂停</value>
   </data>
   <data name="MainPagePreviewControl_ButtonStep.ToolTipService.ToolTip" xml:space="preserve">
-    <value>播放下一帧</value>
+    <value>逐帧播放</value>
   </data>
   <data name="MainPagePreviewControl_ButtonStop.ToolTipService.ToolTip" xml:space="preserve">
     <value>停止</value>
   </data>
   <data name="MainPagePreviewControl_ButtonWarnings.ToolTipService.ToolTip" xml:space="preserve">
-    <value>警告列表</value>
+    <value>警告和信息列表</value>
   </data>
   <data name="MainPagePreviewControl_TextBlockQuality.Text" xml:space="preserve">
     <value>渲染质量</value>
   </data>
   <data name="MainPagePreviewControl_TextBlockTimeStamp.Text" xml:space="preserve">
-    <value>时间轴</value>
+    <value>时间显示</value>
   </data>
   <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipMute" xml:space="preserve">
     <value>静音</value>
   </data>
   <data name="MainPagePreviewControlViewModel_ButtonMuteToolTipOutput" xml:space="preserve">
-    <value>音频播放设备受支持</value>
+    <value>可输出音频</value>
   </data>
   <data name="MainPagePreviewControlViewModel_Caption" xml:space="preserve">
-    <value>预览面板可让您在输出视频前查看效果。
-如果字幕较多，或者计算机性能较低的情况下，可能会在预览下出现字幕卡顿或出现不同步的情况，导出后不会有这个问题。</value>
+    <value>预览面板可在导出视频前检查效果。
+如果字幕很多或电脑性能较低，预览时字幕可能闪烁或不同步；导出视频时会正常显示。</value>
   </data>
   <data name="MainPageSoundControl_ButtonBrowseSoundPath.Content" xml:space="preserve">
     <value>编辑...</value>
   </data>
   <data name="MainPageSoundControl_TextBlockSoundPath.Text" xml:space="preserve">
-    <value>Audio:</value>
+    <value>音频：</value>
   </data>
   <data name="MainPageSourceControl_ButtonBrowseImagePath1.Content" xml:space="preserve">
     <value>浏览...</value>
@@ -1582,16 +1597,16 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>浏览...</value>
   </data>
   <data name="MainPageSourceControl_CheckBoxMoviePlusSound.Content" xml:space="preserve">
-    <value>使用外部音频文件</value>
+    <value>使用单独的音频文件</value>
   </data>
   <data name="MainPageSourceControl_TextBlockBackgroundColor.Text" xml:space="preserve">
-    <value>背景颜色:</value>
+    <value>背景颜色：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockBackgroundSize.Text" xml:space="preserve">
-    <value>分辨率:</value>
+    <value>分辨率：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockImagePath1.Text" xml:space="preserve">
-    <value>图像:</value>
+    <value>图像：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
     <value>图像序列中的第一张图片：</value>
@@ -1609,13 +1624,13 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>使用图像序列作为背景。</value>
   </data>
   <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
-    <value>背景视频：</value>
+    <value>用作背景的源视频：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
     <value>时长：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockSourceFrameRate.Text" xml:space="preserve">
-    <value>帧速率：</value>
+    <value>帧率：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockSourceInfo.Text" xml:space="preserve">
     <value>素材信息</value>
@@ -1670,10 +1685,10 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
 如果您不需要标题，则无需进行配置。</value>
   </data>
   <data name="MainPageTitleControlViewModel_Confirm_RemoveEmpty" xml:space="preserve">
-    <value>删除空白行。确定吗？</value>
+    <value>删除空行。确定吗？</value>
   </data>
   <data name="MainPageTitleControlViewModel_Confirm_RemoveMulti" xml:space="preserve">
-    <value>删除选中的 {0} 行。
+    <value>删除所选 {0} 行。
 确定吗？</value>
   </data>
   <data name="MainPageTitleControlViewModel_Confirm_RemoveTitle" xml:space="preserve">
@@ -1700,19 +1715,20 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>删除标题行</value>
   </data>
   <data name="MainPageViewModel_Confirm_LoadAutoSave" xml:space="preserve">
-    <value>发现一个先前自动保存的项目。
+    <value>发现之前自动保存的项目。
+
 项目：{0}
 自动保存日期和时间：{1}
 
-要恢复该项目吗？
+要恢复吗？
 
 （注意）
-选择“否”将删除该自动保存的项目。
-如果想继续编辑，请选择“是”。</value>
+选择“否”将删除自动保存的项目。
+如果想从上次中断的地方继续编辑，请选择“是”。</value>
   </data>
   <data name="MainPageViewModel_Confirm_Modify" xml:space="preserve">
-    <value>"{0}" 已被修改。
-是否保存？</value>
+    <value>“{0}”已被修改。
+要保存吗？</value>
   </data>
   <data name="MainPageViewModel_Confirm_Nkm2Project" xml:space="preserve">
     <value>从旧版 Nicokara Karaoke Video Maker 2 导入项目时，某些设置（如字幕动作）可能无法加载。
@@ -1734,19 +1750,19 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>无法恢复项目。</value>
   </data>
   <data name="MainPageViewModel_Information_Modify" xml:space="preserve">
-    <value> (有修改)</value>
+    <value>（已修改）</value>
   </data>
   <data name="MainPageViewModel_Information_None" xml:space="preserve">
-    <value>(空)</value>
+    <value>（无）</value>
   </data>
   <data name="MainPageViewModel_Information_ProjectSaved" xml:space="preserve">
-    <value>项目 "{0}" 已保存。</value>
+    <value>项目“{0}”已保存。</value>
   </data>
   <data name="MainPageViewModel_Information_UpdateLaunch" xml:space="preserve">
-    <value>[已应用更新]
+    <value>[更新已应用]
 
 {0} 已更新。
-有关更新的详细信息，请参阅 [帮助 → 更新历史] 菜单。</value>
+有关更新详情，请查看 [帮助 → 更新历史] 菜单。</value>
   </data>
   <data name="MainPageViewModel_MenuFlyoutItemContentsTreeText" xml:space="preserve">
     <value>使用 {0} 制作的视频列表</value>
@@ -1769,7 +1785,7 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
 使用前请仔细阅读帮助文档，并谨慎使用。</value>
   </data>
   <data name="MainPageWelcomeControl_ButtonNew.Content" xml:space="preserve">
-    <value>新项目 (使用模板)...</value>
+    <value>新建项目（可使用模板）...</value>
   </data>
   <data name="MainPageWelcomeControl_ButtonNextTips.ToolTipService.ToolTip" xml:space="preserve">
     <value>下一个提示</value>
@@ -1784,45 +1800,45 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>示例文件夹</value>
   </data>
   <data name="MainPageWelcomeControl_ButtonTutorialMovie.Content" xml:space="preserve">
-    <value>观看教学（日文视频）</value>
+    <value>观看教程（日语视频）</value>
   </data>
   <data name="MainPageWelcomeControl_ButtonTutorialText.Content" xml:space="preserve">
-    <value>观看教学（文本）</value>
+    <value>观看教程（文字）</value>
   </data>
   <data name="MainPageWelcomeControl_TextBlockStart.Text" xml:space="preserve">
-    <value>请选择创建新项目（制作带有卡拉OK字幕的新视频），还是打开现有项目（编辑已制作好的带有卡拉OK字幕的视频）。</value>
+    <value>请选择是新建项目（制作新的卡拉 OK 字幕视频），还是打开现有项目（编辑已制作的卡拉 OK 字幕视频）。</value>
   </data>
   <data name="MainPageWelcomeControl_TextBlockTipsHeader.Text" xml:space="preserve">
-    <value>技巧小贴士</value>
+    <value>实用技巧</value>
   </data>
   <data name="MainPageWelcomeControl_TextBlockTutorial.Text" xml:space="preserve">
-    <value>如果您是第一次使用，请查看教程。您可以使用示例素材制作带有卡拉OK字幕的视频。</value>
+    <value>如果是第一次使用，请先查看教程。可以使用示例素材制作带卡拉 OK 字幕的视频。</value>
   </data>
   <data name="MainPageWelcomeControlViewModel_Caption" xml:space="preserve">
-    <value>欢迎来到"{0}" {1} 。
-在 {0} 中，您可以通过左侧导航栏切换面板，并按照从上到下的顺序依次操作各面板，制作卡拉OK视频。
-有关各面板使用方法的详细说明，请参阅帮助文档。</value>
+    <value>欢迎使用“{0}”{1}。
+在 {0} 中，可以通过左侧导航切换面板，并按从上到下的顺序设置各面板，制作带字幕的卡拉 OK 视频。
+各面板的详细使用方法请参阅帮助。</value>
   </data>
   <data name="MainPageWelcomeControlViewModel_TipsDescription" xml:space="preserve">
-    <value>熟悉了{0}的使用后，不妨尝试运用这些技巧，挑战更高难度的卡拉OK视频。</value>
+    <value>熟悉 {0} 后，可以尝试这些技巧，制作更高水平的卡拉 OK 字幕视频。</value>
   </data>
   <data name="Meta_Language" xml:space="preserve">
     <value>zh-CN</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockSettingsName.Text" xml:space="preserve">
-    <value>编码设置名称:</value>
+    <value>编码设置名称：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockSoundVbr.Text" xml:space="preserve">
-    <value>音频码率:</value>
+    <value>音频码率：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
-    <value>视频额外选项:</value>
+    <value>视频附加选项：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockVideoCodec.Text" xml:space="preserve">
-    <value>视频编码器:</value>
+    <value>视频编码器：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockVideoDevice.Text" xml:space="preserve">
-    <value>视频编码设备:</value>
+    <value>视频编码设备：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockX264CrfHighQuality.Text" xml:space="preserve">
     <value>高质量</value>
@@ -1843,59 +1859,59 @@ If you do not want to insert a table of contents, do not use the Toc tag.</value
     <value>数字越小，视频质量越高。</value>
   </data>
   <data name="Mp4SettingsModel_Error_UnableSet" xml:space="preserve">
-    <value>无法设置视频参数： {0}</value>
+    <value>无法设置视频参数：{0}</value>
   </data>
   <data name="Mp4SettingsModel_Mp4VideoDeviceNames_0" xml:space="preserve">
     <value>软件</value>
   </data>
   <data name="Mp4SettingsModel_Mp4VideoDeviceNames_1" xml:space="preserve">
-    <value>硬件 (Intel/QSV)</value>
+    <value>硬件（Intel/QSV）</value>
   </data>
   <data name="Mp4SettingsModel_Mp4VideoDeviceNames_2" xml:space="preserve">
-    <value>硬件 (AMD/AMF)</value>
+    <value>硬件（AMD/AMF）</value>
   </data>
   <data name="Mp4SettingsModel_Mp4VideoDeviceNames_3" xml:space="preserve">
-    <value>硬件 (NVIDIA/NVENC)</value>
+    <value>硬件（NVIDIA/NVENC）</value>
   </data>
   <data name="Mp4SettingsModel_New" xml:space="preserve">
     <value>新建</value>
   </data>
   <data name="Mp4SettingsModel_Quality" xml:space="preserve">
-    <value>质量[{0}]:</value>
+    <value>质量[{0}]：</value>
   </data>
   <data name="Mp4SettingsModel_SoftwareNotice" xml:space="preserve">
     <value>将其设置为低于 {0} 不会带来更明显的画质提升，只会浪费文件空间。</value>
   </data>
   <data name="Mp4SettingsModel_VideoCodecNoticeH264" xml:space="preserve">
-    <value>兼容性最广。</value>
+    <value>可在多种环境中播放，兼容性较好。</value>
   </data>
   <data name="Mp4SettingsModel_VideoCodecNoticeH265" xml:space="preserve">
     <value>视频质量高，文件体积小。</value>
   </data>
   <data name="Mp4SettingsModel_VideoDeviceNoticeHardware" xml:space="preserve">
-    <value>在 {0} 环境中，编码速度相对较快。
-在不受支持的环境中会出错。视频质量可能会降低，文件大小相对较大。</value>
+    <value>在 {0} 环境中编码速度较快。
+不支持的环境会出错。视频质量会降低，文件体积会变大。</value>
   </data>
   <data name="Mp4SettingsModel_VideoDeviceNoticeSoftware" xml:space="preserve">
-    <value>在任何计算机都可进行编码，兼容性好。
+    <value>可在多种环境中编码。
 视频质量高，文件体积小。</value>
   </data>
   <data name="NicoKaraListOutputPage_ButtonAbort.Content" xml:space="preserve">
     <value>中止</value>
   </data>
   <data name="NicoKaraListOutputPage_TextBlockStatus.Text" xml:space="preserve">
-    <value>正在创建卡拉OK视频列表...</value>
+    <value>正在创建卡拉 OK 视频列表...</value>
   </data>
   <data name="NicoKaraListOutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
-    <value>您是否要停止输出卡拉OK视频列表？</value>
+    <value>要停止导出卡拉 OK 视频列表吗？</value>
   </data>
   <data name="NicoKaraListOutputPageViewModel_Information_Aborting" xml:space="preserve">
     <value>正在中止...</value>
   </data>
   <data name="NicoKaraListOutputPageViewModel_Information_Done" xml:space="preserve">
-    <value>卡拉OK视频列表输出完毕。
+    <value>卡拉 OK 视频列表导出完成。
 
-Elapsed time: {0}</value>
+用时：{0}</value>
   </data>
   <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_0" xml:space="preserve">
     <value>准备中...</value>
@@ -1910,16 +1926,16 @@ Elapsed time: {0}</value>
     <value>输出中...</value>
   </data>
   <data name="NicoKaraListOutputPageViewModel_ListOutputStatus_4" xml:space="preserve">
-    <value>已经完成</value>
+    <value>已完成</value>
   </data>
   <data name="NicoKaraListOutputWindow.Title" xml:space="preserve">
-    <value>输出卡拉OK视频列表</value>
+    <value>导出卡拉 OK 视频列表</value>
   </data>
   <data name="NicoKaraListPage_ButtonBrowseDestFolder.Content" xml:space="preserve">
     <value>浏览...</value>
   </data>
   <data name="NicoKaraListPage_ButtonDownloadUpdate.Content" xml:space="preserve">
-    <value>下载更新</value>
+    <value>立即下载更新</value>
   </data>
   <data name="NicoKaraListPage_ButtonList.Content" xml:space="preserve">
     <value>创建列表</value>
@@ -1928,22 +1944,22 @@ Elapsed time: {0}</value>
     <value>打开导出文件夹</value>
   </data>
   <data name="NicoKaraListPage_HyperlinkButtonListRule.Content" xml:space="preserve">
-    <value>关于商业使用</value>
+    <value>列表规则详细信息</value>
   </data>
   <data name="NicoKaraListPage_HyperlinkButtonUserId.Content" xml:space="preserve">
     <value>您的用户 ID 显示在“我的页面”中的用户名旁边</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDescription_1.Text" xml:space="preserve">
-    <value>这将生成一个列表，显示所有上传到 Niconico 的卡拉OK视频。</value>
+    <value>此功能会创建一个列表，显示上传到 Niconico 的所有卡拉 OK 视频。</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDescription_2.Text" xml:space="preserve">
-    <value>(注) 此功能并非由 Niconico 官方提供，而是本应用的独特功能。</value>
+    <value>（注意）此功能并非由 Niconico 官方提供，而是本应用独有的功能。</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDestFolder.Text" xml:space="preserve">
     <value>导出文件夹：</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDownloadAdditionalDataWarning.Text" xml:space="preserve">
-    <value>(这会使创建列表的时间变长。)</value>
+    <value>（这会使创建列表花费更长时间。）</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDownloadSettings.Text" xml:space="preserve">
     <value>下载设置</value>
@@ -1952,37 +1968,37 @@ Elapsed time: {0}</value>
     <value>下载指定视频的更新数据。</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDownloadUpdate_2.Text" xml:space="preserve">
-    <value>（如果您编辑了已上传视频的标题，下载更新后的数据时，该视频将显示为编辑后的标题。）</value>
+    <value>（如果编辑了已上传视频的标题，下载更新数据后，列表中会显示编辑后的标题。）</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDownloadUpdate_3.Text" xml:space="preserve">
-    <value>（编辑后的标题不会实时更新；系统将于每天上午5:00进行更新。请在编辑后等待一天再进行下载。）</value>
+    <value>（编辑后的标题不会实时反映；每天上午 5:00 更新。编辑后请等待一天再下载。）</value>
   </data>
   <data name="NicoKaraListPage_TextBlockDownloadWarning.Text" xml:space="preserve">
-    <value>由于 Niconico 规范的更改，下载功能可能会不可用。</value>
+    <value>由于 Niconico 规格变更，下载功能可能会无法使用。</value>
   </data>
   <data name="NicoKaraListPage_TextBlockRowPerPage.Text" xml:space="preserve">
     <value>每页行数：</value>
   </data>
   <data name="NicoKaraListPage_TextBlockUpdateGlobalId.Text" xml:space="preserve">
-    <value>视频 ID (M):</value>
+    <value>视频 ID（M）：</value>
   </data>
   <data name="NicoKaraListPage_TextBlockUserId.Text" xml:space="preserve">
-    <value>Niconico 用户 ID:</value>
+    <value>Niconico 用户 ID：</value>
   </data>
   <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabel" xml:space="preserve">
-    <value>点击“创建列表”按钮时下载附加数据 ({0})</value>
+    <value>单击“创建列表”按钮时下载附加数据（{0}）</value>
   </data>
   <data name="NicoKaraListPageViewModel_CheckBoxDownloadAdditionalDataLabelDefault" xml:space="preserve">
-    <value>点击“创建列表”按钮时下载额外数据</value>
+    <value>单击“创建列表”按钮时下载附加数据</value>
   </data>
   <data name="NicoKaraListPageViewModel_MaxUpdateTimeLabel" xml:space="preserve">
-    <value>上一个数据：{0}</value>
+    <value>现有数据：{0}</value>
   </data>
   <data name="NicoKaraListPageViewModel_UpdateExpanderDownloadSupplement" xml:space="preserve">
-    <value>({0}, 其他数据下载： {1})</value>
+    <value>（{0}，附加数据下载：{1}）</value>
   </data>
   <data name="NicoKaraListWindow.Title" xml:space="preserve">
-    <value>创建卡拉OK视频列表</value>
+    <value>创建卡拉 OK 视频列表</value>
   </data>
   <data name="Nkm3Common_AllTypeFilterName" xml:space="preserve">
     <value>所有文件</value>
@@ -1997,7 +2013,7 @@ Elapsed time: {0}</value>
     <value>PNG 图像序列</value>
   </data>
   <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
-    <value>仅字幕 PNG 图像序列</value>
+    <value>连续 PNG 图像（仅字幕透明）</value>
   </data>
   <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
     <value>可执行文件</value>
@@ -2030,7 +2046,7 @@ Elapsed time: {0}</value>
     <value>高质量</value>
   </data>
   <data name="Nkm3SettingsPage_ButtonDefault.Content" xml:space="preserve">
-    <value>默认</value>
+    <value>恢复默认</value>
   </data>
   <data name="Nkm3SettingsPage_ButtonNavigationDown.ToolTipService.ToolTip" xml:space="preserve">
     <value>下一个面板</value>
@@ -2069,14 +2085,14 @@ Elapsed time: {0}</value>
     <value>移除编码设置</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControl_TextBlockFfmpegPath.Text" xml:space="preserve">
-    <value>FFmpeg 位置:</value>
+    <value>FFmpeg 位置：</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_AddMp4Settings" xml:space="preserve">
-    <value>复制 "{0}" 并添加到编码列表。
+    <value>复制“{0}”并添加到编码设置中。
 确定吗？</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_RemoveMp4Settings" xml:space="preserve">
-    <value>移除 "{0}".
+    <value>移除“{0}”。
 确定吗？</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControlViewModel_Error_CheckProperties_SettingsNameEmpty" xml:space="preserve">
@@ -2095,7 +2111,7 @@ Elapsed time: {0}</value>
     <value>在每个标签页上显示关闭按钮</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_CheckBoxIsolateLongRubyKanji.Content" xml:space="preserve">
-    <value>注音文本过长时添加空隙避让</value>
+    <value>如果注音文本超过基准字符宽度，则在基准字符两侧添加空白。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControl_TextBlockAutoSaveInterval_1.Text" xml:space="preserve">
     <value>自动保存间隔：</value>
@@ -2140,7 +2156,7 @@ Elapsed time: {0}</value>
     <value>半角空格宽度：</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Alnum" xml:space="preserve">
-    <value>请在字体示例文本的“英数”字段中输入字母数字字符。</value>
+    <value>请在字体示例文本的“英数”字段中输入英数字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_CheckProperties_Error_Empty" xml:space="preserve">
     <value>请为字体输入示例字符。</value>
@@ -2152,30 +2168,30 @@ Elapsed time: {0}</value>
     <value>字体示例中请仅使用一个字符。</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_0" xml:space="preserve">
-    <value>RGBA 10进制</value>
+    <value>RGBA 十进制</value>
   </data>
   <data name="Nkm3SettingsPageGeneralControlViewModel_ColorSpecifyTypeNames_1" xml:space="preserve">
-    <value>Web hex + Alpha 10进制</value>
+    <value>Web 十六进制 + Alpha 十进制</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_ButtonBackup.Content" xml:space="preserve">
     <value>备份设置...</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_ButtonCheckRss.Content" xml:space="preserve">
-    <value>检查最近资讯...</value>
+    <value>立即检查最新消息</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_ButtonRestore.Content" xml:space="preserve">
     <value>恢复设置...</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControl_TextBlockBackup.Text" xml:space="preserve">
-    <value>备份设置到文件</value>
+    <value>备份设置（保存到文件）</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControlViewModel_CheckBoxCheckRssContent" xml:space="preserve">
-    <value>自动检查 {0} 的最新资讯</value>
+    <value>自动检查 {0} 的最新消息</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControlViewModel_Confirm_CheckRss" xml:space="preserve">
-    <value>如果禁用自动检查, 将不会看到新版本发布等资讯。
+    <value>如果关闭最新消息检查，{0} 的新版本等更新将不会显示。
 
-确定要禁用吗？</value>
+确定要关闭吗？</value>
   </data>
   <data name="Nkm3SettingsPageMaintenanceControlViewModel_Error_Restore_UnableLoad" xml:space="preserve">
     <value>无法加载配置文件。</value>
@@ -2187,10 +2203,10 @@ Elapsed time: {0}</value>
     <value>设置已恢复。</value>
   </data>
   <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseMultiThread.Content" xml:space="preserve">
-    <value>使用多线程渲染</value>
+    <value>使用多线程绘制</value>
   </data>
   <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseUseHardwareAdapter.Content" xml:space="preserve">
-    <value>使用硬件编码</value>
+    <value>使用硬件适配器绘制</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunFontSelector.Content" xml:space="preserve">
     <value>自动设置字体</value>
@@ -2199,7 +2215,7 @@ Elapsed time: {0}</value>
     <value>自动设置布局</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunLineBreaker.Content" xml:space="preserve">
-    <value>自动设置分页分段</value>
+    <value>自动设置分页和分段</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunShowTimeAdjuster.Content" xml:space="preserve">
     <value>自动设置显示开始和结束时间</value>
@@ -2208,7 +2224,7 @@ Elapsed time: {0}</value>
     <value>自动设置动作</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_1.Text" xml:space="preserve">
-    <value>歌词更新时附加设置会自动运行</value>
+    <value>歌词文件更新时，将执行以下设置。</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_TextBlockDescription_2.Text" xml:space="preserve">
     <value>已开启的项目将自动设置。</value>
@@ -2235,7 +2251,7 @@ Elapsed time: {0}</value>
     <value>*如果在操作系统设置中关闭了通知功能，您将无法收到通知。</value>
   </data>
   <data name="Nkm3SettingsPageViewModel_Confirm_ButtonDefaultClicked" xml:space="preserve">
-    <value>将重置任何偏好及设置
+    <value>将所有偏好设置重置为默认值。
 确定吗？</value>
   </data>
   <data name="Nkm3SettingsWindow.Title" xml:space="preserve">
@@ -2245,7 +2261,7 @@ Elapsed time: {0}</value>
     <value>否</value>
   </data>
   <data name="NoAction_Description" xml:space="preserve">
-    <value>不采取动作。</value>
+    <value>不执行动作</value>
   </data>
   <data name="Ok" xml:space="preserve">
     <value>确定</value>
@@ -2260,7 +2276,7 @@ Elapsed time: {0}</value>
     <value>上一个</value>
   </data>
   <data name="OutputPage_TextBlockLatestInfo.Text" xml:space="preserve">
-    <value>最新资讯</value>
+    <value>最新消息</value>
   </data>
   <data name="OutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
     <value>确定停止导出视频？</value>
@@ -2272,36 +2288,36 @@ Elapsed time: {0}</value>
     <value>无法准备视频输出。</value>
   </data>
   <data name="OutputPageViewModel_FreeSpaceString" xml:space="preserve">
-    <value>可用存储空间 {0} GB</value>
+    <value>可用存储空间：{0} GB</value>
   </data>
   <data name="OutputPageViewModel_Information_NoInfo" xml:space="preserve">
-    <value>(未获取最新信息)</value>
+    <value>（未获取最新消息）</value>
   </data>
   <data name="OutputPageViewModel_Information_PageLoaded_Done" xml:space="preserve">
-    <value>视频导出完毕。
+    <value>视频导出完成。
 
-Elapsed time: {0}</value>
+用时：{0}</value>
   </data>
   <data name="OutputPageViewModel_OutputStatus_0" xml:space="preserve">
-    <value>准备中...</value>
+    <value>正在准备...</value>
   </data>
   <data name="OutputPageViewModel_OutputStatus_1" xml:space="preserve">
-    <value>准备字幕数据中...</value>
+    <value>正在准备字幕数据...</value>
   </data>
   <data name="OutputPageViewModel_OutputStatus_2" xml:space="preserve">
-    <value>导出中...</value>
+    <value>正在导出...</value>
   </data>
   <data name="OutputPageViewModel_OutputStatus_3" xml:space="preserve">
     <value>已结束</value>
   </data>
   <data name="OutputPageViewModel_UpdateEstimate_Hour" xml:space="preserve">
-    <value>剩余： {0} 时 {1} 分钟</value>
+    <value>剩余：{0} 小时 {1} 分钟</value>
   </data>
   <data name="OutputPageViewModel_UpdateEstimate_Minute" xml:space="preserve">
-    <value>剩余： {0} 分钟</value>
+    <value>剩余：{0} 分钟</value>
   </data>
   <data name="OutputPageViewModel_UpdateEstimate_Second" xml:space="preserve">
-    <value>剩余： {0} 秒</value>
+    <value>剩余：{0} 秒</value>
   </data>
   <data name="OutputPageViewModel_UpdateEstimate_Soon" xml:space="preserve">
     <value>即将完成...</value>
@@ -2310,10 +2326,10 @@ Elapsed time: {0}</value>
     <value>, </value>
   </data>
   <data name="OutputPageViewModel_UpdateSettings_DestFormat" xml:space="preserve">
-    <value>导出格式： {0}</value>
+    <value>导出格式：{0}</value>
   </data>
   <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
-    <value>(让走字丝滑至两倍)</value>
+    <value>（让字幕扫色平滑度加倍）</value>
   </data>
   <data name="OutputWindow.Title" xml:space="preserve">
     <value>视频导出</value>
@@ -2322,19 +2338,19 @@ Elapsed time: {0}</value>
     <value>合唱</value>
   </data>
   <data name="PartFontSelector_Description" xml:space="preserve">
-    <value>为主歌部分和其他部分（如副歌）设置不同的字体。</value>
+    <value>为主歌和其他部分（如副歌）设置不同字体。</value>
   </data>
   <data name="PartFontSelector_Name" xml:space="preserve">
     <value>为每个部分设置字体</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
-    <value>标准配色</value>
+    <value>标准</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
-    <value>蓝配色</value>
+    <value>蓝色配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_2" xml:space="preserve">
-    <value>绿配色</value>
+    <value>绿色配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_3" xml:space="preserve">
     <value>渐变配色</value>
@@ -2343,13 +2359,13 @@ Elapsed time: {0}</value>
     <value>合唱配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_5" xml:space="preserve">
-    <value>小号信息</value>
+    <value>信息 S</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_6" xml:space="preserve">
-    <value>中号信息</value>
+    <value>信息 M</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_7" xml:space="preserve">
-    <value>大号信息</value>
+    <value>信息 L</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_0" xml:space="preserve">
     <value>底部 2 行</value>
@@ -2379,7 +2395,7 @@ Elapsed time: {0}</value>
     <value>导出文件名</value>
   </data>
   <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
-    <value>让走字丝滑至两倍</value>
+    <value>让字幕扫色平滑度加倍</value>
   </data>
   <data name="ProjectDataModel_ModelName" xml:space="preserve">
     <value>项目</value>
@@ -2394,14 +2410,14 @@ Elapsed time: {0}</value>
     <value>旧版项目</value>
   </data>
   <data name="ProjectDataModel_SourceInfo_Undo" xml:space="preserve">
-    <value>重要资讯</value>
+    <value>素材信息</value>
   </data>
   <data name="RenamePageViewModel_ButtonOkClicked_Error_NameDuplicate" xml:space="preserve">
     <value>该名称已在模板中注册。
 请使用其他名称。</value>
   </data>
   <data name="RenamePageViewModel_ButtonOkClicked_Error_NameEmpty" xml:space="preserve">
-    <value>请输入名称</value>
+    <value>请输入名称。</value>
   </data>
   <data name="RenameWindow.Title" xml:space="preserve">
     <value>更改名称</value>
@@ -2413,13 +2429,13 @@ Elapsed time: {0}</value>
     <value>布局设置</value>
   </data>
   <data name="SaveProjectTemplatePage_CheckBoxOutput.Content" xml:space="preserve">
-    <value>导出视频</value>
+    <value>视频导出</value>
   </data>
   <data name="SaveProjectTemplatePage_CheckBoxSource.Content" xml:space="preserve">
     <value>背景素材</value>
   </data>
   <data name="SaveProjectTemplatePage_CheckBoxSynchronizeAll.Content" xml:space="preserve">
-    <value>开启所有字体和版式设置的同步功能。</value>
+    <value>开启所有字体和布局设置的同步。</value>
   </data>
   <data name="SaveProjectTemplatePage_CheckBoxTitle.Content" xml:space="preserve">
     <value>标题设置</value>
@@ -2434,7 +2450,7 @@ Elapsed time: {0}</value>
     <value>模板名称：</value>
   </data>
   <data name="SaveProjectTemplatePage_TextBlockSynchronizeAll.Text" xml:space="preserve">
-    <value>如果您在模板中包含字体和版式设置</value>
+    <value>如果模板中包含字体和布局设置</value>
   </data>
   <data name="SaveProjectTemplatePageViewModel_ButtonOkClicked_Error_DuplicateName" xml:space="preserve">
     <value>已注册了同名的模板。
@@ -2447,7 +2463,7 @@ Elapsed time: {0}</value>
     <value>请输入模板名称。</value>
   </data>
   <data name="SaveProjectTemplateWindow.Title" xml:space="preserve">
-    <value>注册项目为模板</value>
+    <value>将项目注册为模板</value>
   </data>
   <data name="SelectTemplatePage_ButtonDelete.Content" xml:space="preserve">
     <value>移除</value>
@@ -2462,20 +2478,20 @@ Elapsed time: {0}</value>
     <value>（默认）</value>
   </data>
   <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Confirm" xml:space="preserve">
-    <value>移除 "{0}".
+    <value>移除“{0}”。
 确定吗？
 
-(注意)
-当您打开使用该项目的文件时，"{0}"可能会再次出现。</value>
+（注意）
+打开使用该模板的项目时，“{0}”可能会再次出现。</value>
   </data>
   <data name="SelectTemplatePageViewModelT_ButtonDeleteClicked_Error_NoSelect" xml:space="preserve">
     <value>请选择需要删除的模板。</value>
   </data>
   <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_NoSelect" xml:space="preserve">
-    <value>请选择需要更改的模板</value>
+    <value>请选择要更改名称的模板。</value>
   </data>
   <data name="SelectTemplatePageViewModelT_ButtonRenameClicked_Error_UnableLoad" xml:space="preserve">
-    <value>无法注册模板。</value>
+    <value>无法加载已注册的模板。</value>
   </data>
   <data name="SelectTemplateWindow_TemplateKind_0" xml:space="preserve">
     <value>标题</value>
@@ -2493,20 +2509,20 @@ Elapsed time: {0}</value>
     <value>使用 {0} 模板</value>
   </data>
   <data name="SelectTemplateWindow_Title_Project" xml:space="preserve">
-    <value>创建新 {0}</value>
+    <value>创建新的 {0}</value>
   </data>
   <data name="SeqLinesBreaker_Description" xml:space="preserve">
-    <value>一般情况下将会按照设置的行数进行分页。
-当走字时间差异较大的情况下仍会被分段。</value>
+    <value>通常会按指定行数分页。
+如果扫色时间存在差异，则不受行数限制，仍会分段。</value>
   </data>
   <data name="SeqLinesBreaker_Name" xml:space="preserve">
     <value>按指定行数分页</value>
   </data>
   <data name="SeqLinesBreakerSettingsModel_SeqDescription" xml:space="preserve">
-    <value>每行 ({0}-{1})</value>
+    <value>每 {0}-{1} 行</value>
   </data>
   <data name="SettingsAddOnPage_ButtonDefault.Content" xml:space="preserve">
-    <value>默认</value>
+    <value>恢复默认</value>
   </data>
   <data name="SettingsAddOnPage_CheckBoxRunFontSelector.Content" xml:space="preserve">
     <value>自动设置字体</value>
@@ -2530,11 +2546,11 @@ Elapsed time: {0}</value>
     <value>设置</value>
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
-    <value>延迟内联图形的淡出效果</value>
+    <value>延迟内嵌图形淡出</value>
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
-    <value>当使用内联图片作为图标来分隔歌词段落时，
-启用此选项将使它们更清晰可见。</value>
+    <value>将内嵌图形用作分隔歌词部分的图标时，
+启用此选项可以让图标更清晰。</value>
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
     <value>显示画面将根据结束时间逐渐淡出（类似于淡入效果）</value>
@@ -2549,10 +2565,10 @@ Elapsed time: {0}</value>
     <value>段落分隔的设置将根据以下设置确定。</value>
   </data>
   <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeInTime.Text" xml:space="preserve">
-    <value>淡入时间：</value>
+    <value>淡入完成时间：</value>
   </data>
   <data name="SettingsAddOnPageLineFadeControl_TextBlockFadeOutTime.Text" xml:space="preserve">
-    <value>淡出时间：</value>
+    <value>淡出完成时间：</value>
   </data>
   <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockBegin.Text" xml:space="preserve">
     <value>适用布局（从）：</value>
@@ -2561,16 +2577,16 @@ Elapsed time: {0}</value>
     <value>布局将从上述范围内的选项中进行选择。</value>
   </data>
   <data name="SettingsAddOnPageLinesLayoutSelectorControl_TextBlockEnd.Text" xml:space="preserve">
-    <value>（至）</value>
+    <value>（到）：</value>
   </data>
   <data name="SettingsAddOnPageNoSettingsControl_TextBlockNoSettings.Text" xml:space="preserve">
     <value>（没有可用设置）</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxAutoChorus.Content" xml:space="preserve">
-    <value>自动为歌词中的合唱部分添加颜色标记</value>
+    <value>自动为歌词中的副歌部分分配颜色</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxContinueLyricsCharToFont.Content" xml:space="preserve">
-    <value>即使行发生变化也保持不变</value>
+    <value>换行后仍保持</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxLyricsCharToFont.Content" xml:space="preserve">
     <value>应用与歌词同名的字体设置</value>
@@ -2579,19 +2595,19 @@ Elapsed time: {0}</value>
     <value>详细信息</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusBeginChars.Text" xml:space="preserve">
-    <value>合唱开始字符：</value>
+    <value>副歌开始字符：</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusEndChars.Text" xml:space="preserve">
-    <value>合唱结束字符：</value>
+    <value>副歌结束字符：</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockChorusFont.Text" xml:space="preserve">
-    <value>合唱字体：</value>
+    <value>副歌字体：</value>
   </data>
   <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockDescription.Text" xml:space="preserve">
     <value>段落分隔的设置将根据以下设置确定。</value>
   </data>
   <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockSeq.Text" xml:space="preserve">
-    <value>设置分页的行数：</value>
+    <value>分页行数：</value>
   </data>
   <data name="SettingsAddOnPageSlideUpDownControl_CheckBoxFadeIn.Content" xml:space="preserve">
     <value>淡入</value>
@@ -2603,7 +2619,7 @@ Elapsed time: {0}</value>
     <value>淡入淡出高级设置</value>
   </data>
   <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountDescription.Text" xml:space="preserve">
-    <value>(正值向下，负值向上)</value>
+    <value>（正值向下滑动，负值向上滑动）</value>
   </data>
   <data name="SettingsAddOnPageSlideUpDownControl_TextBlockSlideAmountSize.Text" xml:space="preserve">
     <value>垂直滑动量：</value>
@@ -2621,51 +2637,51 @@ Elapsed time: {0}</value>
     <value>显示保护时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPostTime2.Text" xml:space="preserve">
-    <value>走字后显示时间：</value>
+    <value>扫色后显示时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPreTime2.Text" xml:space="preserve">
-    <value>走字前显示时间：</value>
+    <value>扫色前显示时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxManualProtectTime.ToolTipService.ToolTip" xml:space="preserve">
-    <value>将走字前后的显示时间保持在走字前后的显示时间之内。</value>
+    <value>请将扫色前后的显示时间控制在保护时间以内。</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>如果动作是"逐字纷飞"，将走字后的显示时间设置为 1000 [毫秒] 或更长，可以使末尾的移动效果更流畅。</value>
+    <value>如果动作是“逐字纷飞”，将扫色后显示时间设为 1000 [ms] 以上，可让行末移动效果更自然。</value>
   </data>
   <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
-    <value>使用字体:</value>
+    <value>使用字体：</value>
   </data>
   <data name="SettingsAddOnPageUnificationLayoutSelectorControl_TextBlockLayout.Text" xml:space="preserve">
-    <value>使用布局:</value>
+    <value>使用布局：</value>
   </data>
   <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_ButtonEditAction.ToolTipService.ToolTip" xml:space="preserve">
     <value>编辑字幕动作...</value>
   </data>
   <data name="SettingsAddOnPageUnificationSubtitleActionSelectorControl_TextBlockSubtitleAction.Text" xml:space="preserve">
-    <value>字幕使用动作：</value>
+    <value>使用的字幕动作：</value>
   </data>
   <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.Content" xml:space="preserve">
-    <value>延迟内联图形的淡出效果</value>
+    <value>延迟内嵌图形淡出</value>
   </data>
   <data name="SettingsAddOnPageUtopiaControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
-    <value>当使用内联图片作为图标来划分歌词段落时，
-启用此选项将使这些图标更清晰可见。</value>
+    <value>将内嵌图形用作分隔歌词部分的图标时，
+启用此选项可以让图标更清晰。</value>
   </data>
   <data name="SettingsAddOnPageUtopiaControl_TextBlockTailDelay.Text" xml:space="preserve">
-    <value>距离一行中的最后一个字符开始消失的时间还有：</value>
+    <value>距离一行最后一个字符开始消失的时间：</value>
   </data>
   <data name="SettingsAddOnPageViewModel_ButtonDefaultClicked_Confirm" xml:space="preserve">
-    <value>将会重置设置到默认值
+    <value>将所有设置重置为默认值。
 确定吗？</value>
   </data>
   <data name="SettingsNameModel_AdjustSettingName_New" xml:space="preserve">
-    <value>New</value>
+    <value>新建</value>
   </data>
   <data name="SettingsNameModel_SettingsName_Undo" xml:space="preserve">
     <value>{0} 设置 {1} 名称</value>
   </data>
   <data name="SettingsNameModel_SettingsNameLabel" xml:space="preserve">
-    <value>{0} 设置 {1} 名称:</value>
+    <value>{0} 设置 {1} 名称：</value>
   </data>
   <data name="ShowTimeAdjusterPageViewModel_PageDescription" xml:space="preserve">
     <value>自动设置所有行的显示开始和结束时间</value>
@@ -2674,10 +2690,10 @@ Elapsed time: {0}</value>
     <value>自动设置显示开始和结束时间</value>
   </data>
   <data name="SlideUpDown_Description" xml:space="preserve">
-    <value>往上或往下滚动歌词行</value>
+    <value>让整行向上或向下滑动</value>
   </data>
   <data name="SlideUpDown_Name" xml:space="preserve">
-    <value>上下滚动</value>
+    <value>上下滑动</value>
   </data>
   <data name="SourceInfoModel_BackgroundColor_Undo" xml:space="preserve">
     <value>背景颜色</value>
@@ -2689,16 +2705,16 @@ Elapsed time: {0}</value>
     <value>分辨率 (水平)</value>
   </data>
   <data name="SourceInfoModel_Fps_Undo" xml:space="preserve">
-    <value>帧速率</value>
+    <value>帧率</value>
   </data>
   <data name="SourceInfoModel_ImagePath_Undo" xml:space="preserve">
-    <value>图片名称</value>
+    <value>图像文件名</value>
   </data>
   <data name="SourceInfoModel_MoviePath_Undo" xml:space="preserve">
-    <value>源视频名称</value>
+    <value>原曲视频文件名</value>
   </data>
   <data name="SourceInfoModel_MoviePlusSound_Undo" xml:space="preserve">
-    <value>使用指定音频文件</value>
+    <value>使用单独的音频文件</value>
   </data>
   <data name="SourceInfoModel_SoundTrackList_Undo" xml:space="preserve">
     <value>音频文件</value>
@@ -2707,10 +2723,10 @@ Elapsed time: {0}</value>
     <value>背景素材类型</value>
   </data>
   <data name="SpinFlip_Description" xml:space="preserve">
-    <value>每个字符都将旋转翻折</value>
+    <value>每个字符都会旋转并翻转</value>
   </data>
   <data name="SpinFlip_Name" xml:space="preserve">
-    <value>旋转翻折</value>
+    <value>旋转翻转</value>
   </data>
   <data name="SplashPage_TextBlockAppName.Text" xml:space="preserve">
     <value>Nicokara Karaoke Video Maker 3</value>
@@ -2719,7 +2735,7 @@ Elapsed time: {0}</value>
     <value>启动中...</value>
   </data>
   <data name="SubtitleActionSelectorPageViewModel_PageDescription" xml:space="preserve">
-    <value>自动为所有行设置动作</value>
+    <value>自动为所有行设置动作。</value>
   </data>
   <data name="SubtitleActionSelectorPageViewModel_Title" xml:space="preserve">
     <value>自动设置动作</value>
@@ -2749,20 +2765,21 @@ Elapsed time: {0}</value>
     <value>此处显示历史记录，包括在应用设置或操作系统设置中关闭通知的情况。</value>
   </data>
   <data name="ToastHistoryWindow_Title" xml:space="preserve">
-    <value>通知历史</value>
+    <value>通知历史记录</value>
   </data>
   <data name="TopLongAdjuster_Description" xml:space="preserve">
-    <value>为了上下行保持关联性，上行显示时间将被调整为与下行相同的设置。中间部分的显示时长会根据分页的垂直布局而有所变化。
-这和 Nicokara Karaoke Video Maker 的显示时间设置方法相同。</value>
+    <value>为了让上方歌词与下方歌词的衔接更清楚，上方歌词会尽可能长时间显示。
+中间部分的时机会根据布局的垂直排列而变化。
+这与原版 Nicokara Karaoke Video Maker 的显示时间标准设置方法相同。</value>
   </data>
   <data name="TopLongAdjuster_Name" xml:space="preserve">
-    <value>上行保持同步</value>
+    <value>延长上方歌词的显示时间</value>
   </data>
   <data name="TopShortAdjuster_Description" xml:space="preserve">
-    <value>避免干扰背景视频，上行的歌词将快速消失于下行之前。</value>
+    <value>为了避免遮挡背景视频，上方歌词会在扫色后迅速消失。</value>
   </data>
   <data name="TopShortAdjuster_Name" xml:space="preserve">
-    <value>上行快速消失</value>
+    <value>快速擦除上方歌词</value>
   </data>
   <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotRedo" xml:space="preserve">
     <value>重做</value>
@@ -2789,13 +2806,13 @@ Elapsed time: {0}</value>
     <value>所有内容都采用相同的布局</value>
   </data>
   <data name="UnificationSubtitleActionSelector_Description" xml:space="preserve">
-    <value>将所有内容统一为同一操作。</value>
+    <value>将所有内容统一为同一动作。</value>
   </data>
   <data name="UnificationSubtitleActionSelector_Name" xml:space="preserve">
-    <value>所有内容都采用同一操作</value>
+    <value>所有内容都使用同一动作</value>
   </data>
   <data name="Utopia_Description" xml:space="preserve">
-    <value>画面切入后的文字逐渐淡出，同时逐渐飘落</value>
+    <value>扫色后的文字会一边扭动一边淡出</value>
   </data>
   <data name="Utopia_Name" xml:space="preserve">
     <value>逐字纷飞</value>
