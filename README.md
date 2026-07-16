@@ -76,7 +76,7 @@ We will list the translator's name here.
 
 These are the contributors up to Ver 13.65. Thank you!!
 
-Alphabetical order
+(Alphabetical order)
 
 - en-US
   - SHINTA
