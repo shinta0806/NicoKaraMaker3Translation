@@ -74,6 +74,8 @@ We will list the translator's name here.
 
 ## Contributors
 
+These are the contributors up to Ver 13.65. Thank you!!
+
 Alphabetical order
 
 - en-US
