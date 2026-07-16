@@ -2344,7 +2344,7 @@
     <value>为每个部分设置字体</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
-    <value>标准</value>
+    <value>标准配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
     <value>蓝色配色</value>
