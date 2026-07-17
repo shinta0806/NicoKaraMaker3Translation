@@ -457,7 +457,7 @@
   </data>
   <data name="EmptyLineBreaker_Description" xml:space="preserve">
     <value>将在歌词文件的空行处分页。
-如果扫色时间存在差异，即使没有空行也会分段。</value>
+如果走字时间存在较大差异，即使没有空行也会分段。</value>
   </data>
   <data name="EmptyLineBreaker_Name" xml:space="preserve">
     <value>在空行位置分页</value>
@@ -637,7 +637,7 @@
     <value>图像</value>
   </data>
   <data name="LyricsFontBrushControl_ToggleButtonGradient.ToolTipService.ToolTip" xml:space="preserve">
-    <value>渐变色</value>
+    <value>渐变</value>
   </data>
   <data name="LyricsFontBrushControl_ToggleButtonMilleFeuille.ToolTipService.ToolTip" xml:space="preserve">
     <value>分层</value>
@@ -649,19 +649,19 @@
     <value>字体外观设置...</value>
   </data>
   <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
-    <value>交换扫色前后配色</value>
+    <value>交换走字前后配色方案</value>
   </data>
   <data name="LyricsFontControl_MenuFlyoutItemCopyAfterWipeToBefore.Text" xml:space="preserve">
-    <value>将擦除后的配色方案复制到擦除前的配色方案</value>
+    <value>将走字后的配色方案复制到走字前的配色方案</value>
   </data>
   <data name="LyricsFontControl_MenuFlyoutItemCopyBeforeWipeToAfter.Text" xml:space="preserve">
-    <value>将擦除前的配色方案复制到擦除后的配色方案</value>
+    <value>将走字前的配色方案复制到走字后的配色方案</value>
   </data>
   <data name="LyricsFontControl_MenuFlyoutItemSwapWipe.Text" xml:space="preserve">
-    <value>擦拭前后交换配色方案</value>
+    <value>交换走字前后配色</value>
   </data>
   <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
-    <value>扫色后  扫色前</value>
+    <value>走字后  走字前</value>
   </data>
   <data name="LyricsFontControl_TextBlockBlurLevel.Text" xml:space="preserve">
     <value>模糊强度：</value>
@@ -688,13 +688,13 @@
     <value>装饰</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>装饰颜色（扫色后）</value>
+    <value>装饰颜色（走字后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorBefore.Content" xml:space="preserve">
     <value>装饰</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonDecorBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>装饰颜色（扫色前）</value>
+    <value>装饰颜色（走字前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonLyricAlnum.Content" xml:space="preserve">
     <value>英数</value>
@@ -718,37 +718,37 @@
     <value>文字</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>文本颜色（扫色后）</value>
+    <value>文本颜色（走字后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharBefore.Content" xml:space="preserve">
     <value>文字</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainCharBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>文本颜色（扫色前）</value>
+    <value>文本颜色（走字前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2After.Content" xml:space="preserve">
     <value>描边 2 </value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2After.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边 2 颜色（扫色后）</value>
+    <value>描边 2 颜色（走字后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2Before.Content" xml:space="preserve">
     <value>描边 2</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdge2Before.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边 2 颜色（扫色前）</value>
+    <value>描边 2 颜色（走字前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.Content" xml:space="preserve">
     <value>描边</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeAfter.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边颜色（扫色后）</value>
+    <value>描边颜色（走字后）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.Content" xml:space="preserve">
     <value>描边</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonMainEdgeBefore.ToolTipService.ToolTip" xml:space="preserve">
-    <value>描边颜色（扫色前）</value>
+    <value>描边颜色（走字前）</value>
   </data>
   <data name="LyricsFontControl_ToggleButtonRubyAlnum.Content" xml:space="preserve">
     <value>英数</value>
@@ -818,7 +818,7 @@
     <value>）</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScale.Text" xml:space="preserve">
-    <value>X 方向缩放：</value>
+    <value>长宽比例：</value>
   </data>
   <data name="LyricsFontFaceControl_TextBlockXScaleNote_0.Text" xml:space="preserve">
     <value>（如果为 0 ，将设置为：</value>
@@ -827,7 +827,7 @@
     <value>）</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_0" xml:space="preserve">
-    <value>扫色后 / 文字颜色</value>
+    <value>走字后 / 文字颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_1" xml:space="preserve">
     <value>描边颜色</value>
@@ -839,7 +839,7 @@
     <value>装饰颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_4" xml:space="preserve">
-    <value>扫色前 / 文字颜色</value>
+    <value>走字前 / 文字颜色</value>
   </data>
   <data name="LyricsFontModel_BrushInfoModel_SettingsName_5" xml:space="preserve">
     <value>描边颜色</value>
@@ -1039,7 +1039,7 @@
     <value>关于...</value>
   </data>
   <data name="MainPage_MenuFlyoutItemChat.Text" xml:space="preserve">
-    <value>联系聊天（日语）</value>
+    <value>联系聊天（日文）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemCheckUpdate.Text" xml:space="preserve">
     <value>检查更新</value>
@@ -1048,13 +1048,13 @@
     <value>关于商业使用</value>
   </data>
   <data name="MainPage_MenuFlyoutItemFaq.Text" xml:space="preserve">
-    <value>FAQ（日语）</value>
+    <value>FAQ（日文）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemHelp.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
   <data name="MainPage_MenuFlyoutItemHistory.Text" xml:space="preserve">
-    <value>更新历史（日语）</value>
+    <value>更新历史（日文）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemNew.Text" xml:space="preserve">
     <value>新建...</value>
@@ -1093,7 +1093,7 @@
     <value>翻译项目</value>
   </data>
   <data name="MainPage_MenuFlyoutItemTutorialMovie.Text" xml:space="preserve">
-    <value>教程（日语视频）</value>
+    <value>教程（日文视频）</value>
   </data>
   <data name="MainPage_MenuFlyoutItemTutorialText.Text" xml:space="preserve">
     <value>教程（文字）</value>
@@ -1235,10 +1235,10 @@
     <value>添加字体设置</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_CopyAfterWipeToBefore" xml:space="preserve">
-    <value>将擦除后的配色方案复制到擦除前的配色方案</value>
+    <value>将走字后的配色方案复制到走字前的配色方案</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_CopyBeforeWipeToAfter" xml:space="preserve">
-    <value>将擦除前的配色方案复制到擦除后的配色方案</value>
+    <value>将走字前的配色方案复制到走字后的配色方案</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
     <value>使用字体模板</value>
@@ -1247,7 +1247,7 @@
     <value>移除字体设置“{0}”</value>
   </data>
   <data name="MainPageFontControlViewModel_Undo_SwapWipe" xml:space="preserve">
-    <value>交换扫色前后配色</value>
+    <value>交换走字前后配色</value>
   </data>
   <data name="MainPageFrameRateControl_TextBlockFrameRate.Text" xml:space="preserve">
     <value>帧率：</value>
@@ -1316,7 +1316,7 @@
     <value>无法移除最后一个布局设置。</value>
   </data>
   <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_0" xml:space="preserve">
-    <value>自动放置</value>
+    <value>自动配置</value>
   </data>
   <data name="MainPageLayoutControlViewModel_RubyAlignmentNames_1" xml:space="preserve">
     <value>居中</value>
@@ -1476,7 +1476,7 @@
     <value>导出视频</value>
   </data>
   <data name="MainPageOutputControl_CheckBoxDoubleFrame.Content" xml:space="preserve">
-    <value>让字幕扫色平滑度加倍（帧率加倍）</value>
+    <value>让字幕走字平滑度加倍（双倍帧率）</value>
   </data>
   <data name="MainPageOutputControl_HyperlinkButtonContentsTree2C.Content" xml:space="preserve">
     <value>NicoKara Maker 简易教学视频</value>
@@ -1527,7 +1527,7 @@
     <value>Output</value>
   </data>
   <data name="MainPageOutputControlViewModel_Caption" xml:space="preserve">
-    <value>视频导出面板会根据前面的设置导出带卡拉 OK 字幕的视频。请注意 SSD/HDD 的可用空间。</value>
+    <value>视频导出面板会根据前面的设置导出带卡拉 OK 字幕的视频。请注意硬盘的可用空间。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Error_BadFfmpeg" xml:space="preserve">
     <value>FFmpeg 未正确配置，无法导出 MP4。</value>
@@ -1542,7 +1542,7 @@
     <value>如果生成的未压缩 AVI 视频无法正常播放，请参阅帮助部分中的视频输出页面。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Information_AviOverFhd" xml:space="preserve">
-    <value>以未压缩 AVI 格式导出高于 Full HD 分辨率的视频，预计会花费较长时间。</value>
+    <value>以未压缩 AVI 格式导出高于 FHD 分辨率的视频，预计会花费较长时间。</value>
   </data>
   <data name="MainPageOutputControlViewModel_Information_BadFfmpeg" xml:space="preserve">
     <value>FFmpeg 未正确配置。</value>
@@ -1557,7 +1557,7 @@
     <value>播放/暂停</value>
   </data>
   <data name="MainPagePreviewControl_ButtonStep.ToolTipService.ToolTip" xml:space="preserve">
-    <value>逐帧播放</value>
+    <value>播放下一帧</value>
   </data>
   <data name="MainPagePreviewControl_ButtonStop.ToolTipService.ToolTip" xml:space="preserve">
     <value>停止</value>
@@ -2013,7 +2013,7 @@
     <value>PNG 图像序列</value>
   </data>
   <data name="Nkm3Common_DestFormatFilterName_3" xml:space="preserve">
-    <value>连续 PNG 图像（仅字幕透明）</value>
+    <value>连续 PNG 图像（透明背景）</value>
   </data>
   <data name="Nkm3Common_ExeFilterName" xml:space="preserve">
     <value>可执行文件</value>
@@ -2203,10 +2203,10 @@
     <value>设置已恢复。</value>
   </data>
   <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseMultiThread.Content" xml:space="preserve">
-    <value>使用多线程绘制</value>
+    <value>使用多线程渲染</value>
   </data>
   <data name="Nkm3SettingsPagePerformanceControl_CheckBoxUseUseHardwareAdapter.Content" xml:space="preserve">
-    <value>使用硬件适配器绘制</value>
+    <value>使用硬件加速渲染</value>
   </data>
   <data name="Nkm3SettingsPageReloadControl_CheckBoxReloadRunFontSelector.Content" xml:space="preserve">
     <value>自动设置字体</value>
@@ -2329,7 +2329,7 @@
     <value>导出格式：{0}</value>
   </data>
   <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
-    <value>（让字幕扫色平滑度加倍）</value>
+    <value>（让字幕走字平滑度加倍）</value>
   </data>
   <data name="OutputWindow.Title" xml:space="preserve">
     <value>视频导出</value>
@@ -2344,7 +2344,7 @@
     <value>为每个部分设置字体</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_0" xml:space="preserve">
-    <value>标准</value>
+    <value>标准配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_1" xml:space="preserve">
     <value>蓝色配色</value>
@@ -2359,13 +2359,13 @@
     <value>合唱配色</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_5" xml:space="preserve">
-    <value>信息 S</value>
+    <value>小信息</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_6" xml:space="preserve">
-    <value>信息 M</value>
+    <value>中信息</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsFont_SettingsName_7" xml:space="preserve">
-    <value>信息 L</value>
+    <value>大信息</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_0" xml:space="preserve">
     <value>底部 2 行</value>
@@ -2380,7 +2380,7 @@
     <value>合唱</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_4" xml:space="preserve">
-    <value>左上角标题</value>
+    <value>左上标题</value>
   </data>
   <data name="ProjectDataModel_CreateLyricsLayout_SettingsName_5" xml:space="preserve">
     <value>居中标题</value>
@@ -2395,7 +2395,7 @@
     <value>导出文件名</value>
   </data>
   <data name="ProjectDataModel_DoubleFrame_Undo" xml:space="preserve">
-    <value>让字幕扫色平滑度加倍</value>
+    <value>让字幕走字平滑度加倍</value>
   </data>
   <data name="ProjectDataModel_ModelName" xml:space="preserve">
     <value>项目</value>
@@ -2513,7 +2513,7 @@
   </data>
   <data name="SeqLinesBreaker_Description" xml:space="preserve">
     <value>通常会按指定行数分页。
-如果扫色时间存在差异，则不受行数限制，仍会分段。</value>
+如果走字时间存在差异，则不受行数限制，仍会分段。</value>
   </data>
   <data name="SeqLinesBreaker_Name" xml:space="preserve">
     <value>按指定行数分页</value>
@@ -2583,7 +2583,7 @@
     <value>（没有可用设置）</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxAutoChorus.Content" xml:space="preserve">
-    <value>自动为歌词中的副歌部分分配颜色</value>
+    <value>自动为歌词中的合唱部分分配颜色</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_CheckBoxContinueLyricsCharToFont.Content" xml:space="preserve">
     <value>换行后仍保持</value>
@@ -2595,13 +2595,13 @@
     <value>详细信息</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusBeginChars.Text" xml:space="preserve">
-    <value>副歌开始字符：</value>
+    <value>合唱开始字符：</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockAutoChorusEndChars.Text" xml:space="preserve">
-    <value>副歌结束字符：</value>
+    <value>合唱结束字符：</value>
   </data>
   <data name="SettingsAddOnPagePartFontSelectorControl_TextBlockChorusFont.Text" xml:space="preserve">
-    <value>副歌字体：</value>
+    <value>合唱字体：</value>
   </data>
   <data name="SettingsAddOnPageSeqLinesBreakerControl_TextBlockDescription.Text" xml:space="preserve">
     <value>段落分隔的设置将根据以下设置确定。</value>
@@ -2637,16 +2637,16 @@
     <value>显示保护时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPostTime2.Text" xml:space="preserve">
-    <value>扫色后显示时间：</value>
+    <value>走字后显示时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBlockPreTime2.Text" xml:space="preserve">
-    <value>扫色前显示时间：</value>
+    <value>走字前显示时间：</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxManualProtectTime.ToolTipService.ToolTip" xml:space="preserve">
-    <value>请将扫色前后的显示时间控制在保护时间以内。</value>
+    <value>请将走字前后的显示时间控制在保护时间以内。</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>如果动作是“逐字纷飞”，将扫色后显示时间设为 1000 [ms] 以上，可让行末移动效果更自然。</value>
+    <value>如果动作是“逐字纷飞”，将走字后显示时间设为 1000 [ms] 以上，可让行末飞出效果更自然。</value>
   </data>
   <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
     <value>使用字体：</value>
@@ -2773,13 +2773,13 @@
 这与原版 Nicokara Karaoke Video Maker 的显示时间标准设置方法相同。</value>
   </data>
   <data name="TopLongAdjuster_Name" xml:space="preserve">
-    <value>延长上方歌词的显示时间</value>
+    <value>上方歌词同步退场</value>
   </data>
   <data name="TopShortAdjuster_Description" xml:space="preserve">
-    <value>为了避免遮挡背景视频，上方歌词会在扫色后迅速消失。</value>
+    <value>为了避免遮挡背景视频，上方歌词会在走字后迅速消失。</value>
   </data>
   <data name="TopShortAdjuster_Name" xml:space="preserve">
-    <value>快速擦除上方歌词</value>
+    <value>上方歌词快速退场</value>
   </data>
   <data name="UndoManager_UpdateCanUndoAndRedo_Error_CannotRedo" xml:space="preserve">
     <value>重做</value>
@@ -2812,7 +2812,7 @@
     <value>所有内容都使用同一动作</value>
   </data>
   <data name="Utopia_Description" xml:space="preserve">
-    <value>扫色后的文字会一边扭动一边淡出</value>
+    <value>走字后的文字会缩放并飞出</value>
   </data>
   <data name="Utopia_Name" xml:space="preserve">
     <value>逐字纷飞</value>
