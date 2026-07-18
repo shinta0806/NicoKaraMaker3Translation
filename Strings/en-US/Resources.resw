@@ -132,6 +132,9 @@
   <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
     <value>Support:</value>
   </data>
+  <data name="AboutPage_TextBlockAppTranslationProject.Text" xml:space="preserve">
+    <value>Translation project</value>
+  </data>
   <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
     <value>Creator Support:</value>
   </data>
@@ -460,7 +463,7 @@ Are you sure?</value>
 Paragraph breaks will be set regardless of blank lines where there are differences in wipe timing.</value>
   </data>
   <data name="EmptyLineBreaker_Name" xml:space="preserve">
-    <value>Set a page break at the blank line position</value>
+    <value>Set page breaks at the blank line position</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
@@ -650,7 +653,16 @@ by dragging the top or bottom edge.</value>
     <value>Font face settings...</value>
   </data>
   <data name="LyricsFontControl_ButtonSwapWipe.ToolTipService.ToolTip" xml:space="preserve">
-    <value>Swap the color scheme before and after the wipe</value>
+    <value>Color scheme before and after the wipe</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyAfterWipeToBefore.Text" xml:space="preserve">
+    <value>Copy color scheme after the wipe to before</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemCopyBeforeWipeToAfter.Text" xml:space="preserve">
+    <value>Copy color scheme before the wipe to after</value>
+  </data>
+  <data name="LyricsFontControl_MenuFlyoutItemSwapWipe.Text" xml:space="preserve">
+    <value>Swap color scheme before and after the wipe</value>
   </data>
   <data name="LyricsFontControl_TextBlockAfterBefore.Text" xml:space="preserve">
     <value>After Before</value>
@@ -1226,6 +1238,12 @@ Are you sure?</value>
   <data name="MainPageFontControlViewModel_Undo_AddLyricsFont" xml:space="preserve">
     <value>Add font settings</value>
   </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyAfterWipeToBefore" xml:space="preserve">
+    <value>Copy color scheme after the wipe to before</value>
+  </data>
+  <data name="MainPageFontControlViewModel_Undo_CopyBeforeWipeToAfter" xml:space="preserve">
+    <value>Copy color scheme before the wipe to after</value>
+  </data>
   <data name="MainPageFontControlViewModel_Undo_LoadTemplate" xml:space="preserve">
     <value>Use font template</value>
   </data>
@@ -1789,7 +1807,7 @@ Please read the help section carefully before use and use with caution.</value>
     <value>Watch tutorial (Japanese video)</value>
   </data>
   <data name="MainPageWelcomeControl_ButtonTutorialText.Content" xml:space="preserve">
-    <value>Watch tutorial (Text)</value>
+    <value>Read tutorial (English text)</value>
   </data>
   <data name="MainPageWelcomeControl_TextBlockStart.Text" xml:space="preserve">
     <value>Choose whether to create a new project (create a new video with karaoke subtitles) or open an existing project (edit a video with karaoke subtitles that has already been created).</value>
@@ -2071,7 +2089,7 @@ Elapsed time: {0}</value>
     <value>Remove encoding settings</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControl_TextBlockFfmpegPath.Text" xml:space="preserve">
-    <value>Location of FFmpeg:</value>
+    <value>FFmpeg location:</value>
   </data>
   <data name="Nkm3SettingsPageEncodingControlViewModel_Confirm_AddMp4Settings" xml:space="preserve">
     <value>Copy "{0}" and add it to the encoding settings.

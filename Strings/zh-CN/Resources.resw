@@ -132,6 +132,9 @@
   <data name="AboutPage_TextBlockAppSupport.Text" xml:space="preserve">
     <value>支持：</value>
   </data>
+  <data name="AboutPage_TextBlockAppTranslationProject.Text" xml:space="preserve">
+    <value>翻译项目</value>
+  </data>
   <data name="AboutPage_TextBlockAuthorCreatorSupport.Text" xml:space="preserve">
     <value>创作者支持：</value>
   </data>
