@@ -493,7 +493,8 @@
     <value>描边 2 宽度</value>
   </data>
   <data name="FontFaceInfoModel_FallbackName_Default" xml:space="preserve">
-    <value>默认字体</value>
+    <value>默认值</value>
+    <comment>这里英文是Default Font，但是在程序上的表现是所有关于默认值回退的文本提醒都会提示这个，所以这里改成“默认值”</comment>
   </data>
   <data name="FontFaceInfoModel_FontFaceName_Undo" xml:space="preserve">
     <value>字体外观</value>
@@ -962,10 +963,10 @@
     <value>垂直对齐</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockVerticalMarginBottomSize.Text" xml:space="preserve">
-    <value>底间距：</value>
+    <value>底边距：</value>
   </data>
   <data name="LyricsLayoutControl_TextBlockVerticalMarginTopSize.Text" xml:space="preserve">
-    <value>顶间距：</value>
+    <value>顶边距：</value>
   </data>
   <data name="LyricsLayoutControl_ToggleButtonBottom.Content" xml:space="preserve">
     <value>底部</value>
@@ -1582,7 +1583,7 @@
   </data>
   <data name="MainPagePreviewControlViewModel_Caption" xml:space="preserve">
     <value>预览面板可在导出视频前检查效果。
-如果字幕很多或电脑性能较低，预览时字幕可能闪烁或不同步；导出视频时会正常显示。</value>
+如果字幕条数较多或电脑性能较低，预览时字幕可能闪烁或不同步；导出视频时不会有此问题。</value>
   </data>
   <data name="MainPageSoundControl_ButtonBrowseSoundPath.Content" xml:space="preserve">
     <value>编辑...</value>
@@ -1612,7 +1613,7 @@
     <value>图像：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockImagePath2.Text" xml:space="preserve">
-    <value>图像序列中的第一张图片：</value>
+    <value>图像序列第一帧：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockIsBackground.Text" xml:space="preserve">
     <value>背景将被填充为指定的颜色。</value>
@@ -1627,7 +1628,7 @@
     <value>使用图像序列作为背景。</value>
   </data>
   <data name="MainPageSourceControl_TextBlockMoviePath.Text" xml:space="preserve">
-    <value>用作背景的源视频：</value>
+    <value>背景视频：</value>
   </data>
   <data name="MainPageSourceControl_TextBlockSourceDuration.Text" xml:space="preserve">
     <value>时长：</value>
@@ -1835,7 +1836,7 @@
     <value>音频码率：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockVideoAdditional.Text" xml:space="preserve">
-    <value>视频附加选项：</value>
+    <value>视频附加参数：</value>
   </data>
   <data name="Mp4SettingsControl_TextBlockVideoCodec.Text" xml:space="preserve">
     <value>视频编码器：</value>
@@ -2282,7 +2283,7 @@
     <value>最新消息</value>
   </data>
   <data name="OutputPageViewModel_Confirm_ButtonAbortClicked" xml:space="preserve">
-    <value>确定停止导出视频？</value>
+    <value>确定要停止导出视频吗？</value>
   </data>
   <data name="OutputPageViewModel_Error_FreeSpaceString" xml:space="preserve">
     <value>无法获取可用存储空间。</value>
@@ -2543,7 +2544,7 @@
     <value>设置方法：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockContinue.Text" xml:space="preserve">
-    <value>完成初始设置后，请按照以下步骤操作。</value>
+    <value>设置此项后，自动执行以下操作：</value>
   </data>
   <data name="SettingsAddOnPage_TextBlockSettings.Text" xml:space="preserve">
     <value>设置</value>
@@ -2553,7 +2554,7 @@
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxDelayInlineGraphics.ToolTipService.ToolTip" xml:space="preserve">
     <value>将内嵌图形用作分隔歌词部分的图标时，
-启用此选项可以让图标更清晰。</value>
+启用此选项可以延长内联图形的显示时间。</value>
   </data>
   <data name="SettingsAddOnPageCharFadeInFadeOutControl_CheckBoxWholeFadeOut.Content" xml:space="preserve">
     <value>显示画面将根据结束时间逐渐淡出（类似于淡入效果）</value>
@@ -2649,7 +2650,7 @@
     <value>请将走字前后的显示时间控制在保护时间以内。</value>
   </data>
   <data name="SettingsAddOnPageTopShortAdjusterControl_TextBoxPostTime2.ToolTipService.ToolTip" xml:space="preserve">
-    <value>如果动作是“逐字纷飞”，将走字后显示时间设为 1000 [ms] 以上，可让行末飞出效果更自然。</value>
+    <value>如果动作是“逐字纷飞”，将走字后显示时间设为 1000ms 以上，可让行末飞出效果更自然。</value>
   </data>
   <data name="SettingsAddOnPageUnificationFontSelectorControl_TextBlockFont.Text" xml:space="preserve">
     <value>使用字体：</value>
