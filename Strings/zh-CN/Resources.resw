@@ -2226,7 +2226,7 @@
     <value>导出格式：{0}</value>
   </data>
   <data name="OutputPageViewModel_UpdateSettings_DoubleFrame" xml:space="preserve">
-    <value>（让字幕走字平滑度加倍）</value>
+    <value>（双倍帧率）</value>
   </data>
   <data name="OutputWindow.Title" xml:space="preserve">
     <value>视频导出</value>
